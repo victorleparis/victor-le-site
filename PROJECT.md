@@ -10,135 +10,174 @@ Personal website for Victor Le / Victor Le de Doisy, artist and designer based i
 
 The website is intended to function as an artist archive, editorial space, interactive digital studio and entry point to selected participatory works.
 
-## Public architecture — VALIDATED 2026-09-07
+## Long-term public architecture — VALIDATED 2026-09-07
 
-The public architecture is intentionally compact. The website must not reproduce Victor's multidisciplinary practice as a long list of discipline-based navigation categories.
-
-Primary navigation:
+The long-term architecture remains:
 
 `SELECTED · INDEX · ABOUT · PARTICIPATE`
 
 These four entries correspond to four ways of entering the work:
 
-- **SELECTED = look** — the curated exhibition / immediate encounter with the work.
-- **INDEX = search** — the reserve / systematic access to 10+ years of production.
-- **ABOUT = understand** — biography, trajectory and documentation.
-- **PARTICIPATE = enter** — access to works whose existence involves other people.
+- **SELECTED = look** — curated exhibition / immediate encounter.
+- **INDEX = search** — systematic reserve / long-form archive.
+- **ABOUT = understand** — trajectory and documentation.
+- **PARTICIPATE = enter** — works whose existence involves other people.
 
 Guiding principle: **few navigation choices, substantial depth.**
+
+## V1 public scope — LOCKED 2026-09-07
+
+Implementation should begin now with:
+
+`SELECTED · ABOUT · PARTICIPATE`
+
+**INDEX is intentionally deferred to V2.**
+
+This is a scope decision, not a rejection of INDEX. The INDEX concept remains valid and should be implemented later once the systematic dataset is ready.
+
+Do not block V1 implementation on exhaustive chronology, metadata normalization or the complete URL Fighters archive.
 
 ### SELECTED
 
 `SELECTED` is the native homepage. There is no decorative landing page and no click is required before seeing work.
 
-It should contain a tightly curated selection of approximately 7–9 major bodies of work, projects or practices, chosen by artistic importance rather than by strict chronology or equal representation.
-
-Do not flatten a long-term corpus, an individual work and a continuous practice into identical portfolio cards. Hierarchy and editorial rhythm should communicate differences in scale and importance.
-
-Disciplines such as Performance, Fashion, Painting, Sculpture, Sound, Image, Film and Publishing are metadata, not primary navigation silos.
-
-### SELECTED V2 — WORKING CURATORIAL REFERENCE — 2026-09-07
-
-The architecture is validated. The following eight-sequence selection is the current working curatorial reference and should now be tested against real artworks and media. It is not a claim that every internal title, date, asset or sub-selection is final.
+Current V1 sequence:
 
 1. **THE DINNER PROJECT** — 2026—
 2. **URL FIGHTERS** — 2015—
 3. **PRINCEVILLE** — 2018—
 4. **COLLECTIONS** — dates to establish
 5. **WORKS IN SPACE & MATTER** — dates to establish
-6. **LEXILE** — date/status to establish
-7. **SOUND** — dates to establish
+6. **L3XL3 / LEXILE** — exact public spelling / relationship to verify
+7. **SOUND** — dates now partly documented
 8. **EDITIONS & PRINT** — 2018—
-
-Working homepage rhythm:
-- **THE DINNER PROJECT** — monumental opening / current living work.
-- **URL FIGHTERS + PRINCEVILLE** — asymmetric historical diptych.
-- **COLLECTIONS** — body, clothing, silhouette and transformation.
-- **WORKS IN SPACE & MATTER** — largely silent visual rupture for painting, sculpture, drawing, installation and object.
-- **LEXILE + SOUND** — theatrical / sonic pairing.
-- **EDITIONS & PRINT** — compact editorial sequence.
 
 The eight entries must not appear as eight equivalent cards. `SELECTED` is an editorial exhibition sequence.
 
-Do not foreground institutional validation or unstable quantitative facts on the homepage. Venue history, awards, counts and detailed credits belong in project pages, `INDEX` and/or `ABOUT` once verified.
+Disciplines remain metadata rather than primary navigation.
 
-### INDEX
+### V1 treatment by sequence
 
-`INDEX` contains the breadth of the practice without forcing that volume onto the homepage.
+#### 01 — THE DINNER PROJECT
+Current living work. No archive exists yet.
 
-Default form: a dense, typographic, chronological index covering the full documented practice, currently at least 2014–2026.
+First real session is expected to generate the initial photographs / film / sound. Until real material exists, use a restrained placeholder rather than fabricated imagery.
 
-Possible fields:
-- year / date
-- title
-- work / corpus type
-- discipline / medium
-- context / venue
-- status
+#### 02 — URL FIGHTERS
+Major historical corpus with several hundred archived images plus moving-image material.
 
-Discrete filters by metadata may be provided where useful (for example Sound, Performance, Object, Publication), but the default experience should remain simple and chronological.
+For V1, keep treatment deliberately light:
+- one iconic image, possibly a second;
+- concise framing text;
+- link to the existing URL Fighters site / archive.
 
-The internal content model may distinguish corpus, individual work, protocol, publication, archive and current project. This taxonomy should support the system without becoming explanatory public navigation.
+Do **not** attempt full archive migration for V1. A dedicated deep-archive treatment can be addressed later.
 
-### ABOUT
+#### 03 — PRINCEVILLE
+For V1, the work can be carried primarily by:
+- the video at `princeville.fr`;
+- Victor's original Princeville text / selected source text;
+- optionally one original document if useful.
 
-`ABOUT` provides the trajectory and factual documentation.
+Do not invent an image gallery just to fill space.
 
-Expected content:
-- concise biography
-- selected chronology
-- education
-- selected exhibitions / performances
-- publications
-- awards
-- press / relevant credits where appropriate
-- contact
+#### 04 — COLLECTIONS
+V1 source material exists for Guardian, Sageum B, St Michel and additional silhouettes / pieces.
+
+Current source boards are enough to build the section. Full-resolution photographs of produced / worn garments can replace or enrich them later.
+
+#### 05 — WORKS IN SPACE & MATTER
+A corrected visual selection V3 now exists and is sufficient for V1.
+
+Two confirmed URL Fighters images were removed from this corpus. The large white outdoor sculpture belongs here.
+
+#### 06 — L3XL3 / LEXILE
+A source archive of 47 viewable images was reduced visually to 10 strong images for V1.
+
+Do not invent character names, dates, costume attributions or production status. Exact naming (`L3XL3` / `LEXILE`) remains to verify.
+
+#### 07 — SOUND
+Sound remains an autonomous SELECTED entry.
+
+Documented Spotify material currently includes:
+- `URL Fighters` — album, 2022, 8 tracks, 40:59;
+- `Ode à Princeville (En Direct)` — 2022;
+- `Poem Mur` — 2023;
+- `Machine Bus` — 2024;
+- `Adresse Universelle` — single, 2024, 4:00.
+
+The site should behave like an austere listening station, not reproduce Spotify UI. Playback is silent by default and activated explicitly.
+
+#### 08 — EDITIONS & PRINT
+A V1 source package now exists with six supplied visuals including the physical cover of `480 DAYS TO BE FAMOUS` and five additional images.
+
+Current visible cover text includes:
+- `LA BIBLIOTHÈQUE BLEUE`;
+- `a fanzine dedicated to Victor Le de Doisy life`;
+- `#1`;
+- `480 DAYS TO BE FAMOUS`;
+- `PART 1/8 : 1–60`.
+
+Keep La Bibliothèque bleue, How / 480 Days to Be Famous and FAMOUS distinct until their exact editorial relationship is confirmed.
+
+## ABOUT
+
+`ABOUT` provides trajectory and factual documentation.
+
+V1 should contain:
+- concise biography;
+- selected chronology only where verified enough;
+- education;
+- selected exhibitions / performances;
+- publications;
+- awards;
+- press / relevant credits where appropriate;
+- contact.
 
 The page should remain factual, concise and readable rather than becoming a long curatorial essay.
 
-### PARTICIPATE
+The Prix Galeries Lafayette / IFA archive has now been rediscovered and should be documented when the images are supplied / reviewed. Do not foreground it on the homepage.
 
-`PARTICIPATE` is a permanent top-level conceptual entry, not a temporary CTA for The Dinner Project.
+## PARTICIPATE
+
+`PARTICIPATE` remains a permanent top-level conceptual entry, not a temporary CTA.
 
 Core framing:
 
 > Some works require other people.
 
-It represents a recurring participatory and relational dimension of Victor's practice, historically visible in works including URL Fighters, Paper Night, Princeville and relational protocols, and currently in projects such as The Dinner Project.
+V1 structure:
+- **OPEN NOW** — The Dinner Project when active;
+- **PAST** — only selected historical participatory works that can be presented cleanly without requiring the complete INDEX.
 
-Suggested structure:
-- **OPEN NOW** — currently active participatory work(s)
-- **PAST** — selected past participatory works / protocols
+Forms and practical participation instructions belong inside the relevant active project, never as a generic marketing funnel.
 
-When no protocol is active, the page remains valid and may state `NO OPEN PROTOCOL AT THE MOMENT.` before presenting past participatory works.
+## INDEX — V2
 
-Forms, applications or practical participation instructions belong inside the relevant active project. `PARTICIPATE` itself must not look like a startup signup page, casting service or generic conversion funnel.
+The INDEX concept remains validated for V2.
 
-### URL Fighters
+Future form:
+- dense, typographic, chronological reserve;
+- full documented practice, currently at least 2014–2026;
+- possible fields: year/date, title, work/corpus type, discipline/medium, context/venue, status;
+- discreet filters where useful;
+- no spreadsheet / admin-dashboard appearance.
 
-URL Fighters is a major historical corpus and must remain visibly anchored in Victor's main site.
+Implementation of INDEX should begin only after V1 is live or stable enough that the archive dataset can be built without delaying launch.
 
-The main site should present a highly edited URL Fighters project page rather than absorb the complete raw archive. A separate URL Fighters archive/site may be created later if the inventory confirms that its documentary volume warrants it.
+## Public naming — OPEN
 
-If an independent archive is created, Victor's site remains the curatorial entry point and links to the deeper archive.
+Options remain:
 
-## Open decisions
+1. **Victor Le**
+2. **Victor Le de Doisy**
+3. **Hybrid system** — `Victor Le` as primary artistic/public identity, `Victor Le de Doisy` where a full name is useful.
 
-### Public naming — TO DECIDE AFTER THE FULL CONTENT INVENTORY
-
-The public identity must be decided only after reviewing the complete body of work and site content.
-
-Options to evaluate:
-
-1. **Victor Le** — short, immediate, international.
-2. **Victor Le de Doisy** — fuller and potentially more singular as an author/artist identity.
-3. **Hybrid system** — `Victor Le` as the primary artistic/public identity, with `Victor Le de Doisy` used where a full name is appropriate (biography, credits, administrative/legal context).
-
-Do not lock this decision before the content inventory and information architecture are complete.
+Do not lock this silently during implementation.
 
 ## Administrative / Legal / Professional contact
 
-The site should clearly separate artistic activity from entrepreneurial activity. These details belong in administrative, legal notices and/or professional contact areas rather than in the main artistic presentation.
+Keep artistic and entrepreneurial activities separate.
 
 ### Artistic activity
 
@@ -153,10 +192,14 @@ SIREN/SIRET: `[TO ADD]`
 
 ## Current phase
 
-1. Complete and normalize the content inventory in `CONTENT.md`.
-2. Inventory the real media for each SELECTED V2 sequence.
-3. Test the eight-sequence curatorial selection against the real works, beginning with `WORKS IN SPACE & MATTER`.
-4. Build the full `INDEX` dataset and metadata model.
-5. Reassess the public naming based on the complete artistic corpus.
-6. Finalize content and media for selected project pages.
-7. Implement the website.
+**The content-gathering phase is sufficient to start V1 implementation.**
+
+Current priorities:
+1. Build the technical skeleton and SELECTED homepage with real media.
+2. Build ABOUT from verified factual material.
+3. Build PARTICIPATE with The Dinner Project as the current open work once active.
+4. Replace provisional source boards with better original media when found, without changing architecture.
+5. Capture first Dinner Project media and integrate it as Episode 001.
+6. Add / verify metadata progressively.
+7. Build INDEX as V2.
+8. Revisit the deep URL Fighters archive after V1.
