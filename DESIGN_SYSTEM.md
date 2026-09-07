@@ -31,7 +31,6 @@ The artworks are already visually complex. The interface should remain calmer th
 ## Visual direction
 
 Contemporary editorial system influenced by:
-
 - independent fashion and culture magazines;
 - contemporary art catalogues;
 - Swiss editorial grids;
@@ -69,7 +68,6 @@ Primary navigation:
 `SELECTED · INDEX · ABOUT · PARTICIPATE`
 
 The four terms express four distinct relationships to the work:
-
 - **SELECTED — look**
 - **INDEX — search**
 - **ABOUT — understand**
@@ -89,19 +87,120 @@ The homepage should present approximately 7–9 curated entries, not the complet
 
 Do not give every entry the same visual weight. A multi-year corpus, a continuous studio practice and an individual protocol are not equivalent units. Use editorial hierarchy, scale, pacing, typography and image treatment to communicate their different status without exposing an academic taxonomy.
 
-Potential major entries, subject to final curatorial selection:
-- The Dinner Project
-- URL Fighters
-- Princeville
-- Visual Art / paintings, sculpture and objects
-- LEXILE
-- publishing / editions
-- selected relational protocols
-- other major work identified during inventory
-
 Avoid identical SaaS-style cards and conventional portfolio grids. Think of `SELECTED` as an editorial sequence or exhibition rather than a catalogue.
 
 The disciplines may appear as quiet metadata, for example `Performance · Internet · Participation` or `Painting · Object`, but not as the main navigation system.
+
+### SELECTED V2 — WORKING VISUAL REFERENCE — 2026-09-07
+
+Current eight-sequence reference:
+
+1. **THE DINNER PROJECT**
+2. **URL FIGHTERS**
+3. **PRINCEVILLE**
+4. **COLLECTIONS**
+5. **WORKS IN SPACE & MATTER**
+6. **LEXILE**
+7. **SOUND**
+8. **EDITIONS & PRINT**
+
+This sequence is a working curatorial reference. Real media must now test it. Do not invent titles, dates, materials, track names, counts or credits merely to make the wireframe look complete.
+
+Institution names, awards and technical counts should not be foregrounded on the homepage. Let the work strike before institutional validation; verified detail belongs deeper in project pages, `INDEX` and `ABOUT`.
+
+Working wireframe:
+
+```text
+[ FIXED HEADER ]
+
+VICTOR LE                                                    PARIS — live time
+ARTIST & DESIGNER                                                    SOUND ○
+Visual Art · Fashion · Image · Sound · Performance · Protocol
+
+SELECTED          INDEX          ABOUT          PARTICIPATE
+─────────────────────────────────────────────────────────────────────────────
+
+01 — THE DINNER PROJECT (2026—)
+Performance · Food · Fashion · Photography · Film · Sound
+
+┌───────────────────────────────────────────────────────────────────────────┐
+│                                                                           │
+│              [ LARGE IMAGE / VIDEO: TABLE, FACE, GARMENT ]                │
+│                                                                           │
+│   "I invite 1–3 strangers for lunch or dinner.                            │
+│    I cook. They wear my clothes. I photograph them."                      │
+│                                                                           │
+│                                                   OPEN — PARTICIPATE →    │
+└───────────────────────────────────────────────────────────────────────────┘
+
+─────────────────────────────────────────────────────────────────────────────
+
+02 — URL FIGHTERS (2015—)              │  03 — PRINCEVILLE (2018—)
+Internet · Performance · Sound · Object │  Territory · Performance · Protocol
+                                       │
+[ RAW IMAGE / PERFORMANCE ]            │  [ IMAGE / TERRITORY ]
+                                       │
+[ IMAGE / OBJECT ]                     │  [ DOCUMENT / MAP ]
+
+─────────────────────────────────────────────────────────────────────────────
+
+04 — COLLECTIONS
+Fashion · Clothing · Silhouette · Transformation
+
+┌──────────────────────────────┐      ┌────────────────────────────────────┐
+│        [ GUARDIAN ]          │      │       [ SAGEUM B / ST MICHEL ]     │
+└──────────────────────────────┘      └────────────────────────────────────┘
+
+Guardian
+Sageum B
+St Michel
+[ other collections / pieces to inventory ]
+
+─────────────────────────────────────────────────────────────────────────────
+
+05 — WORKS IN SPACE & MATTER
+Painting · Sculpture · Drawing · Installation · Object
+
+             [ LARGE WORK ]
+
+ [ WORK ]                         [ WORK ]
+
+                         [ SCULPTURE / INSTALLATION ]
+
+        [ DRAWING ]
+
+                 — very little or no text —
+
+─────────────────────────────────────────────────────────────────────────────
+
+06 — LEXILE                            │  07 — SOUND
+Opera · Costume · Music · Stage        │  Piano · Electropunk · Performance Sound
+                                       │
+[ IMAGE / COSTUME / STAGE ]            │  PIANO
+                                       │  ─────────────────────── ▶
+                                       │
+                                       │  ELECTROPUNK
+                                       │  ─────────────────────── ▶
+                                       │
+                                       │  PERFORMANCE SOUND
+                                       │  ─────────────────────── ▶
+
+─────────────────────────────────────────────────────────────────────────────
+
+08 — EDITIONS & PRINT (2018—)
+Fanzine · Book · Magazine
+
+[ LA BIBLIOTHÈQUE BLEUE ]     [ HOW TO BE FAMOUS ]     [ FAMOUS ]
+
+        [ SPREAD ]                     [ COVER ]          [ SPREAD ]
+
+─────────────────────────────────────────────────────────────────────────────
+
+INDEX
+2014—2026+
+
+                                                   EXPLORE FULL INDEX →
+```
 
 ## INDEX
 
@@ -201,7 +300,6 @@ Never use it as monumental red/vermilion, aggressive black or an occult-looking 
 Rare. Maximum one strong occurrence per viewport.
 
 Possible behaviours:
-
 - partially hidden behind an image;
 - emerging from an edge;
 - cropped;
@@ -244,7 +342,6 @@ Approximately 90% of the interface remains intact.
 The interface gradually acquires traces of use.
 
 Possible behaviours:
-
 - one floating window remains where the user placed it;
 - one image shifts slightly outside the grid;
 - one Kotoros appears;
@@ -260,7 +357,6 @@ Absurdity is primarily textual and behavioural, not decorative.
 **Rule: one absurd event at a time.**
 
 Examples that fit the tone:
-
 - `PARIS — STILL HERE`
 - `PLEASE DON'T MOVE THIS WINDOW`
 - `WINDOW_003_DO_NOT_MOVE`
@@ -275,7 +371,6 @@ Humour should be dry, understated and almost bureaucratic. Never meme-like, cart
 ## Flash heritage
 
 Flash influence must come from behaviour:
-
 - draggable windows;
 - overlapping media;
 - unexpected states;
@@ -293,7 +388,7 @@ Default: `SOUND ○` and silent.
 
 Only activate after explicit user action. After activation: `SOUND ●`, optionally with a subtle waveform.
 
-Possible content: compositions, field recordings, sound fragments, sound for film and Dinner Project audio.
+Possible content: compositions, piano, electropunk / URL Fighters-related music, performance sound, field recordings, sound fragments, sound for film and Dinner Project audio.
 
 Never autoplay loud sound.
 
