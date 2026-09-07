@@ -1,0 +1,34 @@
+/*
+ * Minimal, reversible version of the floating V near the identity block.
+ * Independent of the wordmark: its own small element, its own slow
+ * drift, low visual weight. Not a logo — never scaled up, never fixed to
+ * a screen corner, never interactive.
+ */
+.v {
+  position: absolute;
+  top: -0.15em;
+  right: -1.1em;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  color: var(--color-ink-faint);
+  opacity: 0.55;
+  user-select: none;
+  pointer-events: none;
+  animation: drift 7s ease-in-out infinite;
+}
+
+@keyframes drift {
+  0%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-3px) rotate(-4deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .v {
+    animation: none;
+  }
+}

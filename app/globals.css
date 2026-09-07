@@ -1,0 +1,152 @@
+/*
+  Design tokens — source of truth: DESIGN_SYSTEM.md
+  Paper background, black ink typography, cold editorial structure.
+  Kotoros pink is reserved for the rare Kotoros mark only — never used
+  as a general accent color.
+*/
+
+:root {
+  /* Surface */
+  --color-paper: #f6f5f1;
+  --color-paper-raised: #ffffff;
+  --color-ink: #111111;
+  --color-ink-soft: #4a4a46;
+  --color-ink-faint: #8a8a84;
+  --color-line: #d8d6cd;
+  --color-kotoros: #ff4fa3;
+
+  /* Type */
+  --font-sans:
+    "Helvetica Neue", Helvetica, Arial, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  --font-mono:
+    ui-monospace, "SF Mono", "Roboto Mono", Menlo, Consolas, monospace;
+  --font-hand: var(--font-sans); /* only replaced per-instance by a real scanned handwriting asset */
+
+  /* Type scale — desktop */
+  --text-2xs: 0.6875rem; /* 11px — metadata */
+  --text-xs: 0.75rem; /* 12px */
+  --text-sm: 0.875rem; /* 14px */
+  --text-base: 1rem; /* 16px */
+  --text-md: 1.25rem; /* 20px */
+  --text-lg: 1.75rem; /* 28px */
+  --text-xl: 2.5rem; /* 40px */
+  --text-2xl: 3.5rem; /* 56px */
+
+  /* Spacing scale */
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-7: 3rem;
+  --space-8: 4.5rem;
+  --space-9: 6.5rem;
+  --space-10: 9rem;
+
+  /* Layout */
+  --content-max: 1400px;
+  --edge-gutter: var(--space-5);
+  --header-height: auto;
+  --line-hair: 1px solid var(--color-line);
+
+  color-scheme: light;
+}
+
+@media (min-width: 640px) {
+  :root {
+    --edge-gutter: var(--space-6);
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --edge-gutter: var(--space-7);
+    --text-lg: 2.25rem;
+    --text-xl: 3.25rem;
+    --text-2xl: 4.5rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  background: var(--color-paper);
+}
+
+body {
+  background: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+img,
+picture,
+video {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  color: inherit;
+  background: none;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.mono {
+  font-family: var(--font-mono);
+  letter-spacing: 0.01em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-ink);
+  outline-offset: 2px;
+}

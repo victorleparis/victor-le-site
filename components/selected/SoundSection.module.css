@@ -1,0 +1,57 @@
+.section {
+  padding: var(--space-8) var(--edge-gutter);
+  max-width: var(--content-max);
+  margin: 0 auto;
+  border-top: var(--line-hair);
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  border-top: var(--line-hair);
+}
+
+.release {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-4);
+  padding: var(--space-3) 0;
+  border-bottom: var(--line-hair);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+}
+
+.playGlyph {
+  color: var(--color-ink-faint);
+  width: 1.2em;
+}
+
+.title {
+  flex: 1;
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+}
+
+.meta {
+  color: var(--color-ink-faint);
+  font-size: var(--text-xs);
+}
+
+.tracks {
+  padding: 0 0 var(--space-3) 2.2em;
+}
+
+.track {
+  display: flex;
+  justify-content: space-between;
+  font-size: var(--text-xs);
+  color: var(--color-ink-soft);
+  padding: var(--space-1) 0;
+}
+
+.note {
+  margin-top: var(--space-4);
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  color: var(--color-ink-faint);
+}

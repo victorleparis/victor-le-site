@@ -1,0 +1,15 @@
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.04em;
+}
+
+.dot {
+  color: var(--color-ink-faint);
+}
+
+.dotActive {
+  color: var(--color-ink);
+}
