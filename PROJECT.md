@@ -33,19 +33,34 @@ Guiding principle: **few navigation choices, substantial depth.**
 
 It should contain a tightly curated selection of approximately 7–9 major bodies of work, projects or practices, chosen by artistic importance rather than by strict chronology or equal representation.
 
-Potential entries include, subject to final curatorial selection:
-- The Dinner Project
-- URL Fighters
-- Princeville
-- Visual Art / paintings, sculpture and objects
-- LEXILE
-- publishing / editions
-- selected relational protocols
-- other major work identified during the content inventory
-
 Do not flatten a long-term corpus, an individual work and a continuous practice into identical portfolio cards. Hierarchy and editorial rhythm should communicate differences in scale and importance.
 
 Disciplines such as Performance, Fashion, Painting, Sculpture, Sound, Image, Film and Publishing are metadata, not primary navigation silos.
+
+### SELECTED V2 — WORKING CURATORIAL REFERENCE — 2026-09-07
+
+The architecture is validated. The following eight-sequence selection is the current working curatorial reference and should now be tested against real artworks and media. It is not a claim that every internal title, date, asset or sub-selection is final.
+
+1. **THE DINNER PROJECT** — 2026—
+2. **URL FIGHTERS** — 2015—
+3. **PRINCEVILLE** — 2018—
+4. **COLLECTIONS** — dates to establish
+5. **WORKS IN SPACE & MATTER** — dates to establish
+6. **LEXILE** — date/status to establish
+7. **SOUND** — dates to establish
+8. **EDITIONS & PRINT** — 2018—
+
+Working homepage rhythm:
+- **THE DINNER PROJECT** — monumental opening / current living work.
+- **URL FIGHTERS + PRINCEVILLE** — asymmetric historical diptych.
+- **COLLECTIONS** — body, clothing, silhouette and transformation.
+- **WORKS IN SPACE & MATTER** — largely silent visual rupture for painting, sculpture, drawing, installation and object.
+- **LEXILE + SOUND** — theatrical / sonic pairing.
+- **EDITIONS & PRINT** — compact editorial sequence.
+
+The eight entries must not appear as eight equivalent cards. `SELECTED` is an editorial exhibition sequence.
+
+Do not foreground institutional validation or unstable quantitative facts on the homepage. Venue history, awards, counts and detailed credits belong in project pages, `INDEX` and/or `ABOUT` once verified.
 
 ### INDEX
 
@@ -138,9 +153,10 @@ SIREN/SIRET: `[TO ADD]`
 
 ## Current phase
 
-1. Complete and normalize the content inventory.
-2. Curate the 7–9 entries for `SELECTED`.
-3. Build the full `INDEX` dataset and metadata model.
-4. Reassess the public naming based on the complete artistic corpus.
-5. Finalize content and media for the selected project pages.
-6. Implement the website.
+1. Complete and normalize the content inventory in `CONTENT.md`.
+2. Inventory the real media for each SELECTED V2 sequence.
+3. Test the eight-sequence curatorial selection against the real works, beginning with `WORKS IN SPACE & MATTER`.
+4. Build the full `INDEX` dataset and metadata model.
+5. Reassess the public naming based on the complete artistic corpus.
+6. Finalize content and media for selected project pages.
+7. Implement the website.
