@@ -44,6 +44,19 @@
   font-size: var(--text-xs);
   color: var(--color-ink-faint);
   white-space: nowrap;
+  flex-shrink: 0;
+}
+
+@media (max-width: 640px) {
+  .row {
+    flex-direction: column;
+    gap: 2px;
+    padding: var(--space-3) 0;
+  }
+
+  .rowMeta {
+    white-space: normal;
+  }
 }
 
 .note {
