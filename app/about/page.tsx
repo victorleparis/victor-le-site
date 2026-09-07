@@ -17,6 +17,7 @@ export const metadata: Metadata = {
 export default function AboutPage() {
   return (
     <section className={styles.section}>
+      <h1 className="visually-hidden">About — {siteConfig.publicName}</h1>
       <p className={styles.bio}>{bioWorking}</p>
       <p className={styles.bioNote}>WORKING STATEMENT — SUBJECT TO REVISION</p>
 

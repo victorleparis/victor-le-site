@@ -16,6 +16,7 @@ import { EditionsPrintSection } from "@/components/selected/EditionsPrintSection
 export default function SelectedPage() {
   return (
     <>
+      <h1 className="visually-hidden">Selected — Victor Le, Artist &amp; Designer</h1>
       <DinnerProjectSection />
       <UrlFightersSection />
       <PrincevilleSection />
