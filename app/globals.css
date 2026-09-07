@@ -150,3 +150,15 @@ p {
   outline: 2px solid var(--color-ink);
   outline-offset: 2px;
 }
+
+/* Sections are anchor-jump targets (e.g. PARTICIPATE -> #dinner-project).
+   Keep their heading clear of the sticky header on arrival. */
+section[id] {
+  scroll-margin-top: 148px;
+}
+
+@media (max-width: 640px) {
+  section[id] {
+    scroll-margin-top: 130px;
+  }
+}
