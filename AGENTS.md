@@ -6,10 +6,23 @@ This file is the operating guide for any AI agent working on this repository.
 
 Before making changes, read in this order:
 
-1. `PROJECT.md` — project scope, identity, open decisions, architecture
+1. `PROJECT.md` — project scope, identity, open decisions, architecture and current V1 scope
 2. `DESIGN_SYSTEM.md` — visual direction and interaction rules
-3. `CONTENT.md` — artworks, biography, credits, media and content inventory
-4. `README.md` — repository entry point and current status
+3. `CONTENT.md` — artworks, biography, credits, media and factual content inventory
+4. `MEDIA_STATUS.md` — actual asset / selection status and current curated source packages
+5. `ROADMAP.md` — implementation sequence, V1 build plan and future phases
+6. `README.md` — repository entry point and current status
+
+## Source-of-truth precedence
+
+When files differ in scope:
+- `PROJECT.md` controls architecture, navigation, scope and phase decisions;
+- `DESIGN_SYSTEM.md` controls visual / interaction behaviour;
+- `CONTENT.md` controls factual artwork / biography content;
+- `MEDIA_STATUS.md` controls current asset availability and visual-selection status;
+- `ROADMAP.md` controls execution order only.
+
+Example: the long-term architecture includes `INDEX`, but `PROJECT.md` currently defers its implementation to V2. Do not re-add INDEX to the V1 navigation merely because older wireframe text still shows it.
 
 ## Core rule
 
@@ -23,7 +36,9 @@ The public naming decision is intentionally open:
 - `Victor Le de Doisy`
 - a hybrid system
 
-Do not lock or propagate a final public name until the complete content inventory and information architecture have been reviewed.
+Do not lock or propagate a final public name until the decision is explicitly recorded in `PROJECT.md`.
+
+`L3XL3` / `LEXILE` spelling and relationship are also currently open. Do not silently normalize one into the other.
 
 ## Design principles
 
@@ -48,6 +63,17 @@ When new material is supplied:
 - preserve uncertainty explicitly
 - do not force every work into one rigid discipline
 
+## Media principles
+
+Follow `MEDIA_STATUS.md` before choosing or replacing images.
+
+- Do not assume every image in an archive belongs to the visually obvious corpus.
+- Victor's explicit project attribution overrides visual inference.
+- Preserve originals.
+- Public selections should be substantially smaller than raw archives.
+- Do not block V1 implementation waiting for perfect scans or full metadata if `PROJECT.md` / `MEDIA_STATUS.md` says the current source is sufficient.
+- Do not commit large source ZIPs or archival video files to the code repository unless explicitly required.
+
 ## Kotoros
 
 Kotoros is Victor's personal sign. It is not a conventional logo.
@@ -66,8 +92,9 @@ The original source artwork should be preserved separately from any website trea
 Before implementing a major structural or visual change:
 1. check whether it conflicts with `PROJECT.md` or `DESIGN_SYSTEM.md`
 2. preserve open decisions instead of silently resolving them
-3. update the relevant documentation when a project-level decision is made
-4. keep the implementation simple unless complexity is clearly justified by the artistic experience
+3. check `MEDIA_STATUS.md` before inventing placeholder assets or asking for already-found material
+4. update the relevant documentation when a project-level decision is made
+5. keep the implementation simple unless complexity is clearly justified by the artistic experience
 
 ## Repository-wide rule for future AI work
 
