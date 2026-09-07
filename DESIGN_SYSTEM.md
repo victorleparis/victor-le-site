@@ -54,7 +54,7 @@ Metadata: monospace for time, dates, project numbers, categories and technical l
 
 Handwriting: only Victor's real scanned handwriting. Never use a fake handwriting font. Use sparingly.
 
-## Header
+## Header and navigation — VALIDATED 2026-09-07
 
 Stable identity block across the website, adaptable responsively:
 
@@ -64,25 +64,125 @@ Stable identity block across the website, adaptable responsively:
 
 Visual Art · Fashion · Image · Sound · Performance
 
-Navigation: `WORK · ABOUT · PARTICIPATE`
+Primary navigation:
+
+`SELECTED · INDEX · ABOUT · PARTICIPATE`
+
+The four terms express four distinct relationships to the work:
+
+- **SELECTED — look**
+- **INDEX — search**
+- **ABOUT — understand**
+- **PARTICIPATE — enter**
+
+`SELECTED` is the homepage by default. Do not add a decorative landing page or a redundant `WORK` layer before the work.
 
 Sound control: `SOUND ○`
 
 The homepage should not contain a long explanatory paragraph.
 
-## Homepage logic
+## SELECTED / Homepage logic
 
 Works come first. Disciplines are metadata attached to each work rather than rigid navigation silos.
 
-Current working examples:
+The homepage should present approximately 7–9 curated entries, not the complete archive.
 
-- `01 — THE DINNER PROJECT` — Performance · Food · Fashion · Image · Sound · Film
-- `02 — GUARDIAN` — Fashion · Visual Art
-- `03 — WITH FENG LI` — Image
-- `04 — [VISUAL ART PROJECT]` — Painting · Sculpture · Drawing
-- `05 — [SOUND PROJECT]` — Sound
+Do not give every entry the same visual weight. A multi-year corpus, a continuous studio practice and an individual protocol are not equivalent units. Use editorial hierarchy, scale, pacing, typography and image treatment to communicate their different status without exposing an academic taxonomy.
 
-Avoid identical SaaS-style cards. Use a rigorous editorial grid with controlled variation in image ratio, scale, spacing and vertical rhythm.
+Potential major entries, subject to final curatorial selection:
+- The Dinner Project
+- URL Fighters
+- Princeville
+- Visual Art / paintings, sculpture and objects
+- LEXILE
+- publishing / editions
+- selected relational protocols
+- other major work identified during inventory
+
+Avoid identical SaaS-style cards and conventional portfolio grids. Think of `SELECTED` as an editorial sequence or exhibition rather than a catalogue.
+
+The disciplines may appear as quiet metadata, for example `Performance · Internet · Participation` or `Painting · Object`, but not as the main navigation system.
+
+## INDEX
+
+`INDEX` is the systematic reserve behind the edited homepage.
+
+Visual behaviour:
+- dense but calm typography;
+- chronological by default;
+- strong alignment;
+- minimal imagery at rest;
+- optional image/media preview on hover, focus or selection where appropriate;
+- discreet filters rather than a dashboard-like filter interface.
+
+Possible columns:
+`YEAR` · `TITLE` · `MEDIUM / DISCIPLINE` · `CONTEXT / VENUE`
+
+The index should communicate volume and continuity without looking like a CV spreadsheet or database administration interface.
+
+Internal distinctions such as corpus, work, protocol, publication, archive and current project may structure the data model but should remain largely invisible to visitors.
+
+## ABOUT
+
+`ABOUT` is the factual structural layer of the site.
+
+It may contain:
+- concise biography;
+- selected chronology;
+- education;
+- selected exhibitions and performances;
+- publications / editions;
+- awards;
+- press / credits where appropriate;
+- contact.
+
+The tone should be dry, precise and readable. Avoid curatorial over-explanation.
+
+## PARTICIPATE
+
+`PARTICIPATE` is a permanent conceptual navigation entry and a distinct regime of encountering the work.
+
+Core line:
+
+**Some works require other people.**
+
+It is not a marketing CTA and must never visually behave like one.
+
+Recommended page rhythm:
+
+`PARTICIPATE`
+
+`Some works require other people.`
+
+`OPEN NOW`
+- current participatory work, for example The Dinner Project
+
+`PAST`
+- selected historical participatory works and protocols, potentially including URL Fighters, Paper Night, Princeville, Change Your Birthday and other documented works
+
+If nothing is currently active, the absence may be stated plainly:
+
+`NO OPEN PROTOCOL AT THE MOMENT.`
+
+Past participatory works remain visible beneath it.
+
+Application forms and practical participation instructions appear only after entering the relevant active work. Do not turn the main `PARTICIPATE` page into a signup form, casting page or startup funnel.
+
+The presence of `PARTICIPATE` beside the more conventional `SELECTED · INDEX · ABOUT` should itself feel like a small conceptual anomaly: the visitor realizes that the work may be entered, not only viewed.
+
+## URL Fighters presentation
+
+URL Fighters is a major corpus with substantial documentary volume. On Victor's site it should be edited, not exhaustively dumped.
+
+The main project page may use:
+- concise framing / manifesto;
+- a small selection of iconic images;
+- one or a few key moving-image works;
+- selected performances / institutional contexts;
+- selected protocols, objects and sound;
+- a link to a dedicated deep archive if one is created later.
+
+The main site remains the curatorial entry point even if URL Fighters eventually receives an independent archive or microsite.
 
 ## Kotoros
 
@@ -203,22 +303,16 @@ Mobile is not a reduced desktop layout. It should feel like a vertical editorial
 
 Start extremely clean. Preserve strong crops, clear project numbers, simple metadata and calm vertical rhythm.
 
-`PARTICIPATE →` should remain accessible without dominating the identity.
+The four navigation concepts must remain understandable on mobile without becoming a large persistent menu. `PARTICIPATE` remains accessible but is not styled as a marketing CTA.
 
 Kotoros should appear even more rarely on mobile.
 
 The same three states apply: Archive → Human Trace → Victor's Studio.
 
-## Participate
-
-Visible but not visually dominant.
-
-It should feel like an entrance into the work, not a conversion button.
-
-No SaaS CTA styling. No oversized marketing component.
-
 ## What to avoid
 
+- discipline-based primary navigation (`PERFORMANCE / FASHION / PAINTING / ...`);
+- flat grids that imply every work has equal importance;
 - black luxury-fashion default aesthetic;
 - gothic imagery;
 - aggressive red Kotoros;
@@ -232,7 +326,8 @@ No SaaS CTA styling. No oversized marketing component.
 - generic creative-director portfolio aesthetics;
 - fake retro Flash design;
 - automatic looping chaos;
-- explanatory text overload.
+- explanatory text overload;
+- turning `PARTICIPATE` into a conversion funnel.
 
 ## Final experience
 
@@ -244,6 +339,10 @@ After several projects: **This could only belong to Victor Le.**
 
 ## Final formula
 
+**SELECTED = LOOK**  
+**INDEX = SEARCH**  
+**ABOUT = UNDERSTAND**  
+**PARTICIPATE = ENTER**  
 **ORDER = DEFAULT**  
 **ARTWORK = VISUAL COMPLEXITY**  
 **KOTOROS = PINK + RARE**  
