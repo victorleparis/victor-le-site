@@ -18,7 +18,8 @@ Then read, in order:
 
 ## Current status — 2026-09-07
 
-The content inventory is sufficiently developed to begin implementation of **V1**.
+A first navigable V1 implementation now exists (Next.js + TypeScript +
+App Router). See "Implementation notes" below for how it's built.
 
 V1 public navigation:
 
@@ -37,10 +38,46 @@ Current SELECTED sequence:
 7. SOUND
 8. EDITIONS & PRINT
 
-The next phase is implementation with real media, not further architecture exploration.
+The next phase is progressive content/media refinement and, once the
+SELECTED visual language is solid, individual project detail pages
+(ROADMAP.md Phase 5) — not further architecture exploration.
+
+## Implementation notes (for future agents)
+
+- **Stack**: Next.js (App Router) + TypeScript + CSS Modules with CSS
+  custom-property tokens. No Tailwind, no UI kit, no CMS. Framer
+  Motion was not needed for V1 and is not a dependency.
+- **Content lives in code**, under `content/`: one typed data file per
+  SELECTED entry (`content/selected/*.ts`), plus `content/about.ts`,
+  `content/participate.ts`, and `content/site.config.ts` (public
+  name, nav labels, feature flags — the single place to change the
+  open naming decision). Each entry has a `layout` id but is rendered
+  by its own bespoke component under `components/selected/` — there
+  is deliberately no generic "ProjectCard" — so composition stays
+  editorial/asymmetric rather than forcing eight equivalent cards.
+- **Media auto-resolves from the filesystem.** `lib/media.ts` reads
+  `public/media/<corpus-slug>/` (and `public/media/selected/<slug>/`)
+  at build/render time and lists whatever real files are there. There
+  is no manifest to edit and no filenames to hardcode when new
+  selections land — sections pick them up automatically on the next
+  build. When nothing has landed yet, `components/ui/MediaFrame`
+  renders a sober "AWAITING MEDIA" / "TO ADD" placeholder rather than
+  fabricated imagery. Works in Space & Matter additionally maps
+  MEDIA_STATUS.md's named hero/strong/secondary filenames to layout
+  slots when present, falling back to positional order otherwise.
+- **Corpus slugs** expected under `public/media/`: `dinner-project`,
+  `url-fighters`, `princeville`, `collections`, `works-space-matter`,
+  `l3xl3`, `sound`, `editions`. Project pages (Phase 5) don't exist
+  yet — V1 is the SELECTED homepage plus `/about` and `/participate`.
+- No project detail routes, no INDEX route, no CMS, no self-hosted
+  audio/video pipeline — all intentionally out of scope for V1 per
+  ROADMAP.md.
 
 ## Important open decisions
 
-- Public naming: `Victor Le` vs `Victor Le de Doisy` vs hybrid system.
+- Public naming: `Victor Le` vs `Victor Le de Doisy` vs hybrid system
+  (currently defaults to `Victor Le` in `content/site.config.ts` —
+  a reversible technical default, not a naming decision).
 - Exact public spelling / relationship of `L3XL3` and `LEXILE`.
 - Final credits, dates, titles, dimensions and legal metadata where still marked `TO VERIFY` / `TO ADD`.
+- Public contact channel (email/form) — not yet decided, so ABOUT currently shows `TO ADD`.
