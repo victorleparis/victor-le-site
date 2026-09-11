@@ -14,6 +14,6 @@ export const urlFightersFraming =
   "Artistic protocols built around URLs and domain names — symbolic protection, participation, objects, performance and network culture. A major historical corpus with several hundred archived images and moving-image material; this entry is a deliberately light edit rather than a full archive migration.";
 
 export const urlFightersArchiveLink = {
-  label: "URL FIGHTERS ARCHIVE",
+  label: "URL FIGHTERS NOW",
   href: "https://urlfighters.com" as string | null,
 };
