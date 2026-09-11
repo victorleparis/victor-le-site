@@ -10,4 +10,4 @@ export {
 } from "./works-space-matter";
 export { l3xl3 } from "./l3xl3";
 export { sound, soundReleases } from "./sound";
-export { editionsPrint, editionsCoverText, editionsProjects } from "./editions-print";
+export { editionsPrint, editionsIntro, editionsCovers, editionsProjects } from "./editions-print";

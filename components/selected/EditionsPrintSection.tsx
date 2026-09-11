@@ -1,12 +1,19 @@
-import { editionsPrint, editionsCoverText, editionsProjects } from "@/content/selected";
-import { listCorpusMedia } from "@/lib/media";
+import { editionsPrint, editionsIntro, editionsCovers, editionsProjects } from "@/content/selected";
+import { listCorpusMedia, pickByName, type MediaFile } from "@/lib/media";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { MediaFrame } from "@/components/ui/MediaFrame";
 import styles from "./EditionsPrintSection.module.css";
 
 export function EditionsPrintSection() {
-  const files = listCorpusMedia("editions").slice(0, 6);
-  const slots = files.length > 0 ? files : Array.from({ length: 3 }, () => null);
+  const files = listCorpusMedia("editions");
+  const byFilename = new Map<string, MediaFile>();
+  for (const known of pickByName(files, editionsCovers.map((c) => c.filename))) {
+    byFilename.set(known.filename.toLowerCase(), known);
+  }
+  const covers = editionsCovers.map((c) => ({
+    ...c,
+    file: byFilename.get(c.filename.toLowerCase()),
+  }));
 
   return (
     <section className={styles.section} id={editionsPrint.id}>
@@ -16,24 +23,22 @@ export function EditionsPrintSection() {
         years={editionsPrint.years}
         disciplines={editionsPrint.disciplines}
       />
-      <div className={styles.body}>
-        <div className={styles.coverText}>
-          <span className={styles.coverTextTitle}>{editionsCoverText[0]}</span>
-          {editionsCoverText.slice(1).map((line) => (
-            <span key={line}>{line}</span>
-          ))}
-        </div>
-        <div className={styles.gallery}>
-          {slots.map((file, i) => (
+      <p className={styles.intro}>{editionsIntro}</p>
+      <div className={styles.shelf}>
+        {covers.map((cover) => (
+          <div className={styles.cover} key={cover.filename}>
             <MediaFrame
-              key={file ? file.filename : i}
-              src={file?.url}
-              alt={editionsPrint.title}
+              src={cover.file?.url}
+              alt={`${editionsPrint.title} — ${cover.label}`}
               aspectRatio="3 / 4"
-              sizes="(max-width: 780px) 50vw, 22vw"
+              sizes="(max-width: 780px) 46vw, 22vw"
             />
-          ))}
-        </div>
+            <div className={styles.coverCaption}>
+              <span className={styles.coverLabel}>{cover.label}</span>
+              <span>{cover.note}</span>
+            </div>
+          </div>
+        ))}
       </div>
       <p className={styles.projects}>
         {editionsProjects.map((p) => (
