@@ -3,7 +3,7 @@ name: Deploy preview to GitHub Pages
 on:
   push:
     branches:
-      - claude/artist-site-method-review-ue495w
+      - main
   workflow_dispatch:
 
 permissions:
