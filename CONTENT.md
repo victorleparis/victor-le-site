@@ -46,7 +46,8 @@ This selection is now a working reference to test against real media. It is not 
 
 Working principle:
 
-> I invite 1–3 people for lunch or dinner.  
+> I invite 1–6 people for lunch or dinner.  
+> Special guest can appear.  
 > I cook.  
 > They wear my clothes.  
 > I photograph them.  
@@ -68,7 +69,7 @@ Possible episode content:
 - notes / traces.
 
 Working format:
-- 1–3 adult participants;
+- 1–6 adult participants; special guest can appear;
 - approximately 2–3 hours;
 - hosted in Paris, initially at Victor's home as a zero-cost prototype for a possible future venue;
 - Victor cooks;
