@@ -6,11 +6,21 @@ import styles from "./UrlFightersSection.module.css";
 
 export function UrlFightersSection() {
   const files = listCorpusMedia("url-fighters");
-  const iconic = files[0] ?? null;
+  const [iconic, secondary] = files;
 
   return (
     <section className={styles.section} id={urlFighters.id}>
-      <MediaFrame src={iconic?.url} alt={urlFighters.title} aspectRatio="1 / 1" placeholderLabel="ICONIC IMAGE — TO ADD" />
+      <div className={styles.images}>
+        <MediaFrame
+          src={iconic?.url}
+          alt={urlFighters.title}
+          aspectRatio="4 / 5"
+          placeholderLabel="ICONIC IMAGE — TO ADD"
+        />
+        {secondary && (
+          <MediaFrame src={secondary.url} alt={urlFighters.title} aspectRatio="4 / 5" sizes="40vw" />
+        )}
+      </div>
       <div className={styles.text}>
         <SectionHeading
           number={urlFighters.number}

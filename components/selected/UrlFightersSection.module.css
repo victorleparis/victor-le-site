@@ -8,11 +8,28 @@
   gap: var(--space-6);
 }
 
+.images {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.images > *:last-child {
+  width: 60%;
+  align-self: flex-end;
+}
+
 .text {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
   align-self: center;
+}
+
+@media (max-width: 780px) {
+  .images > *:last-child {
+    width: 60%;
+  }
 }
 
 .framing {
