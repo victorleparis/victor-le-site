@@ -540,6 +540,11 @@ Potential conceptual threads visible across the inventory — **PROVISIONAL, NOT
 
 Possible genealogy to test against the corpus, not assume: URL Fighters → Princeville → Bibliothèque bleue / dinners → relational acts / clothing / performance → The Dinner Project.
 
+### Press
+
+Added 2026-09-11, real material supplied by Victor:
+- Louis Vuitton, "Fashion Eye: Paris", photographed by Feng Li — Victor appears in the street-photography series. Book cover + a curated selection of the 19 Dec 2019 shoot live in `public/media/press-feng-li/` (full 25-frame burst archived there; only a curated subset is shown on ABOUT).
+
 ## Participate
 
 `PARTICIPATE` is broader than Dinner Project.
