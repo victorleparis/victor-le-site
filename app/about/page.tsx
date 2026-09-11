@@ -38,6 +38,34 @@ export default function AboutPage() {
       </div>
 
       <div className={styles.block}>
+        <h2 className={styles.blockTitle}>PRESS</h2>
+        {press.map((p) => (
+          <div key={p.title} className={styles.row}>
+            <span>{p.title}</span>
+            <span className={styles.rowMeta}>{p.note}</span>
+          </div>
+        ))}
+        {firstPress && (
+          <div className={styles.pressGallery}>
+            {pressCover && (
+              <div className={styles.pressCover}>
+                <MediaFrame src={pressCover.url} alt={firstPress.title} aspectRatio="3 / 4" sizes="160px" />
+              </div>
+            )}
+            {pressPicks.map((file) => (
+              <MediaFrame
+                key={file.filename}
+                src={file.url}
+                alt={firstPress.title}
+                aspectRatio="3 / 4"
+                sizes="(max-width: 780px) 33vw, 14vw"
+              />
+            ))}
+          </div>
+        )}
+      </div>
+
+      <div className={styles.block}>
         <h2 className={styles.blockTitle}>EDUCATION</h2>
         {education.map((e) => (
           <div key={e.name} className={styles.row}>
@@ -80,34 +108,6 @@ export default function AboutPage() {
             <span className={styles.rowMeta}>{a.note}</span>
           </div>
         ))}
-      </div>
-
-      <div className={styles.block}>
-        <h2 className={styles.blockTitle}>PRESS</h2>
-        {press.map((p) => (
-          <div key={p.title} className={styles.row}>
-            <span>{p.title}</span>
-            <span className={styles.rowMeta}>{p.note}</span>
-          </div>
-        ))}
-        {firstPress && (
-          <div className={styles.pressGallery}>
-            {pressCover && (
-              <div className={styles.pressCover}>
-                <MediaFrame src={pressCover.url} alt={firstPress.title} aspectRatio="3 / 4" sizes="160px" />
-              </div>
-            )}
-            {pressPicks.map((file) => (
-              <MediaFrame
-                key={file.filename}
-                src={file.url}
-                alt={firstPress.title}
-                aspectRatio="3 / 4"
-                sizes="(max-width: 780px) 33vw, 14vw"
-              />
-            ))}
-          </div>
-        )}
       </div>
 
       <div className={styles.block}>

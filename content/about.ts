@@ -9,8 +9,8 @@ export const education = [
   { name: "École Supérieure d’Arts et Médias de Caen (ESAM)" },
   { name: "Haute École d’Art et de Design de Genève (HEAD)" },
   { name: "Académie Royale des Beaux-Arts de Bruxelles" },
-  { name: "La Fabrique de la Danse, Paris", note: "choreographer incubator" },
-  { name: "IFA Paris", note: "fashion school, Paris" },
+  { name: "La Fabrique de la Danse", note: "choreographer incubator, Paris" },
+  { name: "International Fashion Academy Paris (IFA)", note: "fashion school" },
   { name: "ETP Japan" },
 ];
 
