@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { withBasePath } from "./base-path";
 
 /**
  * Media availability is checked against the filesystem at build/render
@@ -45,7 +46,7 @@ export function listCorpusMedia(slug: string): MediaFile[] {
     if (files.length > 0) {
       return files.map((filename) => ({
         filename,
-        url: `/${rel}/${filename}`,
+        url: withBasePath(`/${rel}/${filename}`),
         isVideo: VIDEO_EXT.test(filename),
       }));
     }
@@ -76,5 +77,5 @@ export function existsInPublic(relPath: string): boolean {
 }
 
 export function identityAsset(relPath: string): string | null {
-  return existsInPublic(`identity/${relPath}`) ? `/identity/${relPath}` : null;
+  return existsInPublic(`identity/${relPath}`) ? withBasePath(`/identity/${relPath}`) : null;
 }
