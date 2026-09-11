@@ -509,8 +509,8 @@ Known education / training references to verify against primary documents or Vic
 - École Supérieure d’Arts et Médias de Caen (ESAM);
 - Haute École d’Art et de Design de Genève (HEAD);
 - Académie Royale des Beaux-Arts de Bruxelles;
-- La Fabrique de la Danse, Paris — choreographer incubator (confirmed by Victor);
-- IFA Paris — fashion school, Paris (confirmed by Victor);
+- La Fabrique de la Danse — choreographer incubator, Paris (confirmed by Victor);
+- International Fashion Academy Paris (IFA) — fashion school (confirmed by Victor);
 - ETP Japan;
 - additional studies remain to inventory.
 
