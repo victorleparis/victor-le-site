@@ -72,13 +72,11 @@ export default function AboutPage() {
         <div className={styles.contactGroup}>
           <span>{contact.artistic.name}</span>
           <span className={styles.contactRole}>{contact.artistic.role}</span>
-          <span className={styles.rowMeta}>SIRET: {contact.artistic.siret}</span>
         </div>
         <div className={styles.contactGroup}>
           <span className={styles.contactRole}>{contact.entrepreneurial.role}</span>
-          <span className={styles.rowMeta}>SIREN/SIRET: {contact.entrepreneurial.siren}</span>
         </div>
-        <p className={styles.note}>Email / contact channel: {contact.email}</p>
+        <p className={styles.note}>{contact.email}</p>
       </div>
     </section>
   );

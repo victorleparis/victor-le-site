@@ -502,6 +502,8 @@ Known education / training references to verify against primary documents or Vic
 - Haute École d’Art et de Design de Genève (HEAD);
 - Académie Royale des Beaux-Arts de Bruxelles;
 - La Fabrique de la Danse, Paris — choreographic training / diploma wording `TO VERIFY`;
+- IFA — full institution name `TO VERIFY`;
+- ETP Japan;
 - additional studies remain to inventory.
 
 Education belongs in ABOUT / CV chronology, not as artworks.

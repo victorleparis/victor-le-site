@@ -10,6 +10,8 @@ export const education = [
   { name: "Haute École d’Art et de Design de Genève (HEAD)" },
   { name: "Académie Royale des Beaux-Arts de Bruxelles" },
   { name: "La Fabrique de la Danse, Paris", note: "choreographic training / diploma wording TO VERIFY" },
+  { name: "IFA", note: "full institution name TO VERIFY" },
+  { name: "ETP Japan" },
 ];
 
 // A short, high-confidence selection (full title + venue + date + kind

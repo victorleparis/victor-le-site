@@ -36,15 +36,7 @@
   grid-column: 1 / span 3;
   grid-row: 4;
   margin-top: var(--space-6);
-}
-
-.secondaryRow {
-  grid-column: 5 / span 8;
-  grid-row: 4;
-  margin-top: var(--space-7);
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: var(--space-4);
+  margin-bottom: var(--space-8);
 }
 
 .mobile {
@@ -70,11 +62,5 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: var(--space-3);
-  }
-
-  .mobileThumbs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--space-2);
   }
 }

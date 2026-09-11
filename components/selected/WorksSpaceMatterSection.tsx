@@ -28,15 +28,14 @@ function resolveSelection() {
 
   const hero = take(worksSpaceMatterHero, 1)[0] ?? null;
   const strong = take(worksSpaceMatterStrong, 3);
-  const secondary = take(worksSpaceMatterSecondary, 3);
+  const drawing = take(worksSpaceMatterSecondary, 1)[0] ?? null;
 
-  return { hero, strong, secondary };
+  return { hero, strong, drawing };
 }
 
 export function WorksSpaceMatterSection() {
-  const { hero, strong, secondary } = resolveSelection();
+  const { hero, strong, drawing } = resolveSelection();
   const [strongLeft, strongRight, strongCenter] = strong;
-  const [drawing, ...restSecondary] = secondary;
 
   return (
     <section className={styles.section} id={worksSpaceMatter.id}>
@@ -70,17 +69,6 @@ export function WorksSpaceMatterSection() {
         <div className={styles.drawing}>
           <MediaFrame src={drawing?.url} alt="Works in Space & Matter — drawing" aspectRatio="3 / 4" />
         </div>
-        <div className={styles.secondaryRow}>
-          {[0, 1].map((i) => (
-            <MediaFrame
-              key={i}
-              src={restSecondary[i]?.url}
-              alt="Works in Space & Matter"
-              aspectRatio="1 / 1"
-              sizes="20vw"
-            />
-          ))}
-        </div>
       </div>
 
       {/* Mobile: an intentional, distinct vertical sequence — not the
@@ -97,11 +85,8 @@ export function WorksSpaceMatterSection() {
         <div className={styles.mobileFull}>
           <MediaFrame src={strongCenter?.url} alt="Works in Space & Matter" aspectRatio="4 / 3" sizes="100vw" />
         </div>
-        <div className={styles.mobileThumbs}>
-          <MediaFrame src={drawing?.url} alt="Works in Space & Matter" aspectRatio="1 / 1" sizes="33vw" />
-          {restSecondary.map((f, i) => (
-            <MediaFrame key={i} src={f?.url} alt="Works in Space & Matter" aspectRatio="1 / 1" sizes="33vw" />
-          ))}
+        <div className={styles.mobileFull}>
+          <MediaFrame src={drawing?.url} alt="Works in Space & Matter" aspectRatio="3 / 4" sizes="100vw" />
         </div>
       </div>
     </section>
