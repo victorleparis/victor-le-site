@@ -21,7 +21,6 @@ export function L3xl3Section() {
             alt={l3xl3.title}
             aspectRatio="3 / 4"
             sizes="(max-width: 780px) 33vw, 20vw"
-            placeholderLabel="TO ADD"
           />
         ))}
       </div>

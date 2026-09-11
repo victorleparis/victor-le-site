@@ -11,12 +11,7 @@ export function UrlFightersSection() {
   return (
     <section className={styles.section} id={urlFighters.id}>
       <div className={styles.images}>
-        <MediaFrame
-          src={iconic?.url}
-          alt={urlFighters.title}
-          aspectRatio="4 / 5"
-          placeholderLabel="ICONIC IMAGE — TO ADD"
-        />
+        <MediaFrame src={iconic?.url} alt={urlFighters.title} aspectRatio="4 / 5" />
         {secondary && (
           <MediaFrame src={secondary.url} alt={urlFighters.title} aspectRatio="4 / 5" sizes="40vw" />
         )}
@@ -39,9 +34,7 @@ export function UrlFightersSection() {
             {urlFightersArchiveLink.label} →
           </a>
         ) : (
-          <span className={`${styles.link} ${styles.linkPending}`}>
-            {urlFightersArchiveLink.label} — TO ADD
-          </span>
+          <span className={`${styles.link} ${styles.linkPending}`}>{urlFightersArchiveLink.label}</span>
         )}
       </div>
     </section>

@@ -19,7 +19,6 @@ export default function AboutPage() {
     <section className={styles.section}>
       <h1 className="visually-hidden">About — {siteConfig.publicName}</h1>
       <p className={styles.bio}>{bioWorking}</p>
-      <p className={styles.bioNote}>WORKING STATEMENT — SUBJECT TO REVISION</p>
 
       <div className={styles.block}>
         <h2 className={styles.blockTitle}>EDUCATION</h2>
@@ -44,7 +43,6 @@ export default function AboutPage() {
             </span>
           </div>
         ))}
-        <p className={styles.note}>Full chronology to follow in INDEX (V2).</p>
       </div>
 
       <div className={styles.block}>

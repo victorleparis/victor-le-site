@@ -36,9 +36,7 @@ export function SoundSection() {
           </div>
         ))}
       </div>
-      <p className={styles.note}>
-        LISTENING STATION — SOURCE LINKS PENDING VERIFICATION. NO AUTOPLAY.
-      </p>
+      <p className={styles.note}>LISTENING STATION — NO AUTOPLAY.</p>
     </section>
   );
 }
