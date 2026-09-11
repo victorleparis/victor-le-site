@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { dinnerProject, dinnerProjectPrinciple } from "@/content/selected";
 import { listCorpusMedia } from "@/lib/media";
+import { contact } from "@/content/about";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { MediaFrame } from "@/components/ui/MediaFrame";
 import styles from "./DinnerProjectSection.module.css";
@@ -32,9 +32,10 @@ export function DinnerProjectSection() {
           ))}
         </p>
         <div className={styles.footerRow}>
-          <Link href="/participate" className={styles.participateLink}>
-            OPEN — PARTICIPATE →
-          </Link>
+          <span className={styles.openLabel}>OPEN — TO TAKE PART, WRITE TO</span>
+          <a href={`mailto:${contact.email}`} className={styles.participateLink}>
+            {contact.email}
+          </a>
         </div>
       </div>
     </section>

@@ -8,6 +8,12 @@
   gap: var(--space-6);
 }
 
+.media {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
 .videoCard {
   border: 1px solid var(--color-line);
   aspect-ratio: 16 / 10;

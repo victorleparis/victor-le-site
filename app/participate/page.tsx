@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { participateLine, participatePast } from "@/content/participate";
 import { siteConfig } from "@/content/site.config";
+import { contact } from "@/content/about";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -17,9 +18,14 @@ export default function ParticipatePage() {
         <h2 className={styles.blockTitle}>OPEN NOW</h2>
         <div className={styles.openCard}>
           <span className={styles.openTitle}>THE DINNER PROJECT</span>
-          <Link href="/#dinner-project" className={styles.openLink}>
-            READ MORE →
-          </Link>
+          <div className={styles.openLinks}>
+            <Link href="/#dinner-project" className={styles.openLink}>
+              READ MORE →
+            </Link>
+            <a href={`mailto:${contact.email}`} className={styles.openLink}>
+              {contact.email}
+            </a>
+          </div>
         </div>
       </div>
 
