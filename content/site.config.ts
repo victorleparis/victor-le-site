@@ -31,7 +31,7 @@ export const siteConfig = {
   // touching this file's shape.
   interaction: {
     floatingVEnabled: true,
-    soundToggleEnabled: true,
+    soundToggleEnabled: false,
     draggableWindowEnabled: true,
     kotorosEnabled: true,
     handwritingEnabled: true,
