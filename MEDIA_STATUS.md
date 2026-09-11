@@ -80,17 +80,16 @@ V1 should not fabricate a large gallery. Video + text can carry the work.
 
 **Media status:** SUFFICIENT WORKING SOURCE FOR V1; IMPROVE LATER.
 
-Package created during curation:
-- `COLLECTIONS_SELECTION_V1.zip`
+Real boards in `public/media/collections/`, self-captioned per look:
+- St Michel — 3 looks (`Saint Michel.png`, `st michel.png`, `st michel homme.png`);
+- Sainte — 3 looks (`Sainte 1.png`, `Sainte 2.png`, `sainte6.png`).
 
-Source basis:
-- 5 presentation / design boards from `Photos-1-001 (49).zip`.
-
-Working collection references include:
+Working collection references (not all yet backed by images):
 - Guardian;
 - Sageum B;
 - St Michel;
-- additional silhouette / clothing directions present in the supplied boards.
+- Sainte;
+- additional silhouette / clothing directions still to inventory.
 
 V1 can be built from these sources.
 

@@ -1,7 +1,7 @@
 export { dinnerProject, dinnerProjectPrinciple } from "./dinner-project";
 export { urlFighters, urlFightersFraming, urlFightersArchiveLink } from "./url-fighters";
 export { princeville, princevilleVideoUrl, princevilleText } from "./princeville";
-export { collections, collectionsNames } from "./collections";
+export { collections, collectionsNames, collectionsBoards } from "./collections";
 export {
   worksSpaceMatter,
   worksSpaceMatterHero,

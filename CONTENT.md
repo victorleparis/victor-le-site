@@ -207,8 +207,16 @@ Need final title, dates, complete look inventory, materials, credits, runway/per
 
 **Status:** sculptural clothing work `TO VERIFY`  
 Known working elements include hoop construction, veil / transparency and sculptural silhouette.
+Boards added to `public/media/collections/` (3 looks) — each self-captioned "Saint Michel", confirming the identification above.
 
 Need final title, date, materials, finished documentation and relationship to a larger collection if any.
+
+### Sainte
+
+**Status:** collection `TO VERIFY` — not previously documented; name is taken directly from the boards' own printed caption.
+3 looks added to `public/media/collections/`.
+
+Need dates, materials, look count beyond what's pictured, credits and relationship (if any) to the other named collections above.
 
 ### We Dress You Tonight / Dress Me Tonight — WORKING RELATION
 
@@ -501,8 +509,8 @@ Known education / training references to verify against primary documents or Vic
 - École Supérieure d’Arts et Médias de Caen (ESAM);
 - Haute École d’Art et de Design de Genève (HEAD);
 - Académie Royale des Beaux-Arts de Bruxelles;
-- La Fabrique de la Danse, Paris — choreographic training / diploma wording `TO VERIFY`;
-- IFA — full institution name `TO VERIFY`;
+- La Fabrique de la Danse, Paris — choreographer incubator (confirmed by Victor);
+- IFA Paris — fashion school, Paris (confirmed by Victor);
 - ETP Japan;
 - additional studies remain to inventory.
 

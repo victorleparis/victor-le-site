@@ -154,6 +154,7 @@ Fashion · Clothing · Silhouette · Transformation
 Guardian
 Sageum B
 St Michel
+Sainte
 [ other collections / pieces to inventory ]
 
 ─────────────────────────────────────────────────────────────────────────────
