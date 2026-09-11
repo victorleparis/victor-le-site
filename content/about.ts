@@ -9,8 +9,8 @@ export const education = [
   { name: "École Supérieure d’Arts et Médias de Caen (ESAM)" },
   { name: "Haute École d’Art et de Design de Genève (HEAD)" },
   { name: "Académie Royale des Beaux-Arts de Bruxelles" },
-  { name: "La Fabrique de la Danse, Paris", note: "choreographic training / diploma wording TO VERIFY" },
-  { name: "IFA", note: "full institution name TO VERIFY" },
+  { name: "La Fabrique de la Danse, Paris", note: "choreographer incubator" },
+  { name: "IFA Paris", note: "fashion school, Paris" },
   { name: "ETP Japan" },
 ];
 
@@ -46,9 +46,7 @@ export const publications = [
   { title: "FAMOUS", note: "magazine, 2026—, in development" },
 ];
 
-export const awards = [
-  { title: "Prix Galeries Lafayette — IFA", note: "best garment created in 10 minutes — year TO VERIFY" },
-];
+export const awards = [{ title: "Prix Galeries Lafayette — IFA", note: "best garment created in 10 minutes" }];
 
 export const contact = {
   artistic: {
