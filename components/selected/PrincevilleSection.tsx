@@ -10,12 +10,11 @@ export function PrincevilleSection() {
 
   return (
     <section className={styles.section} id={princeville.id}>
-      <div className={styles.media}>
-        {image && <MediaFrame src={image.url} alt={princeville.title} aspectRatio="4 / 3" />}
-        <a href={princevilleVideoUrl} target="_blank" rel="noreferrer" className={styles.videoCard}>
-          <span className={styles.videoLabel}>WATCH AT PRINCEVILLE.FR →</span>
-        </a>
-      </div>
+      {image ? (
+        <MediaFrame src={image.url} alt={princeville.title} aspectRatio="4 / 3" />
+      ) : (
+        <div />
+      )}
       <div className={styles.text}>
         <SectionHeading
           number={princeville.number}
@@ -28,6 +27,9 @@ export function PrincevilleSection() {
             {paragraph}
           </p>
         ))}
+        <a href={princevilleVideoUrl} target="_blank" rel="noreferrer" className={styles.videoLink}>
+          WATCH AT PRINCEVILLE.FR →
+        </a>
       </div>
     </section>
   );

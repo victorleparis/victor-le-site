@@ -8,35 +8,19 @@
   gap: var(--space-6);
 }
 
-.media {
+.text {
   display: flex;
   flex-direction: column;
   gap: var(--space-4);
 }
 
-.videoCard {
-  border: 1px solid var(--color-line);
-  aspect-ratio: 16 / 10;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  padding: var(--space-5);
-  background: var(--color-paper-raised);
-}
-
-.videoLabel {
+.videoLink {
   font-family: var(--font-mono);
   font-size: var(--text-xs);
   letter-spacing: 0.05em;
   border-bottom: 1px solid var(--color-ink);
   padding-bottom: 2px;
-}
-
-.text {
-  display: flex;
-  flex-direction: column;
-  gap: var(--space-4);
+  width: fit-content;
 }
 
 .paragraph {

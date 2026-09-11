@@ -16,19 +16,5 @@ export const worksSpaceMatter: SelectedProject = {
  * files have actually landed.
  */
 export const worksSpaceMatterHero = ["T7.jpg", "20230416_131040.jpg"];
-export const worksSpaceMatterStrong = [
-  "z A popi 1.jpg",
-  "DSC00938.JPG",
-  "z A58.jpg",
-  "A fusain 2.jpg",
-  "NG.jpg",
-  "103 J.jpg",
-  "SPHINXLARGE.jpg",
-];
-export const worksSpaceMatterSecondary = [
-  "DSC01889.JPG",
-  "z F43.jpg",
-  "A fusain 1.jpg",
-  "A5.jpg",
-  "A3.jpg",
-];
+export const worksSpaceMatterStrong = ["DSC00938.JPG", "103 J.jpg", "SPHINXLARGE.jpg"];
+export const worksSpaceMatterSecondary = ["A fusain 1.jpg"];
