@@ -1,17 +1,13 @@
 /**
- * Site-wide configuration and open decisions.
+ * Site-wide configuration.
  *
- * PROJECT.md keeps public naming and the L3XL3/LEXILE spelling explicitly
- * open. This file is the single place those defaults live so they can be
- * changed later without touching component code (per ROADMAP.md:
- * "implementation must make the name easy to change globally").
- *
- * These are reversible technical defaults, not naming decisions.
+ * Public naming and the L3XL3/LEXILE spelling were decided 2026-09-11
+ * (see PROJECT.md). This file is the single place those values live so
+ * they stay easy to change globally if revisited later.
  */
 
 export const siteConfig = {
-  // Working default only — PROJECT.md keeps this open (Victor Le /
-  // Victor Le de Doisy / hybrid). Change here, everywhere updates.
+  // DECIDED 2026-09-11 — see PROJECT.md "Public naming".
   publicName: "Victor Le",
   fullName: "Victor Le de Doisy",
 
@@ -25,17 +21,19 @@ export const siteConfig = {
     { label: "PARTICIPATE", href: "/participate" },
   ],
 
-  // L3XL3 / LEXILE relationship and exact spelling remain open
-  // (AGENTS.md). Always display both forms together until resolved.
-  lexileLabel: "L3XL3 / LEXILE",
+  // DECIDED 2026-09-11 — see PROJECT.md. "LEXILE" dropped.
+  lexileLabel: "L3XL3",
 
   kotorosColor: "#ff4fa3",
 
-  // Interaction budget — Phase 6 of ROADMAP.md is deliberately deferred.
-  // Flags below gate the few conservative behaviours implemented now so
-  // later additions don't require touching this file's shape.
+  // Interaction budget — Phase 6 of ROADMAP.md. Flags below gate the
+  // behaviours implemented so far so later additions don't require
+  // touching this file's shape.
   interaction: {
     floatingVEnabled: true,
     soundToggleEnabled: true,
+    draggableWindowEnabled: true,
+    kotorosEnabled: true,
+    handwritingEnabled: true,
   },
 } as const;

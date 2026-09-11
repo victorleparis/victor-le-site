@@ -579,8 +579,9 @@ These details belong in legal / administrative / professional contact areas, not
 
 ### Artistic activity
 
-Victor Le *(final public naming to be confirmed)*  
+Victor Le  
 Artiste-auteur — arts plastiques  
+Contact: v@shootme.com  
 SIRET: `[TO ADD]`
 
 ### Entrepreneurial activity

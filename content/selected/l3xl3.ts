@@ -8,7 +8,6 @@ export const l3xl3: SelectedProject = {
   disciplines: ["Opera", "Costume", "Music", "Stage"],
   layout: "l3xl3",
   toVerify: [
-    "Exact title spelling and relationship (L3XL3 / LEXILE)",
     "Date / development chronology",
     "Character names, costume attributions, production status",
   ],

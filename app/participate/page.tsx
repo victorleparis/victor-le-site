@@ -29,6 +29,9 @@ export default function ParticipatePage() {
           <div key={entry.title} className={styles.pastEntry}>
             <div className={styles.pastTitle}>{entry.title}</div>
             <p className={styles.pastNote}>{entry.note}</p>
+            {entry.toVerify && (
+              <p className={styles.pastToVerify}>TO VERIFY — {entry.toVerify.join(" · ")}</p>
+            )}
           </div>
         ))}
       </div>

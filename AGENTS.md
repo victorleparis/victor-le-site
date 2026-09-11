@@ -31,14 +31,9 @@ Mark uncertain information as `TO VERIFY`, `TO ADD` or `WORKING TITLE`.
 
 ## Naming
 
-The public naming decision is intentionally open:
-- `Victor Le`
-- `Victor Le de Doisy`
-- a hybrid system
+Public naming — DECIDED 2026-09-11, recorded in `PROJECT.md`: **Victor Le** is the public identity; `Victor Le de Doisy` is the full legal name used administratively.
 
-Do not lock or propagate a final public name until the decision is explicitly recorded in `PROJECT.md`.
-
-`L3XL3` / `LEXILE` spelling and relationship are also currently open. Do not silently normalize one into the other.
+`L3XL3` — DECIDED 2026-09-11: the public spelling is **L3XL3**, `LEXILE` dropped. Recorded in `PROJECT.md`.
 
 ## Design principles
 

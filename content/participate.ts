@@ -2,14 +2,10 @@ import type { ParticipatePastEntry } from "./types";
 
 export const participateLine = "Some works require other people.";
 
-// PAST is limited to protocols documented well enough to present cleanly
-// without fabricating framing. CONTENT.md lists several relational acts
-// (Adoption de Maurice Renoma, Change ta date d'anniversaire, Don d'une
-// particule de noblesse, Déclarations officielles d'amitié) that are, by
-// its own account, almost entirely TO VERIFY (no confirmed date, exact
-// title or protocol) — including them here would require inventing
-// framing, so they are left out of V1 and reserved for INDEX / a later
-// PARTICIPATE pass once documented.
+// PAST — expanded 2026-09-11 per instruction to include the relational
+// acts previously held back for being thinly documented. Framing below
+// uses only what CONTENT.md actually states; every open gap is carried
+// as an explicit toVerify entry rather than filled in.
 export const participatePast: ParticipatePastEntry[] = [
   {
     title: "URL FIGHTERS",
@@ -23,5 +19,25 @@ export const participatePast: ParticipatePastEntry[] = [
   {
     title: "PRINCEVILLE",
     note: "A principality built from acquired URLs, symbolic titles and public space — born 9 February 2018.",
+  },
+  {
+    title: "ADOPTION DE MAURICE RENOMA",
+    note: "A relational act in which Victor symbolically adopts designer Maurice Renoma as his son.",
+    toVerify: ["Date", "Place", "Exact protocol / title", "Documentation", "Participant / collaborator wording"],
+  },
+  {
+    title: "CHANGE TA DATE D’ANNIVERSAIRE / CHANGE TA DATE DE NAISSANCE",
+    note: "A participatory protocol involving the symbolic modification of a birth date.",
+    toVerify: ["Official title (both forms appear in archive material)", "Date", "Exact protocol", "Documentation"],
+  },
+  {
+    title: "DON D’UNE PARTICULE DE NOBLESSE",
+    note: "A performance / protocol built around a symbolic identity act.",
+    toVerify: ["Date", "Exact title", "Rules", "Participants", "Documents / media"],
+  },
+  {
+    title: "DÉCLARATIONS OFFICIELLES D’AMITIÉ",
+    note: "A relational protocol formalizing friendship through an official declaration.",
+    toVerify: ["Dates", "Exact protocol", "Documents", "Participants", "Media"],
   },
 ];

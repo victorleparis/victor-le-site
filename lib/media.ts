@@ -79,3 +79,11 @@ export function existsInPublic(relPath: string): boolean {
 export function identityAsset(relPath: string): string | null {
   return existsInPublic(`identity/${relPath}`) ? withBasePath(`/identity/${relPath}`) : null;
 }
+
+/** First real image found under public/identity/<subdir>/, if any —
+ * used for identity assets (handwriting scans) that aren't tied to a
+ * single fixed filename the way the Kotoros asset is. */
+export function firstIdentityMedia(subdir: string): string | null {
+  const files = readDir(`identity/${subdir}`);
+  return files.length > 0 ? withBasePath(`/identity/${subdir}/${files[0]}`) : null;
+}

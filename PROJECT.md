@@ -48,7 +48,7 @@ Current V1 sequence:
 3. **PRINCEVILLE** — 2018—
 4. **COLLECTIONS** — dates to establish
 5. **WORKS IN SPACE & MATTER** — dates to establish
-6. **L3XL3 / LEXILE** — exact public spelling / relationship to verify
+6. **L3XL3** — naming decided 2026-09-11 ("LEXILE" dropped)
 7. **SOUND** — dates now partly documented
 8. **EDITIONS & PRINT** — 2018—
 
@@ -91,10 +91,10 @@ A corrected visual selection V3 now exists and is sufficient for V1.
 
 Two confirmed URL Fighters images were removed from this corpus. The large white outdoor sculpture belongs here.
 
-#### 06 — L3XL3 / LEXILE
+#### 06 — L3XL3
 A source archive of 47 viewable images was reduced visually to 10 strong images for V1.
 
-Do not invent character names, dates, costume attributions or production status. Exact naming (`L3XL3` / `LEXILE`) remains to verify.
+Public naming decided 2026-09-11: **L3XL3** (`LEXILE` dropped). Do not invent character names, dates, costume attributions or production status — those remain open.
 
 #### 07 — SOUND
 Sound remains an autonomous SELECTED entry.
@@ -165,15 +165,11 @@ Future form:
 
 Implementation of INDEX should begin only after V1 is live or stable enough that the archive dataset can be built without delaying launch.
 
-## Public naming — OPEN
+## Public naming — DECIDED 2026-09-11
 
-Options remain:
+Public identity: **Victor Le**.
 
-1. **Victor Le**
-2. **Victor Le de Doisy**
-3. **Hybrid system** — `Victor Le` as primary artistic/public identity, `Victor Le de Doisy` where a full name is useful.
-
-Do not lock this silently during implementation.
+`Victor Le de Doisy` remains the full legal name, used where a full name is administratively useful (see contact section below). The site's public-facing identity (header, nav, ABOUT) uses `Victor Le`, set in `content/site.config.ts`.
 
 ## Administrative / Legal / Professional contact
 
@@ -181,8 +177,9 @@ Keep artistic and entrepreneurial activities separate.
 
 ### Artistic activity
 
-**Victor Le** *(final public naming to be confirmed)*  
+**Victor Le**  
 Artist-author — visual arts  
+Contact: v@shootme.com  
 SIRET: `[TO ADD]`
 
 ### Entrepreneurial activity

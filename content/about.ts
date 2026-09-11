@@ -50,7 +50,7 @@ export const awards = [
 
 export const contact = {
   artistic: {
-    name: "Victor Le (final public naming to be confirmed)",
+    name: "Victor Le",
     role: "Artist-author — visual arts",
     siret: "TO ADD",
   },
@@ -58,5 +58,5 @@ export const contact = {
     role: "President — Shoot Me SAS",
     siren: "TO ADD",
   },
-  email: "TO ADD",
+  email: "v@shootme.com",
 };

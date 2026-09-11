@@ -73,11 +73,13 @@ SELECTED visual language is solid, individual project detail pages
   audio/video pipeline — all intentionally out of scope for V1 per
   ROADMAP.md.
 
+## Decided (2026-09-11)
+
+- Public naming: **Victor Le** (`content/site.config.ts`). `Victor Le de Doisy` remains the full legal name for administrative use.
+- **L3XL3** — `LEXILE` dropped.
+- Public contact: `v@shootme.com` (`content/about.ts`).
+
 ## Important open decisions
 
-- Public naming: `Victor Le` vs `Victor Le de Doisy` vs hybrid system
-  (currently defaults to `Victor Le` in `content/site.config.ts` —
-  a reversible technical default, not a naming decision).
-- Exact public spelling / relationship of `L3XL3` and `LEXILE`.
 - Final credits, dates, titles, dimensions and legal metadata where still marked `TO VERIFY` / `TO ADD`.
-- Public contact channel (email/form) — not yet decided, so ABOUT currently shows `TO ADD`.
+- SIRET / SIREN for the artistic and entrepreneurial activities (`PROJECT.md`).

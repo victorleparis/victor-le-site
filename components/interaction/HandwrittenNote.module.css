@@ -1,0 +1,32 @@
+.note {
+  position: fixed;
+  bottom: 28px;
+  left: 24px;
+  width: 120px;
+  height: 64px;
+  z-index: 45;
+  transform: rotate(-3deg);
+  opacity: 0.92;
+  pointer-events: none;
+  animation: fadeIn 1s ease-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: rotate(-3deg) translateY(6px);
+  }
+  to {
+    opacity: 0.92;
+    transform: rotate(-3deg) translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .note {
+    left: 16px;
+    bottom: 20px;
+    width: 90px;
+    height: 48px;
+  }
+}
