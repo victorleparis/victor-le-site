@@ -15,6 +15,9 @@ export function Footer() {
             {item.label}
           </Link>
         ))}
+        <Link href="/mentions-legales" className="mono">
+          MENTIONS LÉGALES
+        </Link>
       </nav>
     </footer>
   );
