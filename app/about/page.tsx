@@ -5,9 +5,13 @@ import {
   selectedChronology,
   publications,
   awards,
+  press,
+  pressFengLiPicks,
   contact,
 } from "@/content/about";
 import { siteConfig } from "@/content/site.config";
+import { identityAsset, listCorpusMedia, pickByName } from "@/lib/media";
+import { MediaFrame } from "@/components/ui/MediaFrame";
 import styles from "./page.module.css";
 
 export const metadata: Metadata = {
@@ -15,10 +19,23 @@ export const metadata: Metadata = {
 };
 
 export default function AboutPage() {
+  const portrait = identityAsset("portrait.png");
+  const pressFiles = listCorpusMedia("press-feng-li");
+  const pressPicks = pickByName(pressFiles, pressFengLiPicks);
+  const firstPress = press[0];
+  const pressCover = firstPress ? pickByName(pressFiles, [firstPress.cover])[0] : undefined;
+
   return (
     <section className={styles.section}>
       <h1 className="visually-hidden">About — {siteConfig.publicName}</h1>
-      <p className={styles.bio}>{bioWorking}</p>
+      <div className={styles.intro}>
+        {portrait && (
+          <div className={styles.portrait}>
+            <MediaFrame src={portrait} alt={siteConfig.publicName} aspectRatio="4 / 5" sizes="180px" />
+          </div>
+        )}
+        <p className={styles.bio}>{bioWorking}</p>
+      </div>
 
       <div className={styles.block}>
         <h2 className={styles.blockTitle}>EDUCATION</h2>
@@ -63,6 +80,34 @@ export default function AboutPage() {
             <span className={styles.rowMeta}>{a.note}</span>
           </div>
         ))}
+      </div>
+
+      <div className={styles.block}>
+        <h2 className={styles.blockTitle}>PRESS</h2>
+        {press.map((p) => (
+          <div key={p.title} className={styles.row}>
+            <span>{p.title}</span>
+            <span className={styles.rowMeta}>{p.note}</span>
+          </div>
+        ))}
+        {firstPress && (
+          <div className={styles.pressGallery}>
+            {pressCover && (
+              <div className={styles.pressCover}>
+                <MediaFrame src={pressCover.url} alt={firstPress.title} aspectRatio="3 / 4" sizes="160px" />
+              </div>
+            )}
+            {pressPicks.map((file) => (
+              <MediaFrame
+                key={file.filename}
+                src={file.url}
+                alt={firstPress.title}
+                aspectRatio="3 / 4"
+                sizes="(max-width: 780px) 33vw, 14vw"
+              />
+            ))}
+          </div>
+        )}
       </div>
 
       <div className={styles.block}>

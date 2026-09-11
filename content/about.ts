@@ -48,6 +48,27 @@ export const publications = [
 
 export const awards = [{ title: "Prix Galeries Lafayette — IFA", note: "best garment created in 10 minutes" }];
 
+export const press = [
+  {
+    title: "Louis Vuitton — Fashion Eye: Paris",
+    note: "Photographed by Feng Li",
+    cover: "paris-par-feng-li-fashion.avif",
+  },
+];
+
+// Curated from the 19 Dec 2019 Feng Li shoot (25 frames archived in
+// public/media/press-feng-li/) — a small selection rather than the full
+// burst, per the same curatorial approach used elsewhere on the site.
+export const pressFengLiPicks = [
+  "IMG_20191219_192026_658.jpg",
+  "IMG_20191219_192037_255.jpg",
+  "IMG_20191219_192044_729.jpg",
+  "IMG_20191219_192052_408.jpg",
+  "IMG_20191219_192059_874.jpg",
+  "IMG_20191219_192102_297.jpg",
+  "IMG_20191219_192111_781.jpg",
+];
+
 export const contact = {
   artistic: {
     name: "Victor Le",
