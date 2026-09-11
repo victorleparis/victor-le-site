@@ -1,4 +1,4 @@
-import { sound, soundReleases } from "@/content/selected";
+import { sound, soundReleases, soundSpotifyUrl } from "@/content/selected";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import styles from "./SoundSection.module.css";
 
@@ -36,6 +36,9 @@ export function SoundSection() {
           </div>
         ))}
       </div>
+      <a href={soundSpotifyUrl} className={styles.link} target="_blank" rel="noreferrer">
+        LISTEN ON SPOTIFY →
+      </a>
       <p className={styles.note}>LISTENING STATION — NO AUTOPLAY.</p>
     </section>
   );

@@ -9,5 +9,5 @@ export {
   worksSpaceMatterSecondary,
 } from "./works-space-matter";
 export { l3xl3 } from "./l3xl3";
-export { sound, soundReleases } from "./sound";
+export { sound, soundReleases, soundSpotifyUrl } from "./sound";
 export { editionsPrint, editionsIntro, editionsCovers, editionsProjects } from "./editions-print";

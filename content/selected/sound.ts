@@ -6,8 +6,10 @@ export const sound: SelectedProject = {
   title: "SOUND",
   disciplines: ["Piano", "Electropunk", "Performance Sound"],
   layout: "sound",
-  toVerify: ["Full discography", "Verified platform links / embed IDs", "Original cover artwork"],
+  toVerify: ["Full discography", "Original cover artwork"],
 };
+
+export const soundSpotifyUrl = "https://open.spotify.com/intl-fr/artist/4ZLcNS9A8bbA7LmN9gc6DU";
 
 // Documented in MEDIA_STATUS.md from supplied Spotify screenshots.
 // Treated as documentation, not desired UI — no playback source is
