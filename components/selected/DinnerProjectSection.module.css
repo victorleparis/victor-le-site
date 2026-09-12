@@ -15,6 +15,7 @@
 }
 
 .mediaSlot {
+  position: relative;
   max-width: 640px;
 }
 

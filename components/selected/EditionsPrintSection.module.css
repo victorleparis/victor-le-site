@@ -12,6 +12,10 @@
   margin: var(--space-3) 0 var(--space-6);
 }
 
+.intro + .intro {
+  margin-top: 0;
+}
+
 .shelf {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

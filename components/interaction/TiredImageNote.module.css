@@ -1,0 +1,14 @@
+.note {
+  position: absolute;
+  left: var(--space-3);
+  bottom: var(--space-3);
+  font-family: var(--font-mono);
+  font-size: var(--text-2xs);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-ink-faint);
+  background: var(--color-paper);
+  padding: 2px var(--space-2);
+  pointer-events: none;
+  z-index: 5;
+}

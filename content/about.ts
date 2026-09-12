@@ -1,9 +1,15 @@
 import type { ChronologyEntry } from "./types";
 
-// CONTENT.md: "working sentence only — not final copy". Kept verbatim,
-// not rewritten, per the core rule against inventing content.
-export const bioWorking =
-  "Victor Le is an artist and designer based in Paris. His work moves between visual art, fashion, image, sound and performance. He creates situations, objects, images and sounds, often involving other people.";
+// Revised and approved 2026-09-12, replacing the single working sentence
+// CONTENT.md previously marked "not final copy". Grounded only in facts
+// and conceptual threads already documented in CONTENT.md (URL Fighters,
+// Princeville, La Bibliothèque Bleue, participatory acts) — no invented
+// dates, motivations or genealogy.
+export const bioWorking = [
+  "Victor Le is an artist and designer based in Paris. His practice moves across visual art, fashion, image, sound and performance, and frequently takes the form of situations, protocols and constructed systems.",
+  "Since 2015, his projects have included URL Fighters, a body of works organised around web addresses and forms of symbolic ownership; Princeville, a declared territory in Paris; publications and dinners developed through La Bibliothèque Bleue; and a series of participatory acts involving identity, social conventions and interpersonal relations.",
+  "More recent work brings these approaches together through clothing, image, sound, hospitality and performance.",
+];
 
 export const education = [
   { name: "École Supérieure d’Arts et Médias de Caen (ESAM)" },

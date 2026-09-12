@@ -1,4 +1,4 @@
-import { collections, collectionsNames, collectionsBoards } from "@/content/selected";
+import { collections, collectionsIntro, collectionsNames, collectionsBoards } from "@/content/selected";
 import { listCorpusMedia, pickByName, fileDimensions } from "@/lib/media";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { MediaFrame } from "@/components/ui/MediaFrame";
@@ -17,6 +17,7 @@ export function CollectionsSection() {
         title={collections.title}
         disciplines={collections.disciplines}
       />
+      <p className={styles.intro}>{collectionsIntro}</p>
       {groups.length > 0 ? (
         groups.map((group) => (
           <div className={styles.group} key={group.name}>

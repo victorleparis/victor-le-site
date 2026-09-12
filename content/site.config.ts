@@ -35,5 +35,6 @@ export const siteConfig = {
     draggableWindowEnabled: true,
     kotorosEnabled: true,
     handwritingEnabled: true,
+    tiredImageEnabled: true,
   },
 } as const;

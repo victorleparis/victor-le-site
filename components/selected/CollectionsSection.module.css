@@ -5,6 +5,13 @@
   border-top: var(--line-hair);
 }
 
+.intro {
+  max-width: 46ch;
+  font-size: var(--text-sm);
+  color: var(--color-ink-soft);
+  margin: var(--space-3) 0 var(--space-6);
+}
+
 .group {
   margin-bottom: var(--space-6);
 }

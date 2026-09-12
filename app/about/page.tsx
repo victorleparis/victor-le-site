@@ -34,7 +34,11 @@ export default function AboutPage() {
             <MediaFrame src={portrait} alt={siteConfig.publicName} aspectRatio="4 / 5" sizes="180px" />
           </div>
         )}
-        <p className={styles.bio}>{bioWorking}</p>
+        <div className={styles.bio}>
+          {bioWorking.map((paragraph) => (
+            <p key={paragraph.slice(0, 24)}>{paragraph}</p>
+          ))}
+        </div>
       </div>
 
       <div className={styles.block}>

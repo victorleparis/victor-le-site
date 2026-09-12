@@ -1,8 +1,10 @@
 import { dinnerProject, dinnerProjectPrinciple } from "@/content/selected";
 import { listCorpusMedia } from "@/lib/media";
 import { contact } from "@/content/about";
+import { siteConfig } from "@/content/site.config";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { MediaFrame } from "@/components/ui/MediaFrame";
+import { TiredImageNote } from "@/components/interaction/TiredImageNote";
 import styles from "./DinnerProjectSection.module.css";
 
 export function DinnerProjectSection() {
@@ -25,6 +27,7 @@ export function DinnerProjectSection() {
             aspectRatio="4 / 3"
             placeholderLabel="EPISODE 001 — IN PREPARATION"
           />
+          {siteConfig.interaction.tiredImageEnabled && <TiredImageNote />}
         </div>
         <p className={styles.principle}>
           {dinnerProjectPrinciple.map((line) => (
