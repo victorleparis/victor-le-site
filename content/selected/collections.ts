@@ -9,15 +9,16 @@ export const collections: SelectedProject = {
   toVerify: ["Dates for Guardian, Sageum B, St Michel, Sainte"],
 };
 
+// Working curatorial framing, approved 2026-09-12 — describes the corpus
+// itself, not the site's editorial process (see AGENTS.md core rule).
+export const collectionsIntro =
+  "The collections are conceived and constructed as complete silhouettes, with clothing treated as sculpture, transformation and, at times, performance.";
+
 // Named working references from CONTENT.md, plus "Sainte" — a name printed
-// directly on its own boards below and not yet documented elsewhere.
-export const collectionsNames = [
-  "Guardian",
-  "Sageum B",
-  "St Michel",
-  "Sainte",
-  "additional silhouettes / pieces to inventory",
-];
+// directly on its own boards below and not yet documented elsewhere. Only
+// real collection names belong here — internal inventory notes are tracked
+// in CONTENT.md, not shown to visitors.
+export const collectionsNames = ["Guardian", "Sageum B", "St Michel", "Sainte"];
 
 // Boards whose own printed caption names the collection they belong to —
 // grouped for display on that basis rather than guessed at. Filenames are

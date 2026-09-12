@@ -367,6 +367,8 @@ Examples that fit the tone:
 
 These are examples, not a checklist. Use only a few across the entire site.
 
+`THIS IMAGE IS TIRED.` is implemented (`components/interaction/TiredImageNote.tsx`, on The Dinner Project's hero image, State 3 only) — validated 2026-09-12 as one of exactly three visual accidents currently live on the site, alongside the oversized "05" and the escaping image, both in Works in Space & Matter. Do not add a further anomaly beyond these three without going back through this same approval step; the ratio stays 90% order / 10% accident.
+
 Humour should be dry, understated and almost bureaucratic. Never meme-like, cartoonish or “quirky UX”.
 
 ## Flash heritage

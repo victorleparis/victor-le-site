@@ -16,6 +16,12 @@ export const editionsPrint: SelectedProject = {
 export const editionsIntro =
   "LA BIBLIOTHÈQUE BLEUE — a fanzine dedicated to Victor Le de Doisy life.";
 
+// Approved 2026-09-12 — states the documented format progression across
+// the three named projects without asserting the stronger "continuity"
+// hypothesis CONTENT.md still marks as working (see EDITIONS & PRINT).
+export const editionsContinuity =
+  "The publications extend from a photocopied black-and-white fanzine to a book-length edition and FAMOUS, a magazine currently in development.";
+
 // Real covers, filed under public/media/editions/. Each label/date below is
 // transcribed directly from what is printed on that cover — not a claim
 // about how the issues relate to one another (see toVerify above).

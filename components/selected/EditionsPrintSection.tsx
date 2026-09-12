@@ -1,4 +1,10 @@
-import { editionsPrint, editionsIntro, editionsCovers, editionsProjects } from "@/content/selected";
+import {
+  editionsPrint,
+  editionsIntro,
+  editionsContinuity,
+  editionsCovers,
+  editionsProjects,
+} from "@/content/selected";
 import { listCorpusMedia, pickByName, type MediaFile } from "@/lib/media";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { MediaFrame } from "@/components/ui/MediaFrame";
@@ -24,6 +30,7 @@ export function EditionsPrintSection() {
         disciplines={editionsPrint.disciplines}
       />
       <p className={styles.intro}>{editionsIntro}</p>
+      <p className={styles.intro}>{editionsContinuity}</p>
       <div className={styles.shelf}>
         {covers.map((cover) => (
           <div className={styles.cover} key={cover.filename}>

@@ -520,13 +520,9 @@ Education belongs in ABOUT / CV chronology, not as artworks.
 
 The About page should be short and artist-focused rather than CV-heavy.
 
-Working sentence only — not final copy:
+**Bio revised and approved 2026-09-12** (`content/about.ts`, `bioWorking`), replacing the earlier single working sentence. The approved genealogy — URL Fighters → Princeville → La Bibliothèque Bleue / dinners → participatory acts — draws on the conceptual threads below, which Victor confirmed as a basis for this copy rather than treating them as still-open research notes. Any further revision to this genealogy should go back to Victor before publishing, the same as any other factual claim on the site.
 
-> Victor Le is an artist and designer based in Paris. His work moves between visual art, fashion, image, sound and performance. He creates situations, objects, images and sounds, often involving other people.
-
-This needs rewriting after the full content inventory, so the biography emerges from the actual body of work rather than a generic multidisciplinary statement.
-
-Potential conceptual threads visible across the inventory — **PROVISIONAL, NOT FINAL ARTIST STATEMENT**:
+Potential conceptual threads visible across the inventory, now used as the basis for the approved bio above:
 - protocol;
 - participation / social relations;
 - symbolic attribution and transformation of identity;
@@ -537,8 +533,6 @@ Potential conceptual threads visible across the inventory — **PROVISIONAL, NOT
 - publication;
 - sound;
 - creating systems / worlds.
-
-Possible genealogy to test against the corpus, not assume: URL Fighters → Princeville → Bibliothèque bleue / dinners → relational acts / clothing / performance → The Dinner Project.
 
 ### Press
 
