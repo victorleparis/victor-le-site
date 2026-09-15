@@ -31,12 +31,12 @@ export const symbolicSystem = [
 
 export const symbolicSystemOutput = "ROOT → CHOOSE → REFUSE → TRANSFORM → CREATE → PERSIST";
 
-export const education = [
+export const education: { name: string; note?: string }[] = [
   { name: "École Supérieure d’Arts et Médias de Caen (ESAM)" },
   { name: "Haute École d’Art et de Design de Genève (HEAD)" },
   { name: "Académie Royale des Beaux-Arts de Bruxelles" },
-  { name: "La Fabrique de la Danse", note: "choreographer incubator, Paris" },
-  { name: "International Fashion Academy Paris (IFA)", note: "fashion school" },
+  { name: "La Fabrique de la Danse — choreographer incubator, Paris" },
+  { name: "International Fashion Academy Paris (IFA)" },
   { name: "ETP Japan" },
 ];
 
