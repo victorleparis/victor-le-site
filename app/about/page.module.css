@@ -53,6 +53,51 @@
   margin-bottom: var(--space-4);
 }
 
+/* SYMBOLIC SYSTEM — validated 2026-09-15, ABOUT's first accident.
+   .row/.rowMeta below are reused as-is for the six symbol/verb lines. */
+.symbolicBlock {
+  position: relative;
+  overflow: hidden;
+}
+
+.symbolicRows {
+  position: relative;
+  z-index: 1;
+}
+
+/* MULA ghost — the one graphic accident on this page. Deliberately faint:
+   a watermark, not a headline. If it ever reads as esoteric rather than
+   administrative, turn this opacity down further before anything else. */
+.symbolicGhost {
+  position: absolute;
+  right: -0.05em;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 0;
+  font-family: var(--font-mono);
+  font-size: clamp(2.75rem, 9vw, 5rem);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.035);
+  white-space: nowrap;
+  pointer-events: none;
+  user-select: none;
+}
+
+.symbolicOutput {
+  position: relative;
+  z-index: 1;
+  margin: var(--space-4) 0 0;
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  letter-spacing: 0.02em;
+  color: var(--color-ink);
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: var(--space-2);
+  row-gap: 2px;
+}
+
 .row {
   display: flex;
   justify-content: space-between;

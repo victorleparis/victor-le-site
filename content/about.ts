@@ -11,6 +11,26 @@ export const bioWorking = [
   "More recent work brings these approaches together through clothing, image, sound, hospitality and performance.",
 ];
 
+// SYMBOLIC SYSTEM — approved 2026-09-15. A public editorial element on
+// ABOUT: several symbolic classification systems applied to Victor and
+// reduced to raw data (a symbol and a verb), functioning as one more
+// identity-classification device alongside the protocols, status
+// transformations and constructed systems already present in the work.
+// Not an astrological, numerological or tarot explanation of Victor's
+// practice, and not framed as one — no birth date, no system names, no
+// esoteric framing. Data supplied directly by Victor; nothing here is
+// inferred or invented.
+export const symbolicSystem = [
+  { symbol: "SCORPIO", verb: "TRANSFORM" },
+  { symbol: "WATER OX", verb: "PERSIST / ADAPT" },
+  { symbol: "SAGITTARIUS", verb: "EXPLORE" },
+  { symbol: "MULA", verb: "GO TO THE ROOT" },
+  { symbol: "VI / THE LOVERS", verb: "CHOOSE" },
+  { symbol: "VICTOR", verb: "CONQUER / REFUSE" },
+];
+
+export const symbolicSystemOutput = "ROOT → CHOOSE → REFUSE → TRANSFORM → CREATE → PERSIST";
+
 export const education = [
   { name: "École Supérieure d’Arts et Médias de Caen (ESAM)" },
   { name: "Haute École d’Art et de Design de Genève (HEAD)" },

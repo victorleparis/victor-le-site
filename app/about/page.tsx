@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import {
   bioWorking,
+  symbolicSystem,
+  symbolicSystemOutput,
   education,
   selectedChronology,
   publications,
@@ -39,6 +41,22 @@ export default function AboutPage() {
             <p key={paragraph.slice(0, 24)}>{paragraph}</p>
           ))}
         </div>
+      </div>
+
+      <div className={`${styles.block} ${styles.symbolicBlock}`}>
+        <span className={styles.symbolicGhost} aria-hidden="true">
+          MULA
+        </span>
+        <h2 className={styles.blockTitle}>SYMBOLIC SYSTEM</h2>
+        <div className={styles.symbolicRows}>
+          {symbolicSystem.map((entry) => (
+            <div key={entry.symbol} className={styles.row}>
+              <span>{entry.symbol}</span>
+              <span className={styles.rowMeta}>{entry.verb}</span>
+            </div>
+          ))}
+        </div>
+        <p className={styles.symbolicOutput}>{symbolicSystemOutput}</p>
       </div>
 
       <div className={styles.block}>

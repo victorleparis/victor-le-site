@@ -481,11 +481,13 @@ Kotoros is Victor's hand-drawn personal sign / drawing / identity element.
 
 It is not a public content category and should not become a SELECTED entry. The source artwork must be preserved separately from website treatments. Website use follows `DESIGN_SYSTEM.md`: pink, rare, non-monumental.
 
-## Astrology / tarot — classification pending
+## Astrology / tarot
 
-Victor has mentioned astrological-chart and tarot practices. Do not treat personal astrology material as artwork by default.
+Victor has mentioned astrological-chart and tarot practices. This is not artwork, and personal astrological interpretations must not become factual explanations of Victor's artistic practice.
 
-Only inventory these as performance / artistic devices if there are actual public or participatory works built around them. Personal astrological interpretations are research / personal material, not factual explanations of Victor's practice.
+**Public use — SYMBOLIC SYSTEM, added 2026-09-15**: a public editorial element on the ABOUT page (`content/about.ts`, `symbolicSystem` / `symbolicSystemOutput`), not a dispositif artistique / autonomous work in its own right. It uses several symbolic classification systems as raw material for classifying identity — a symbol paired with a verb, reduced to data, without naming the systems (astrology, Chinese astrology, tarot, etc.), without a birth date, and without interpretation. It sits alongside the protocols, status transformations and constructed systems already present in the work as one more device for classifying identity, not as a claim about who Victor is.
+
+Beyond this public use, do not treat personal astrology / tarot material as artwork, and do not surface further astrological detail (birth date, system names, chart specifics) publicly without a separate decision.
 
 ## EXPÉRIMENTER LA VIE
 
