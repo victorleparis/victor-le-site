@@ -124,6 +124,13 @@ export function identityAsset(relPath: string): string | null {
   return existsInPublic(`identity/${relPath}`) ? withBasePath(`/identity/${relPath}`) : null;
 }
 
+/** Resolves a fixed public document (e.g. a project sheet PDF) by its
+ * path relative to public/, same never-fabricate rule as identityAsset:
+ * returns a URL only once the real file exists on disk. */
+export function publicDocument(relPath: string): string | null {
+  return existsInPublic(relPath) ? withBasePath(`/${relPath}`) : null;
+}
+
 /** First real image found under public/identity/<subdir>/, if any —
  * used for identity assets (handwriting scans) that aren't tied to a
  * single fixed filename the way the Kotoros asset is. */

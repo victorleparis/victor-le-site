@@ -39,10 +39,13 @@ This selection is now a working reference to test against real media. It is not 
 
 ## 01 — The Dinner Project — WORKING TITLE
 
-**Status:** current / in development  
+**Status:** current / in development, open for applications  
 **Location:** Paris  
 **Year:** 2026—  
-**Media:** Performance · Food · Fashion · Photography · Film · Sound
+**Media:** Performance · Food · Fashion · Photography · Film · Sound  
+**Collaborator:** Nicoletta — curatorial partner, per the project sheet PDF supplied 2026-09-15 (`public/media/dinner-project/the-dinner-project-victor-le-de-doisy.pdf`, linked from the homepage as "PROJECT SHEET ↗"). Exact role/spelling per that document; not yet cross-verified elsewhere.
+
+The project sheet documents a guest count of 2–4 for editions with Nicoletta co-hosting. The site's own working principle below (1–6) is intentionally kept broader — Victor confirmed 2026-09-15 that Nicoletta's presence is not guaranteed at every dinner, so 1–6 remains the general figure and 2–4 is specific to co-hosted editions rather than a correction to replace it.
 
 Working principle:
 
