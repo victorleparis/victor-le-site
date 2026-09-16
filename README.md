@@ -16,6 +16,14 @@ Then read, in order:
 4. `MEDIA_STATUS.md` — current visual/media selections and source status
 5. `ROADMAP.md` — implementation plan and future phases
 
+### Extended biographical source
+
+For long-form biographical research, book / film development, interviews and future artist dossiers, use:
+
+`biography/VICTOR_LE_MASTER_BIOGRAPHY.md`
+
+This is an evolving source archive, **not public website copy**. `CONTENT.md` remains the source of truth for factual biographical content intended for or being prepared for the website. Do not automatically publish private, uncertain or interpretive material from the master biography.
+
 ## Current status — 2026-09-07
 
 A first navigable V1 implementation now exists (Next.js + TypeScript +
