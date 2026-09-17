@@ -144,9 +144,26 @@ Earlier weaker / non-essential candidates omitted from the reduced working group
 
 Homepage should probably use only 5–7 images from the larger working selection.
 
-## 06 — L3XL3 / LEXILE
+## 06 — L3XL3
 
-**Media status:** READY AS A REDUCED DRAWING SET FOR V1.
+**Media status:** READY AS A SEVEN-IMAGE EDITORIAL SET FOR V1.
+
+Public selection updated 2026-09-17. The former ten-image drawing set has
+been replaced on the site by seven recent visual-development images, ordered
+from the world-building overview to garment studies:
+
+- `01-l3xl3-costumes-and-figures.jpg`;
+- `02-l3xl3-tartan-study.jpg`;
+- `03-l3xl3-ivory-silhouette.jpg`;
+- `04-l3xl3-saint-michel.jpg`;
+- `05-l3xl3-saint-michel-three-views.jpg`;
+- `06-l3xl3-sainte.jpg`;
+- `07-l3xl3-prototype.jpg`.
+
+The first image is the section hero. Images retain their natural aspect ratio
+so the editorial boards and silhouettes are not cropped.
+
+### Previous source archive
 
 Source archive:
 - `Photos-1-001 (54).zip`

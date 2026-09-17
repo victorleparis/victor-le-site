@@ -7,12 +7,25 @@
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: var(--space-3);
+  align-items: start;
+}
+
+.hero {
+  grid-column: span 3;
+}
+
+.item {
+  grid-column: span 1;
 }
 
 @media (max-width: 780px) {
   .grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .hero {
+    grid-column: 1 / -1;
   }
 }
