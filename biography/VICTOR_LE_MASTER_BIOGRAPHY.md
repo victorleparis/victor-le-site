@@ -169,7 +169,64 @@ Working themes to test against the archive rather than present as fixed critical
 
 ---
 
-## 07 — Biographical source for book and film
+## 07 — Childhood, family and private chronology — source material
+
+**Source:** Victor's account during a psychotherapy session, September 2026.  
+**Status:** private biographical source; memories, ages and dates remain `TO VERIFY` unless supported by records.
+
+### Early childhood and health
+
+Victor recounts becoming gravely ill after breastfeeding stopped, probably around twelve months. He remembers or was told of persistent diarrhoea, very high fevers and repeated hospital visits, with his survival at times a concern. He associates this early illness with a severe lactose intolerance that was not identified at the time; the medical explanation was only established much later in adulthood. The exact diagnosis, chronology and causal formulation belong in the private health record and must be checked before any external use.
+
+He says his mother delayed sending him to school because she feared that food or milk served there would make him ill again. In his present recollection, he may have started school at around seven; exact age and educational chronology `TO VERIFY`.
+
+### Childhood environment and parents
+
+Victor describes spending his first years in the countryside in a building his father had converted from a former nursery school or school structure into a family home, including openings made in sheet-metal walls for windows. Exact location and construction history `TO VERIFY`.
+
+His father worked as a scrap-metal dealer. His mother did not initially work outside the home and looked after the house, garden and vegetable plot. She later opened a jewellery shop in Le Havre, which Victor remembers as successful; his parents subsequently developed other business activities together. Business names, dates and roles `TO VERIFY`.
+
+Victor recalls a family environment in which clumsiness, breakage and imperfection could be strongly sanctioned. One concrete memory is of breaking a lamp and having to repair it completely. He connects this with a continuing vigilance around dropping or damaging objects, particularly in his mother's home, while describing himself as much more tolerant when someone breaks something in his own home.
+
+A childhood family story recounts his older sister, distressed by the attention surrounding his illness, sticking a fork into his thigh when he was very young, perhaps around two. This is a remembered or transmitted family anecdote and remains `TO VERIFY`; do not publish without an explicit editorial decision.
+
+### Early writing
+
+Victor says he was writing poetry by around the age of ten and still identifies poetry as fundamental to the way he perceives people, awkwardness and everyday life. Exact surviving notebooks or texts remain to be inventoried.
+
+### Relationships — private working chronology
+
+This material is private and should not be published automatically. Names are retained here as archive identifiers because Victor supplied them directly.
+
+- **Géraldine:** Victor remembers first being struck by her perfume when she was about fifteen and he about seventeen. He says he remained in love with her for roughly twenty years before they became a couple. Their relationship lasted approximately six months, around 2013 `TO VERIFY`. He left Hilaria in order to pursue this long-idealised relationship, believing that he needed to take it to its conclusion before he could build elsewhere. He later compared this idealisation and its collapse to his early reading of Proust. The relationship ended after an exchange initiated by Géraldine through Messenger; exact wording and chronology are private-source material, not verified correspondence.
+- **Hilaria:** Victor describes falling in love while watching her climb the stairs to his home, an episode he calls “la montée des escaliers”. He estimates the relationship at about two and a half years and places its end around 2013, when he chose to pursue Géraldine; dates and overlap `TO VERIFY`. He says he attempted to return to Hilaria after the later breakup, but she refused after several previous separations.
+- **Jade:** Victor identifies Jade as his second wife. He estimates the relationship or marriage at roughly two years, while the divorce process lasted approximately six or seven years `TO VERIFY`. He recounts meeting her when she was a young Chinese woman living under the coercive control of an older shopkeeper and moving her belongings into his home about a week after meeting her. This is Victor's account of a sensitive third-party situation and must not be presented publicly without corroboration and consent. The couple later lived in Ireland, where Jade obtained a position at Louis Vuitton; the circumstances and chronology `TO VERIFY`. Victor remains in occasional contact with her.
+- Victor says he has often remained in contact with former partners, including Hilaria and Jade, even when the relationships themselves ended.
+- He describes a recurrent tendency to move in with a partner quickly because shared daily life seems to him the fastest way to know someone.
+- He reports that, at least until 2026, his longest romantic relationships had generally lasted around two and a half years. This is a self-estimate and needs a full chronology before being treated as fact.
+
+Transient 2026 encounters and emerging relationships mentioned during the session are intentionally not recorded here as durable chronology until their biographical relevance is established.
+
+### Self-description and therapeutic working material
+
+These points record Victor's own account and questions raised in therapy. They are **not diagnoses or settled interpretations**.
+
+- He describes falling in love quickly, sometimes through one sensory or visual detail: a perfume, a way of climbing stairs, a perceived intelligence or poetic quality.
+- Intelligence is a central attraction for him, but not only academic or professional intelligence. He distinguishes mathematical quickness, psychological perception, sensitivity, adaptability and the ability to see situations from outside.
+- He often notices potential before status or achievement and may form important relationships across very different educational, professional and social backgrounds.
+- He is drawn to awkwardness, naïveté and a certain poetic displacement in others. One therapeutic hypothesis — still open — is that these qualities attract him partly because imperfection and clumsiness were difficult to tolerate in his family environment.
+- He distinguishes action-oriented thinking, which he can sustain at a high level, from existential projection. When a difficult reflection begins to loop — children, long-term partnership, ageing, future life — he says he may deliberately tell his mind to stop and prevent the thought from developing.
+- He believes this stopping mechanism may date back to early childhood, perhaps around age four, but that dating is speculative.
+- An important distinction for future work is between **not knowing how to project himself**, **not wanting to project himself**, and **actively interrupting a projection once it begins**.
+- He does not currently describe not having children as a conscious regret; rather, he says he has often blocked sustained reflection on the question.
+- He does not automatically experience the end of a relationship as failure, although separation can be painful.
+- A recurring open question is whether rapid attachment is itself the issue, or whether the more decisive issue is the capacity to continue loving once the real person diverges from the initial image.
+
+These observations may be relevant to the autobiographical project *Expérimenter la vie*, but should remain visibly separated from documented chronology and should not be converted into public artist biography without a deliberate decision.
+
+---
+
+## 08 — Biographical source for book and film
 
 A longer autobiographical project has been discussed under the working title **Expérimenter la vie**. A film project may draw from the same factual archive while becoming a distinct work.
 
@@ -190,7 +247,7 @@ Material to inventory later includes childhood, family, education, early writing
 
 ---
 
-## 08 — Open biography backlog
+## 09 — Open biography backlog
 
 - Build a year-by-year chronology.
 - Add childhood and family chronology only from Victor's explicit source material.
