@@ -146,19 +146,18 @@ Homepage should probably use only 5–7 images from the larger working selection
 
 ## 06 — L3XL3
 
-**Media status:** READY AS A SEVEN-IMAGE EDITORIAL SET FOR V1.
+**Media status:** READY AS A SIX-IMAGE EDITORIAL SET FOR V1.
 
-Public selection updated 2026-09-17. The former ten-image drawing set has
-been replaced on the site by seven recent visual-development images, ordered
-from the world-building overview to garment studies:
+Public selection updated 2026-09-18 from Victor's six supplied images. They
+replace the previous site selection and are ordered from the L3XL3 world-building
+overview to individual silhouettes:
 
-- `01-l3xl3-costumes-and-figures.jpg`;
-- `02-l3xl3-tartan-study.jpg`;
-- `03-l3xl3-ivory-silhouette.jpg`;
-- `04-l3xl3-saint-michel.jpg`;
-- `05-l3xl3-saint-michel-three-views.jpg`;
-- `06-l3xl3-sainte.jpg`;
-- `07-l3xl3-prototype.jpg`.
+- `01-l3xl3-costumes-and-figures.jpeg`;
+- `02-l3xl3-grey-silhouette.jpeg`;
+- `03-l3xl3-sainte-green.jpeg`;
+- `04-l3xl3-yellow-silhouette.jpeg`;
+- `05-l3xl3-saint-michel.jpeg`;
+- `06-l3xl3-blue-silhouette.jpeg`.
 
 The first image is the section hero. Images retain their natural aspect ratio
 so the editorial boards and silhouettes are not cropped.
