@@ -15,6 +15,7 @@ Then read, in order:
 3. `CONTENT.md` — artworks, biography, credits and factual content inventory
 4. `MEDIA_STATUS.md` — current visual/media selections and source status
 5. `ROADMAP.md` — implementation plan and future phases
+6. `MANIFESTO.md` — artistic operating principles: order / accident, anomaly, action, belief and non-explanation
 
 ### Extended biographical source
 
