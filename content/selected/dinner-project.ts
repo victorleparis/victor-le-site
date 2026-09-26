@@ -10,7 +10,7 @@ export const dinnerProject: SelectedProject = {
 };
 
 export const dinnerProjectPrinciple = [
-  "I invite 1–6 people for lunch or dinner.",
+  "I invite 2–4 people for lunch or dinner.",
   "Special guest can appear.",
   "I cook.",
   "They wear my clothes.",
