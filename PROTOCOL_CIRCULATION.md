@@ -76,3 +76,6 @@ Il traverse des personnes, des lieux et des situations.**
 La durée du prêt, l’identité de la pièce, les dates de sortie et de retour, l’état, la valeur et les autorisations éventuelles ne font pas partie du protocole artistique.
 
 Ces éléments doivent être consignés séparément dans une fiche de circulation afin de préserver la distinction entre le geste artistique et sa gestion pratique.
+
+
+→ Utiliser [`CIRCULATION_CARD.md`](CIRCULATION_CARD.md) à chaque sortie d’une pièce du studio.
