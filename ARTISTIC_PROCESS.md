@@ -53,6 +53,12 @@ La rencontre devient une condition possible de l’œuvre.
 
 **CONSTRUIRE → CIRCULER → RENCONTRER → RECONNAÎTRE → INTÉGRER.**
 
+### Application — circulation des vêtements
+
+Les vêtements peuvent eux aussi entrer dans ce processus de circulation : être confiés, portés dans une situation réelle, laisser une trace, revenir au studio puis repartir. La trajectoire de la pièce devient une partie de son histoire.
+
+→ Voir [`PROTOCOL_CIRCULATION.md`](PROTOCOL_CIRCULATION.md) — protocole de circulation des vêtements.
+
 ---
 
 ## PROTOCOLE — 4 TEMPS
