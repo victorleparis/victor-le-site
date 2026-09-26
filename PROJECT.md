@@ -210,8 +210,20 @@ SIREN/SIRET: `[TO ADD]`
 
 The project has moved from initial archive/portfolio architecture toward a clearer presentation of the artistic practice.
 
+### Homepage focus — DECIDED 2026-09-26
+
+The homepage is intentionally narrower than the full site. On arrival it shows only the current active universe, in this order:
+1. **L3XL3**
+2. **COLLECTIONS**
+3. **WE DRESS YOU TONIGHT**
+4. **THE DINNER PROJECT**
+
+Historical and parallel corpora such as URL Fighters, Princeville, Works in Space & Matter, Sound and Editions remain part of the site but should not be unfolded on the landing page. They belong behind ACTIONS, WORKS and INDEX.
+
+The homepage therefore functions as a present-tense artistic entrance, not as a résumé or archive overview.
+
 Current priorities:
-1. Update navigation and homepage around `L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`.
+1. Maintain navigation around `L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`.
 2. Give L3XL3 major visual presence without making it the explanation for all works.
 3. Build ACTIONS as a central conceptual layer using verified documentary material.
 4. Re-map existing SELECTED content into L3XL3, ACTIONS, WORKS and INDEX.
