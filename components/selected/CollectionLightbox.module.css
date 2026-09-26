@@ -1,0 +1,10 @@
+.trigger { position: relative; width: 100%; display: block; overflow: hidden; background: var(--color-paper-raised); cursor: zoom-in; text-align: left; }
+.thumb { object-fit: cover; }
+.view { position: absolute; right: .5rem; bottom: .45rem; padding: .18rem .3rem; background: var(--color-paper); color: var(--color-ink); font-family: var(--font-mono); font-size: .62rem; letter-spacing: .04em; opacity: 0; transition: opacity 120ms ease; }
+.trigger:hover .view, .trigger:focus-visible .view { opacity: 1; }
+.lightbox { position: fixed; inset: 0; z-index: 1000; background: rgba(246,245,241,.97); display: grid; place-items: center; padding: 3rem; cursor: zoom-out; }
+.close { position: fixed; z-index: 1002; top: 1rem; right: 1rem; font-family: var(--font-mono); font-size: .72rem; letter-spacing: .04em; }
+.full { position: relative; width: min(92vw, 1100px); height: min(88vh, 1100px); cursor: default; }
+.fullImage { object-fit: contain; }
+@media (hover: none) { .view { opacity: 1; } }
+@media (max-width: 640px) { .lightbox { padding: 2.5rem .75rem .75rem; } .full { width: 96vw; height: 88vh; } .view { font-size: .56rem; } }
