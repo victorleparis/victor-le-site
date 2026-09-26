@@ -2,7 +2,7 @@
 
 Implementation roadmap for the Victor Le website.
 
-Last updated: **2026-09-07**.
+Last updated: **2026-09-26**.
 
 `PROJECT.md` remains the source of truth for scope and architecture. This file describes execution order.
 
@@ -37,46 +37,33 @@ public/
 
 Do not commit large archival ZIPs as website assets.
 
-### V1 routes
+### Current routes / information architecture
 
-Initial routes should support:
-- `/` — SELECTED homepage;
-- `/about`;
-- `/participate`;
-- project-detail routes only where real content justifies them.
+The current top-level architecture is:
+`L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`.
 
-Do not build `/index` in V1.
+Homepage `/` is not the archive and not a mirror of those sections. Its current sequence is:
+1. COLLECTIONS
+2. WE DRESS YOU TONIGHT
+3. THE DINNER PROJECT
+4. L3XL3
 
-### Header V1
+Next implementation work should create real depth behind ACTIONS / WORKS / INDEX rather than copying homepage components into them.
 
-Working header:
+## Phase 2 — Homepage and depth implementation
 
-```text
-VICTOR LE
-ARTIST & DESIGNER
-PARIS — live time
-Visual Art · Fashion · Image · Sound · Performance
+Build / refine in this order:
+1. **COLLECTIONS** — strongest visual entrance; normalize scale and rhythm.
+2. **WE DRESS YOU TONIGHT** — studio project; add real documentation when available.
+3. **THE DINNER PROJECT** — restrained until real session media exists.
+4. **L3XL3** — coherent moving stage; common frame, slow motion, one controlled accident.
 
-SELECTED · ABOUT · PARTICIPATE
-SOUND ○
-```
+Then move historical / parallel corpora into deeper architecture:
+- ACTIONS: actions, protocols, encounters, symbolic situations.
+- WORKS: autonomous/material works, image, sculpture, painting, sound, editions and clothing where useful.
+- INDEX: chronological reserve and orientation layer.
 
-Public naming remains open, so implementation must make the name easy to change globally.
-
-## Phase 2 — SELECTED implementation
-
-Build with real media in this order:
-
-1. **WORKS IN SPACE & MATTER** — strongest ready visual corpus; use V3 selection.
-2. **COLLECTIONS** — use V1 source boards, replace with final garment photos later.
-3. **L3XL3 / LEXILE** — use 10-image reduced drawing selection.
-4. **EDITIONS & PRINT** — use six-image V1 source set.
-5. **SOUND** — build listening-room structure from documented releases.
-6. **PRINCEVILLE** — video + selected original text.
-7. **URL FIGHTERS** — one iconic image + concise text + external/deep-archive link.
-8. **THE DINNER PROJECT** — initially restrained placeholder; replace with Episode 001 media after first session.
-
-The homepage should remain an editorial sequence, never eight equal cards.
+Do not reuse the homepage as the body of these deeper sections. A repeated project must reveal additional material or context.
 
 ## Phase 3 — ABOUT
 
