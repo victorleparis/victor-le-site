@@ -28,6 +28,54 @@ Global ratio: **90% order / 10% accident**.
 
 The artworks are already visually complex. The interface should remain calmer than the work.
 
+
+## Light editorial direction — VALIDATED 2026-09-26
+
+The current visual direction is **light, editorial, precise and slightly strange**.
+
+Do not default to a dark, gothic, cinematic or luxury-fashion-black aesthetic. That framing makes the practice look more solemn and conventional than it is.
+
+Preferred surface:
+- warm off-white / paper background;
+- black or near-black typography;
+- neutral grotesque sans-serif;
+- monospace metadata;
+- generous whitespace;
+- documentary imagery;
+- thin rules and strong editorial alignment;
+- Kotoros pink as a rare human / irrational trace.
+
+The visual system should feel closer to an artist catalogue, independent magazine or precise studio document than to a dark fashion campaign.
+
+### Serious presentation / absurd content
+
+**Do not design the absurdity.**
+
+The interface remains serious, ordered and almost institutional. The displacement comes from what is documented: an action, an object, a title, a protocol, an administrative gesture or an unexpected relation between elements.
+
+The more objectively strange material should often receive the driest presentation.
+
+Examples of the intended contrast:
+- a monumental or symbolic action documented like an archive record;
+- Saint-Michel presented with precise metadata while its relation to the egg / omelette remains materially visible;
+- Change Your Birthday treated with administrative seriousness;
+- a Dinner protocol presented as a real operating structure.
+
+Avoid visual jokes, chaotic collage, meme aesthetics or repeated surreal decoration.
+
+### Homepage composition — working direction
+
+A working homepage may combine:
+1. stable identity: `VICTOR LE — ARTIST & DESIGNER — Paris`;
+2. one large, strong L3XL3 image / moving image;
+3. `L3XL3 — AN OPERA IN PROGRESS`;
+4. one current / latest ACTION presented with dry documentary metadata;
+5. secondary entrances into ACTIONS, WORKS and INDEX;
+6. one rare pink Kotoros / handwritten trace or behavioural accident.
+
+This is a compositional direction, not a literal wireframe. Use real media and preserve editorial hierarchy.
+
+
 ## Visual direction
 
 Contemporary editorial system influenced by:
@@ -63,25 +111,27 @@ Stable identity block across the website, adaptable responsively:
 
 Visual Art · Fashion · Image · Sound · Performance
 
-Primary navigation:
+Primary navigation — UPDATED 2026-09-26:
 
-`SELECTED · INDEX · ABOUT · PARTICIPATE`
+`L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`
 
-The four terms express four distinct relationships to the work:
-- **SELECTED — look**
-- **INDEX — search**
-- **ABOUT — understand**
-- **PARTICIPATE — enter**
+The navigation should expose the practice directly rather than separating it into conventional portfolio browsing modes.
 
-`SELECTED` is the homepage by default. Do not add a decorative landing page or a redundant `WORK` layer before the work.
+- `L3XL3` = enter the major world / opera in progress.
+- `ACTIONS` = encounter real actions, protocols and ambiguous situations.
+- `WORKS` = encounter autonomous/material works and images.
+- `INDEX` = search the chronological reserve.
+- `ABOUT` = understand the factual trajectory.
 
-Sound control: `SOUND ○`
+The homepage is the immediate entry into the work. Do not add a decorative landing page.
+
+Sound control may remain discreet and silent by default.
 
 The homepage should not contain a long explanatory paragraph.
 
-## SELECTED / Homepage logic
+## Homepage logic — UPDATED 2026-09-26
 
-Works come first. Disciplines are metadata attached to each work rather than rigid navigation silos.
+The homepage should immediately establish Victor Le, then give L3XL3 major visual presence and place ACTIONS in visible tension with it. Disciplines are metadata attached to works rather than rigid navigation silos.
 
 The homepage should present approximately 7–9 curated entries, not the complete archive.
 
