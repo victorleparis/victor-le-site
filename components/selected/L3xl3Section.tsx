@@ -4,7 +4,7 @@ import { SectionHeading } from "@/components/ui/SectionHeading";
 import { MediaFrame } from "@/components/ui/MediaFrame";
 import styles from "./L3xl3Section.module.css";
 
-const MAX_IMAGES = 6;
+const MAX_IMAGES = 8;
 
 export function L3xl3Section() {
   const files = listCorpusMedia("l3xl3").slice(0, MAX_IMAGES);
