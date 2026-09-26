@@ -25,31 +25,27 @@ For long-form biographical research, book / film development, interviews and fut
 
 This is an evolving source archive, **not public website copy**. `CONTENT.md` remains the source of truth for factual biographical content intended for or being prepared for the website. Do not automatically publish private, uncertain or interpretive material from the master biography.
 
-## Current status — 2026-09-07
+## Current status — 2026-09-26
 
 A first navigable V1 implementation now exists (Next.js + TypeScript +
 App Router). See "Implementation notes" below for how it's built.
 
-V1 public navigation:
+Current public architecture:
 
-`SELECTED · ABOUT · PARTICIPATE`
+`L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`
 
-`INDEX` remains part of the validated long-term architecture but is intentionally deferred to **V2**.
+Homepage `/` is intentionally much narrower than the full site. Current sequence:
 
-Current SELECTED sequence:
+1. COLLECTIONS
+2. WE DRESS YOU TONIGHT
+3. THE DINNER PROJECT
+4. L3XL3
 
-1. THE DINNER PROJECT
-2. URL FIGHTERS
-3. PRINCEVILLE
-4. COLLECTIONS
-5. WORKS IN SPACE & MATTER
-6. L3XL3 / LEXILE — naming to verify
-7. SOUND
-8. EDITIONS & PRINT
+The homepage is the present-tense front window. ACTIONS, WORKS and INDEX must not duplicate it: they provide deeper documentation, historical/parallel work and chronological orientation.
 
-The next phase is progressive content/media refinement and, once the
-SELECTED visual language is solid, individual project detail pages
-(ROADMAP.md Phase 5) — not further architecture exploration.
+Legacy `content/selected/*` and `components/selected/*` names remain implementation paths for now; they no longer mean that a public SELECTED section exists.
+
+The next phase is to deepen ACTIONS / WORKS / INDEX without replaying homepage blocks, while progressively improving real media and metadata.
 
 ## Implementation notes (for future agents)
 
