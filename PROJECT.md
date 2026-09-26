@@ -10,34 +10,53 @@ Personal website for Victor Le / Victor Le de Doisy, artist and designer based i
 
 The website is intended to function as an artist archive, editorial space, interactive digital studio and entry point to selected participatory works.
 
-## Long-term public architecture — VALIDATED 2026-09-07
+## Long-term public architecture — UPDATED 2026-09-26
 
-The long-term architecture remains:
+The public architecture is now:
 
-`SELECTED · INDEX · ABOUT · PARTICIPATE`
+`L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`
 
-These four entries correspond to four ways of entering the work:
+This supersedes the 2026-09-07 top-level architecture `SELECTED · INDEX · ABOUT · PARTICIPATE`.
 
-- **SELECTED = look** — curated exhibition / immediate encounter.
-- **INDEX = search** — systematic reserve / long-form archive.
-- **ABOUT = understand** — trajectory and documentation.
-- **PARTICIPATE = enter** — works whose existence involves other people.
+The site is no longer organized primarily around ways of browsing the archive. It should expose the internal structure of Victor's practice more directly:
+
+- **L3XL3** — a major world / work in progress, currently framed as an opera in progress. It may contain fashion, characters, scenography, dinner, music, performance and film, but it does **not** retroactively explain all of Victor's practice.
+- **ACTIONS** — real actions, protocols, encounters and ambiguous situations. This is a central conceptual axis of the practice, not a synonym for performance. Examples may include Saint-Michel, The Dinner Project, declarations, Change Your Birthday and symbolic adoption, subject to factual verification and content status.
+- **WORKS** — autonomous or materially led works: clothing, image, painting, sculpture, object, installation and other forms. Disciplines remain metadata rather than rigid sub-navigation.
+- **INDEX** — chronological / systematic reserve of the full documented practice.
+- **ABOUT** — factual biography, trajectory, texts, publications, credits and contact.
 
 Guiding principle: **few navigation choices, substantial depth.**
 
-## V1 public scope — LOCKED 2026-09-07
+### Relationship between L3XL3 and the wider practice
 
-Implementation should begin now with:
+L3XL3 is intentionally prominent but is not the master explanation for every work.
 
-`SELECTED · ABOUT · PARTICIPATE`
+The site should make room for older and parallel bodies such as URL Fighters, Princeville, paintings, sculpture, editions and other continuing works without forcing them into L3XL3.
 
-**INDEX is intentionally deferred to V2.**
+Inside L3XL3, the working internal constellation may include:
+`Concept · Collections · Characters · Scenography · Dinner · Music · Performance · Film`.
 
-This is a scope decision, not a rejection of INDEX. The INDEX concept remains valid and should be implemented later once the systematic dataset is ready.
+These are internal manifestations / media of L3XL3, not the primary navigation of the whole website.
 
-Do not block V1 implementation on exhaustive chronology, metadata normalization or the complete URL Fighters archive.
+### Actions as a conceptual axis
 
-### SELECTED
+The site should present actions with a dry, documentary seriousness. The absurdity, ambiguity or symbolic charge should come from the action itself rather than from decorative graphic effects.
+
+Do not over-explain whether an action is serious, absurd, ritual, fiction or performance. Documentation and precise factual language should allow that ambiguity to remain active.
+
+## Current public scope — UPDATED 2026-09-26
+
+The previous V1 navigation lock is superseded by the architecture above.
+
+Implementation should now migrate the existing content and media into:
+`L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`.
+
+Existing SELECTED material remains valuable as a curatorial and media source, but `SELECTED` is no longer the required public top-level navigation.
+
+The migration should reuse verified content and real media already present in the repository rather than rebuild the content inventory from scratch.
+
+### Legacy SELECTED material / migration source
 
 `SELECTED` is the native homepage. There is no decorative landing page and no click is required before seeing work.
 
@@ -187,16 +206,16 @@ SIRET: `[TO ADD]`
 President — Shoot Me SAS  
 SIREN/SIRET: `[TO ADD]`
 
-## Current phase
+## Current phase — UPDATED 2026-09-26
 
-**The content-gathering phase is sufficient to start V1 implementation.**
+The project has moved from initial archive/portfolio architecture toward a clearer presentation of the artistic practice.
 
 Current priorities:
-1. Build the technical skeleton and SELECTED homepage with real media.
-2. Build ABOUT from verified factual material.
-3. Build PARTICIPATE with The Dinner Project as the current open work once active.
-4. Replace provisional source boards with better original media when found, without changing architecture.
-5. Capture first Dinner Project media and integrate it as Episode 001.
-6. Add / verify metadata progressively.
-7. Build INDEX as V2.
-8. Revisit the deep URL Fighters archive after V1.
+1. Update navigation and homepage around `L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`.
+2. Give L3XL3 major visual presence without making it the explanation for all works.
+3. Build ACTIONS as a central conceptual layer using verified documentary material.
+4. Re-map existing SELECTED content into L3XL3, ACTIONS, WORKS and INDEX.
+5. Keep ABOUT concise, factual and artist-focused.
+6. Preserve and progressively improve real media, metadata and credits.
+7. Keep URL Fighters visible as an important continuing corpus rather than treating it as a closed archive.
+8. Let future opera / film development emerge inside L3XL3 without making the site depend on those outcomes.
