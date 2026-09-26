@@ -212,15 +212,30 @@ The project has moved from initial archive/portfolio architecture toward a clear
 
 ### Homepage focus — DECIDED 2026-09-26
 
-The homepage is intentionally narrower than the full site. On arrival it shows only the current active universe, in this order:
-1. **L3XL3**
-2. **COLLECTIONS**
-3. **WE DRESS YOU TONIGHT**
-4. **THE DINNER PROJECT**
+The homepage is intentionally narrower than the full site. It is a **present-tense front window**, not a summary of the archive.
 
-Historical and parallel corpora such as URL Fighters, Princeville, Works in Space & Matter, Sound and Editions remain part of the site but should not be unfolded on the landing page. They belong behind ACTIONS, WORKS and INDEX.
+Current order, from the most concrete / immediately legible to the most prospective:
+1. **COLLECTIONS** — the clothes, silhouettes and material language.
+2. **WE DRESS YOU TONIGHT** — activation of clothing through dressing and photography in the studio.
+3. **THE DINNER PROJECT** — a wider social situation combining clothing, encounter, food, image, film and sound.
+4. **L3XL3** — the larger opera / world in progress; deliberately last on the homepage for now because it is the least concrete and most prospective of the four.
 
-The homepage therefore functions as a present-tense artistic entrance, not as a résumé or archive overview.
+Historical and parallel corpora such as URL Fighters, Princeville, Works in Space & Matter, Sound and Editions remain part of the site but should not be unfolded on the landing page.
+
+### Homepage versus deeper navigation — DECIDED 2026-09-26
+
+Do **not** make ACTIONS, WORKS or INDEX into repetitions of the homepage.
+
+The homepage answers: **what is Victor making / activating now?**
+
+The deeper areas answer different questions:
+- **ACTIONS** — the broader family of actions, protocols, encounters and symbolic/ambiguous situations, including current and historical material.
+- **WORKS** — the broader material practice: autonomous clothing, image, sculpture, painting, objects, sound, editions and other works. A homepage project may be referenced here only when it adds deeper material, not by replaying the same homepage block.
+- **INDEX** — the dense chronological reserve of the documented practice. It is a finding / orientation layer, not a second portfolio page.
+- **ABOUT** — factual trajectory, biography, texts, publications, credits and contact.
+- **L3XL3** — remains accessible directly in navigation as its own developing world, even while its homepage appearance is placed last.
+
+Duplication rule: if a project is already visible on the homepage, a deeper page should provide **additional documentation, context, chronology, media or relationships**. Never reproduce the same hero + same copy as a second landing section.
 
 Current priorities:
 1. Maintain navigation around `L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`.
