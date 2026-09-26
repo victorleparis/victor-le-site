@@ -63,17 +63,19 @@ Examples of the intended contrast:
 
 Avoid visual jokes, chaotic collage, meme aesthetics or repeated surreal decoration.
 
-### Homepage composition — working direction
+### Homepage composition — DECIDED 2026-09-26
 
-A working homepage may combine:
-1. stable identity: `VICTOR LE — ARTIST & DESIGNER — Paris`;
-2. one large, strong L3XL3 image / moving image;
-3. `L3XL3 — AN OPERA IN PROGRESS`;
-4. one current / latest ACTION presented with dry documentary metadata;
-5. secondary entrances into ACTIONS, WORKS and INDEX;
-6. one rare pink Kotoros / handwritten trace or behavioural accident.
+The homepage is a short present-tense sequence, not an archive overview.
 
-This is a compositional direction, not a literal wireframe. Use real media and preserve editorial hierarchy.
+Current order:
+1. **COLLECTIONS** — strongest immediate visual entrance.
+2. **WE DRESS YOU TONIGHT** — studio activation of clothing and image.
+3. **THE DINNER PROJECT** — social / performative expansion.
+4. **L3XL3 — AN OPERA IN PROGRESS** — larger developing world, intentionally placed last for now.
+
+Use real media, large images and very little explanatory text. The page should end after these four presences.
+
+L3XL3 should use a coherent moving visual frame rather than a miscellaneous grid: common crop/scale, slow sequence, restrained motion and at most one controlled visual collision as the 10% accident.
 
 
 ## Visual direction
@@ -131,17 +133,18 @@ The homepage should not contain a long explanatory paragraph.
 
 ## Homepage logic — UPDATED 2026-09-26
 
-The homepage should immediately establish Victor Le, then give L3XL3 major visual presence and place ACTIONS in visible tension with it. Disciplines are metadata attached to works rather than rigid navigation silos.
+The homepage shows only the four current entrances above. It must **not** attempt to summarize the full practice and must not repeat ACTIONS, WORKS or INDEX.
 
-The homepage should present approximately 7–9 curated entries, not the complete archive.
+The visual progression is:
+**object / silhouette → activation → encounter → developing world**.
 
-Do not give every entry the same visual weight. A multi-year corpus, a continuous studio practice and an individual protocol are not equivalent units. Use editorial hierarchy, scale, pacing, typography and image treatment to communicate their different status without exposing an academic taxonomy.
+COLLECTIONS receives the first and strongest immediate visual position. L3XL3 remains important in the site's architecture but is deliberately later in the homepage sequence while its opera/world is still becoming concrete.
 
-Avoid identical SaaS-style cards and conventional portfolio grids. Think of `SELECTED` as an editorial sequence or exhibition rather than a catalogue.
+Deeper navigation must reward the click with material not already consumed on the homepage: extended documentation, related actions, historical work, chronology, additional media, texts or metadata.
 
-The disciplines may appear as quiet metadata, for example `Performance · Internet · Participation` or `Painting · Object`, but not as the main navigation system.
+Avoid identical cards, repeated hero images and duplicated introductory copy across homepage and deeper pages.
 
-### SELECTED V2 — WORKING VISUAL REFERENCE — 2026-09-07
+### LEGACY — SELECTED V2 WORKING REFERENCE — 2026-09-07
 
 Current eight-sequence reference:
 
