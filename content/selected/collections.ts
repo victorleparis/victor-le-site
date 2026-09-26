@@ -30,6 +30,6 @@ export const collectionsBoards = [
   },
   {
     name: "Sainte",
-    filenames: ["Sainte 1.png", "Sainte 2.png", "sainte6.png"],
+    filenames: ["Sainte 1.jpg", "Sainte 2.png", "sainte6.png"],
   },
 ];
