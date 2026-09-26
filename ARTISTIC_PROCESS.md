@@ -10,7 +10,7 @@ Mais je ne cherche pas à contrôler entièrement ce qui doit arriver à l’int
 
 Une rencontre, une phrase entendue, une coïncidence, une erreur, une image, un geste ou un événement extérieur peut entrer en résonance avec une réflexion déjà présente.
 
-Je considère ces moments comme des **synchronicités possibles** : non comme des preuves, des prédictions ou des ordres à suivre, mais comme des matériaux à observer.
+Je ne cherche pas nécessairement à expliquer l’origine de ces correspondances. Je les considère comme des matériaux à observer.
 
 **Le cadre est de moi. Une partie du contenu est laissée au monde.**
 
@@ -20,9 +20,44 @@ Cette méthode prolonge le principe :
 
 ---
 
+## CIRCULATION COMME MÉTHODE DE CRÉATION
+
+Je ne cherche pas nécessairement les personnes dont j’ai besoin.
+
+**Je circule.**
+
+Une personne peut apparaître avant même que je sache pourquoi j’ai besoin d’elle. Une conversation peut précéder le projet auquel elle servira. Une rencontre peut révéler un besoin qui n’était pas encore formulé.
+
+Circuler n’est donc pas seulement se déplacer. C’est une méthode de travail : rester suffisamment disponible pour que le réel puisse modifier ce qui était prévu.
+
+**JE CONSTRUIS LE CADRE. JE CIRCULE. JE RECONNAIS CE QUI ARRIVE.**
+
+### De la dérive situationniste à la circulation
+
+Cette méthode entretient une filiation avec la **dérive situationniste**.
+
+La dérive suspend le déplacement fonctionnel et laisse le territoire, ses ambiances et ses situations infléchir le parcours.
+
+Ma circulation déplace ce principe.
+
+Je ne laisse pas seulement l’espace modifier mon trajet. Je laisse les **rencontres** modifier le travail.
+
+La personne rencontrée n’est pas nécessairement recherchée. Sa fonction n’est parfois visible qu’après la rencontre. Elle peut ouvrir une action, apporter une compétence, provoquer une bifurcation ou révéler un projet encore informulé.
+
+Il ne s’agit donc pas de reproduire la dérive situationniste, mais d’en poursuivre un principe dans ma pratique :
+
+**SE DÉPLACER SANS TOUT DÉTERMINER À L’AVANCE, POUR PERMETTRE AU RÉEL D’AGIR SUR LE TRAVAIL.**
+
+Le mouvement devient une condition de la rencontre.  
+La rencontre devient une condition possible de l’œuvre.
+
+**CONSTRUIRE → CIRCULER → RENCONTRER → RECONNAÎTRE → INTÉGRER.**
+
+---
+
 ## PROTOCOLE — 4 TEMPS
 
-Lorsqu’une coïncidence ou une rencontre me frappe, je la consigne immédiatement, avant de reconstruire le souvenir.
+Lorsqu’un événement, une coïncidence ou une rencontre me frappe, je la consigne immédiatement, avant de reconstruire le souvenir.
 
 ### 1. AVANT — CE QUI ÉTAIT DÉJÀ LÀ
 
@@ -73,7 +108,7 @@ Cela peut devenir :
 - un élément de L3XL3 ;
 - ou rien.
 
-Une synchronicité n’oblige jamais à agir.
+Une rencontre ou une résonance n’oblige jamais à agir.
 
 ---
 
@@ -87,12 +122,13 @@ Elle peut être une invitation à poser une question, jamais une autorisation à
 
 ---
 
-## ARCHIVE DES SYNCHRONICITÉS
+## ARCHIVE DES RÉSONANCES ET DES RENCONTRES
 
 Conserver les occurrences avec :
 - date et heure ;
 - contexte intérieur ;
 - événement factuel ;
+- personne ou situation rencontrée ;
 - résonance perçue ;
 - ouverture éventuelle.
 
@@ -116,6 +152,7 @@ Je ne demande pas au monde de confirmer ce que je pense.
 **Je reste disponible à ce qu’il introduit dans le cadre.**
 
 ORDER construit la situation.  
+CIRCULATION expose le cadre au réel.  
 ACCIDENT introduit ce que je n’avais pas prévu.
 
 **THE FRAME IS MINE. THE WORLD CAN ENTER.**
