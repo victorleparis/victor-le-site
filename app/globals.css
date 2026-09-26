@@ -162,3 +162,91 @@ section[id] {
     scroll-margin-top: 130px;
   }
 }
+
+/* Practice architecture — 2026-09-26 */
+.practice-group,
+.site-index {
+  scroll-margin-top: 148px;
+}
+
+.practice-group__header {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-9) var(--edge-gutter) var(--space-6);
+  border-top: var(--line-hair);
+  display: grid;
+  grid-template-columns: minmax(2rem, 5rem) 1fr;
+  gap: var(--space-5);
+  align-items: start;
+}
+
+.practice-group__number {
+  font-size: var(--text-2xs);
+  color: var(--color-ink-faint);
+}
+
+.practice-group__title {
+  font-size: clamp(2.5rem, 7vw, 6.5rem);
+  line-height: 0.9;
+  font-weight: 700;
+  letter-spacing: -0.055em;
+}
+
+.practice-group__line {
+  margin-top: var(--space-3);
+  max-width: 52ch;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-ink-soft);
+}
+
+.site-index {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding-bottom: var(--space-10);
+}
+
+.site-index .practice-group__header {
+  padding-left: var(--edge-gutter);
+  padding-right: var(--edge-gutter);
+}
+
+.site-index__rows {
+  margin: 0 var(--edge-gutter);
+  border-top: var(--line-hair);
+}
+
+.site-index__rows a {
+  display: grid;
+  grid-template-columns: minmax(4rem, 0.7fr) 1.5fr 2fr;
+  gap: var(--space-4);
+  padding: var(--space-3) 0;
+  border-bottom: var(--line-hair);
+  font-size: var(--text-xs);
+}
+
+.site-index__rows a:hover span:nth-child(2) {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+@media (max-width: 640px) {
+  .practice-group,
+  .site-index {
+    scroll-margin-top: 130px;
+  }
+
+  .practice-group__header {
+    grid-template-columns: 2rem 1fr;
+    padding-top: var(--space-8);
+  }
+
+  .site-index__rows a {
+    grid-template-columns: 4rem 1fr;
+  }
+
+  .site-index__rows a span:last-child {
+    grid-column: 2;
+    color: var(--color-ink-faint);
+  }
+}
