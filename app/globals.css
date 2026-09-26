@@ -250,3 +250,79 @@ section[id] {
     color: var(--color-ink-faint);
   }
 }
+
+/* WE DRESS YOU TONIGHT — homepage, 2026-09-26 */
+.we-dress {
+  max-width: var(--content-max);
+  margin: 0 auto;
+  padding: var(--space-9) var(--edge-gutter);
+  border-top: var(--line-hair);
+  scroll-margin-top: 148px;
+}
+
+.we-dress__meta {
+  display: grid;
+  grid-template-columns: 4rem 1fr auto;
+  gap: var(--space-4);
+  padding-bottom: var(--space-5);
+  font-size: var(--text-2xs);
+  color: var(--color-ink-faint);
+}
+
+.we-dress__body {
+  min-height: 58vh;
+  display: grid;
+  grid-template-columns: minmax(0, 2.2fr) minmax(15rem, 0.8fr);
+  gap: var(--space-7);
+  align-items: end;
+  border-top: 1px solid var(--color-ink);
+  padding-top: var(--space-6);
+}
+
+.we-dress__body h2 {
+  font-size: clamp(4rem, 11vw, 10rem);
+  line-height: 0.78;
+  letter-spacing: -0.075em;
+  font-weight: 700;
+}
+
+.we-dress__statement {
+  padding-bottom: var(--space-3);
+  font-size: var(--text-md);
+}
+
+.we-dress__statement p {
+  line-height: 1.15;
+}
+
+.we-dress__statement span {
+  display: block;
+  margin-top: var(--space-6);
+  font-size: var(--text-2xs);
+  color: var(--color-ink-faint);
+}
+
+@media (max-width: 640px) {
+  .we-dress {
+    padding-top: var(--space-8);
+    scroll-margin-top: 130px;
+  }
+
+  .we-dress__meta {
+    grid-template-columns: 2rem 1fr;
+  }
+
+  .we-dress__meta span:last-child {
+    grid-column: 2;
+  }
+
+  .we-dress__body {
+    min-height: 60vh;
+    grid-template-columns: 1fr;
+    align-content: space-between;
+  }
+
+  .we-dress__body h2 {
+    font-size: clamp(3.8rem, 20vw, 7rem);
+  }
+}
