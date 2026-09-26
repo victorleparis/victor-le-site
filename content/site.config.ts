@@ -16,9 +16,11 @@ export const siteConfig = {
   disciplines: ["Visual Art", "Fashion", "Image", "Sound", "Performance"],
 
   nav: [
-    { label: "SELECTED", href: "/" },
+    { label: "L3XL3", href: "/#l3xl3" },
+    { label: "ACTIONS", href: "/#actions" },
+    { label: "WORKS", href: "/#works" },
+    { label: "INDEX", href: "/#index" },
     { label: "ABOUT", href: "/about" },
-    { label: "PARTICIPATE", href: "/participate" },
   ],
 
   // DECIDED 2026-09-11 — see PROJECT.md. "LEXILE" dropped.
