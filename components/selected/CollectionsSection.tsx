@@ -2,6 +2,7 @@ import { collections, collectionsIntro, collectionsNames, collectionsBoards } fr
 import { listCorpusMedia, pickByName, fileDimensions } from "@/lib/media";
 import { SectionHeading } from "@/components/ui/SectionHeading";
 import { MediaFrame } from "@/components/ui/MediaFrame";
+import { CollectionLightbox } from "./CollectionLightbox";
 import styles from "./CollectionsSection.module.css";
 
 export function CollectionsSection() {
@@ -26,12 +27,11 @@ export function CollectionsSection() {
               {group.boards.map((board) => {
                 const dim = fileDimensions(board);
                 return (
-                  <MediaFrame
+                  <CollectionLightbox
                     key={board.filename}
                     src={board.url}
                     alt={`${collections.title} — ${group.name}`}
                     aspectRatio={dim ? `${dim.width} / ${dim.height}` : "2 / 3"}
-                    sizes="(max-width: 780px) 33vw, 20vw"
                   />
                 );
               })}
