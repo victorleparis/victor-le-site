@@ -162,3 +162,13 @@ CIRCULATION expose le cadre au réel.
 ACCIDENT introduit ce que je n’avais pas prévu.
 
 **THE FRAME IS MINE. THE WORLD CAN ENTER.**
+
+
+---
+
+## ARCHIVER LE TRAVAIL
+
+L’archive fait partie du processus : elle conserve les formes finales mais aussi les prototypes, bifurcations et accidents susceptibles de redevenir des matériaux de création.
+
+→ Voir [`ARCHIVE_SYSTEM.md`](ARCHIVE_SYSTEM.md) — système physique + numérique de classement et de traçabilité.  
+→ Voir [`CREATION_CARD.md`](CREATION_CARD.md) — fiche A4 minimale à utiliser pour chaque création significative.
