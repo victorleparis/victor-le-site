@@ -6,20 +6,29 @@ This file is the operating guide for any AI agent working on this repository.
 
 Before making changes, read in this order:
 
-1. `PROJECT.md` — project scope, identity, open decisions, architecture and current V1 scope
-2. `DESIGN_SYSTEM.md` — visual direction and interaction rules
-3. `CONTENT.md` — artworks, biography, credits, media and factual content inventory
-4. `MEDIA_STATUS.md` — actual asset / selection status and current curated source packages
-5. `ROADMAP.md` — implementation sequence, V1 build plan and future phases
-6. `README.md` — repository entry point and current status
+1. `WORKFLOW.md` — how changes actually get made: git conventions, verification steps, deployment, coordination with direct pushes from Victor and other agent sessions
+2. `PROJECT.md` — project scope, identity, open decisions, architecture and current V1 scope
+3. `DESIGN_SYSTEM.md` — visual direction and interaction rules
+4. `CONTENT.md` — artworks, biography, credits, media and factual content inventory
+5. `MEDIA_STATUS.md` — actual asset / selection status and current curated source packages
+6. `ROADMAP.md` — implementation sequence, V1 build plan and future phases
+7. `MANIFESTO.md` — artistic operating principle (90% order / 10% accident, non-explanation)
+8. `ARTISTIC_PROCESS.md` — working method behind the manifesto (circulation, resonance protocol)
+9. `README.md` — repository entry point and current status
+
+Studio-practice documents (`PROTOCOL_CIRCULATION.md`, `CIRCULATION_CARD.md`, `ARCHIVE_SYSTEM.md`, `CREATION_CARD.md`) matter for factual grounding but don't drive site architecture or design — see `WORKFLOW.md`'s documentation map for the full list and what each one governs.
+
+`biography/VICTOR_LE_MASTER_BIOGRAPHY.md` is a private, evolving research source — never publish from it directly. `CONTENT.md` remains the source of truth for what's actually public.
 
 ## Source-of-truth precedence
 
 When files differ in scope:
+- `WORKFLOW.md` controls process — git, verification, deployment, agent coordination — not content or design;
 - `PROJECT.md` controls architecture, navigation, scope and phase decisions;
 - `DESIGN_SYSTEM.md` controls visual / interaction behaviour;
 - `CONTENT.md` controls factual artwork / biography content;
 - `MEDIA_STATUS.md` controls current asset availability and visual-selection status;
+- `MANIFESTO.md` / `ARTISTIC_PROCESS.md` control artistic-practice principles referenced by design/content decisions, not site architecture;
 - `ROADMAP.md` controls execution order only.
 
 Example: the long-term architecture includes `INDEX`, but `PROJECT.md` currently defers its implementation to V2. Do not re-add INDEX to the V1 navigation merely because older wireframe text still shows it.
@@ -83,6 +92,8 @@ Website usage:
 The original source artwork should be preserved separately from any website treatment.
 
 ## Working method
+
+See `WORKFLOW.md` for the concrete mechanics — git conventions, verification steps before committing, deployment, and how to handle the fact that `main` moves outside any single agent session. The rules below are about design/content decisions specifically.
 
 Before implementing a major structural or visual change:
 1. check whether it conflicts with `PROJECT.md` or `DESIGN_SYSTEM.md`

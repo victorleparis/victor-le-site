@@ -10,12 +10,16 @@ Official website project for Victor Le / Victor Le de Doisy.
 
 Then read, in order:
 
-1. `PROJECT.md` — project scope, architecture, V1 decisions and open decisions
-2. `DESIGN_SYSTEM.md` — visual direction and interaction principles
-3. `CONTENT.md` — artworks, biography, credits and factual content inventory
-4. `MEDIA_STATUS.md` — current visual/media selections and source status
-5. `ROADMAP.md` — implementation plan and future phases
-6. `MANIFESTO.md` — artistic operating principles: order / accident, anomaly, action, belief and non-explanation
+1. `WORKFLOW.md` — how changes actually get made: git conventions, verification, deployment, coordination
+2. `PROJECT.md` — project scope, architecture, V1 decisions and open decisions
+3. `DESIGN_SYSTEM.md` — visual direction and interaction principles
+4. `CONTENT.md` — artworks, biography, credits and factual content inventory
+5. `MEDIA_STATUS.md` — current visual/media selections and source status
+6. `ROADMAP.md` — implementation plan and future phases
+7. `MANIFESTO.md` — artistic operating principles: order / accident, anomaly, action, belief and non-explanation
+8. `ARTISTIC_PROCESS.md` — working method behind the manifesto: circulation, resonance protocol
+
+Studio-practice documents (`PROTOCOL_CIRCULATION.md`, `CIRCULATION_CARD.md`, `ARCHIVE_SYSTEM.md`, `CREATION_CARD.md`) are indexed in `WORKFLOW.md`'s documentation map rather than repeated here.
 
 ### Extended biographical source
 
