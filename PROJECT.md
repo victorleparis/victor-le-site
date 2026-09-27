@@ -166,11 +166,13 @@ Historical record only. INDEX was validated for a future V2 as a dense, typograp
 
 Retired along with ACTIONS in the 2026-09-27 architecture decision (see "Retired concepts" above) rather than carried forward as a deferred V2 item. If a chronological reserve is wanted later, it should be proposed as a fresh decision against the current FORM/VOICE/READ/PLACE/ARCHIVE/ABOUT architecture, not resumed from this spec.
 
-## Public naming — DECIDED 2026-09-11
+## Public naming — DECIDED 2026-09-11, header updated 2026-09-27
 
 Public identity: **Victor Le**.
 
-`Victor Le de Doisy` remains the full legal name, used where a full name is administratively useful (see contact section below). The site's public-facing identity (header, nav, ABOUT) uses `Victor Le`, set in `content/site.config.ts`.
+`Victor Le de Doisy` remains the full legal name, used where a full name is administratively useful (see contact section below).
+
+The header identity block (`components/chrome/Header.tsx`) was updated 2026-09-27: the "ARTIST & DESIGNER" role line beneath the name is replaced by the remainder of the full name, so the block now reads `VICTOR LE` / `DE DOISY`. Nav and ABOUT still use `Victor Le` alone, set in `content/site.config.ts`. The role/discipline text (`siteConfig.role`) is unchanged and still drives the page `<title>`/meta description in `app/layout.tsx` — this decision only concerns the visible header, not SEO metadata.
 
 ## Administrative / Legal / Professional contact
 
