@@ -1,6 +1,7 @@
 import { DinnerProjectSection } from "@/components/selected/DinnerProjectSection";
 import { CollectionsSection } from "@/components/selected/CollectionsSection";
 import { L3xl3Section } from "@/components/selected/L3xl3Section";
+import { WorksSection } from "@/components/selected/WorksSection";
 
 /**
  * Homepage — present-tense front window.
@@ -36,6 +37,8 @@ export default function HomePage() {
       <DinnerProjectSection />
 
       <L3xl3Section />
+
+      <WorksSection />
     </>
   );
 }

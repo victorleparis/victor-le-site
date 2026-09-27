@@ -15,11 +15,12 @@ export const siteConfig = {
   location: "Paris",
   disciplines: ["Visual Art", "Fashion", "Image", "Sound", "Performance"],
 
+  // ACTIONS and INDEX dropped 2026-09-27: no matching homepage section
+  // existed for either (confirmed empty anchors), so removed rather than
+  // left as dead links until real content justifies bringing them back.
   nav: [
     { label: "L3XL3", href: "/#l3xl3" },
-    { label: "ACTIONS", href: "/#actions" },
     { label: "WORKS", href: "/#works" },
-    { label: "INDEX", href: "/#index" },
     { label: "ABOUT", href: "/about" },
   ],
 

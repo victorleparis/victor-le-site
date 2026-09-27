@@ -1,0 +1,61 @@
+.section {
+  padding: var(--space-9) var(--edge-gutter) var(--space-8);
+  max-width: var(--content-max);
+  margin: 0 auto;
+  border-top: var(--line-hair);
+}
+
+.heading {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-4);
+  flex-wrap: wrap;
+  margin-bottom: var(--space-6);
+}
+
+.title {
+  font-size: var(--text-lg);
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+
+.sub {
+  font-size: var(--text-2xs);
+  color: var(--color-ink-faint);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--space-5);
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.caption {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.itemTitle {
+  font-size: var(--text-sm);
+  font-weight: 700;
+}
+
+.itemYears,
+.itemDisciplines {
+  font-size: var(--text-2xs);
+  color: var(--color-ink-faint);
+}
+
+@media (max-width: 780px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-7);
+  }
+}
