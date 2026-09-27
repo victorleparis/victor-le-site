@@ -15,12 +15,19 @@ export const siteConfig = {
   location: "Paris",
   disciplines: ["Visual Art", "Fashion", "Image", "Sound", "Performance"],
 
-  // ACTIONS and INDEX dropped 2026-09-27: no matching homepage section
-  // existed for either (confirmed empty anchors), so removed rather than
-  // left as dead links until real content justifies bringing them back.
+  // Architecture DECIDED 2026-09-27 (see PROJECT.md "Long-term public
+  // architecture"): FORM · VOICE · READ · PLACE · ARCHIVE · ABOUT,
+  // replacing the interim L3XL3 · WORKS · ABOUT nav (itself a same-day
+  // reduction of the 2026-09-26 L3XL3 · ACTIONS · WORKS · INDEX · ABOUT,
+  // whose ACTIONS/INDEX anchors were dropped for having no matching
+  // homepage section). Each of the five homepage labels below is a
+  // same-page anchor group in app/page.tsx; ABOUT stays a separate route.
   nav: [
-    { label: "L3XL3", href: "/#l3xl3" },
-    { label: "WORKS", href: "/#works" },
+    { label: "FORM", href: "/#form" },
+    { label: "VOICE", href: "/#voice" },
+    { label: "READ", href: "/#read" },
+    { label: "PLACE", href: "/#place" },
+    { label: "ARCHIVE", href: "/#archive" },
     { label: "ABOUT", href: "/about" },
   ],
 

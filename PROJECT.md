@@ -10,47 +10,34 @@ Personal website for Victor Le / Victor Le de Doisy, artist and designer based i
 
 The website is intended to function as an artist archive, editorial space, interactive digital studio and entry point to selected participatory works.
 
-## Long-term public architecture — UPDATED 2026-09-26
+## Long-term public architecture — DECIDED 2026-09-27
 
 The public architecture is now:
 
-`L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`
+`FORM · VOICE · READ · PLACE · ARCHIVE · ABOUT`
 
-This supersedes the 2026-09-07 top-level architecture `SELECTED · INDEX · ABOUT · PARTICIPATE`.
+This supersedes the 2026-09-26 architecture `L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`, which was itself never fully implemented in navigation: `site.config.ts` had already dropped `ACTIONS` and `INDEX` on 2026-09-27 for lacking any matching homepage section, leaving a live nav (`L3XL3 · WORKS · ABOUT`) that no longer matched this file. This decision replaces both the 09-26 architecture and that interim live nav with a single grouping organised by medium/mode rather than by concept (L3XL3 as world) or by browsing mechanism (INDEX):
 
-The site is no longer organized primarily around ways of browsing the archive. It should expose the internal structure of Victor's practice more directly:
-
-- **L3XL3** — a major world / work in progress, currently framed as an opera in progress. It may contain fashion, characters, scenography, dinner, music, performance and film, but it does **not** retroactively explain all of Victor's practice.
-- **ACTIONS** — real actions, protocols, encounters and ambiguous situations. This is a central conceptual axis of the practice, not a synonym for performance. Examples may include Saint-Michel, The Dinner Project, declarations, Change Your Birthday and symbolic adoption, subject to factual verification and content status.
-- **WORKS** — autonomous or materially led works: clothing, image, painting, sculpture, object, installation and other forms. Disciplines remain metadata rather than rigid sub-navigation.
-- **INDEX** — chronological / systematic reserve of the full documented practice.
-- **ABOUT** — factual biography, trajectory, texts, publications, credits and contact.
+- **FORM** — clothing as sculpture, silhouette and situation: Collections, We Dress You Tonight, The Dinner Project.
+- **VOICE** — the sung, staged and sounded: L3XL3 (opera in progress) and Sound (discography).
+- **READ** — print and publishing: Editions & Print (La Bibliothèque bleue, How to Be Famous in 480 Days, FAMOUS).
+- **PLACE** — declared and claimed territory: URL Fighters, Princeville.
+- **ARCHIVE** — the autonomous material corpus not organised by medium above: Works in Space & Matter.
+- **ABOUT** — factual biography, trajectory, texts, publications, credits and contact (unchanged, separate route).
 
 Guiding principle: **few navigation choices, substantial depth.**
 
-### Relationship between L3XL3 and the wider practice
+L3XL3 remains prominent (grouped under VOICE, its dominant medium) but is not the master explanation for every work — URL Fighters, Princeville, Works in Space & Matter and the editions each keep their own section under PLACE, ARCHIVE or READ rather than being folded into it.
 
-L3XL3 is intentionally prominent but is not the master explanation for every work.
+### Retired concepts
 
-The site should make room for older and parallel bodies such as URL Fighters, Princeville, paintings, sculpture, editions and other continuing works without forcing them into L3XL3.
+- **ACTIONS** and **INDEX** (2026-09-26 architecture) are retired, not deferred to a later phase. Their intent is absorbed: protocols/encounters live inside each project's own section (e.g. The Dinner Project under FORM, Princeville under PLACE) rather than a separate conceptual axis; the chronological/systematic reserve INDEX proposed is superseded by ABOUT's Selected Exhibitions/Performances list plus each section's own material — no separate dense INDEX page is planned. See "INDEX — retired 2026-09-27" below, kept only as a historical record of that dropped direction.
+- **WORKS** (both the 2026-09-26 sense and the 2026-09-07 `WorksSection` "parallel and continuing bodies" card grid) is retired as a catch-all. What it grouped (URL Fighters, Princeville, Works in Space & Matter) now has its own full section under PLACE or ARCHIVE instead of a shared lightweight preview grid.
 
-Inside L3XL3, the working internal constellation may include:
-`Concept · Collections · Characters · Scenography · Dinner · Music · Performance · Film`.
+## Current public scope — UPDATED 2026-09-27
 
-These are internal manifestations / media of L3XL3, not the primary navigation of the whole website.
-
-### Actions as a conceptual axis
-
-The site should present actions with a dry, documentary seriousness. The absurdity, ambiguity or symbolic charge should come from the action itself rather than from decorative graphic effects.
-
-Do not over-explain whether an action is serious, absurd, ritual, fiction or performance. Documentation and precise factual language should allow that ambiguity to remain active.
-
-## Current public scope — UPDATED 2026-09-26
-
-The previous V1 navigation lock is superseded by the architecture above.
-
-Implementation should now migrate the existing content and media into:
-`L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`.
+Implementation migrates the existing content and media into:
+`FORM · VOICE · READ · PLACE · ARCHIVE` on the homepage, plus the separate `ABOUT` route.
 
 Existing SELECTED material remains valuable as a curatorial and media source, but `SELECTED` is no longer the required public top-level navigation.
 
@@ -60,16 +47,18 @@ The migration should reuse verified content and real media already present in th
 
 `SELECTED` is the native homepage. There is no decorative landing page and no click is required before seeing work.
 
-Current V1 sequence:
+Current sequence, now with its FORM/VOICE/READ/PLACE/ARCHIVE grouping:
 
-1. **THE DINNER PROJECT** — 2026—
-2. **URL FIGHTERS** — 2015—
-3. **PRINCEVILLE** — 2018—
-4. **COLLECTIONS** — dates to establish
-5. **WORKS IN SPACE & MATTER** — dates to establish
-6. **L3XL3** — naming decided 2026-09-11 ("LEXILE" dropped)
-7. **SOUND** — dates now partly documented
-8. **EDITIONS & PRINT** — 2018—
+1. **THE DINNER PROJECT** — 2026— — FORM
+2. **URL FIGHTERS** — 2015— — PLACE
+3. **PRINCEVILLE** — 2018— — PLACE
+4. **COLLECTIONS** — dates to establish — FORM
+5. **WORKS IN SPACE & MATTER** — dates to establish — ARCHIVE
+6. **L3XL3** — naming decided 2026-09-11 ("LEXILE" dropped) — VOICE
+7. **SOUND** — dates now partly documented — VOICE
+8. **EDITIONS & PRINT** — 2018— — READ
+
+The numbering above is each item's own content/media number (`content/selected/*.ts`), not a navigation order — it is unrelated to and predates the FORM/VOICE/READ/PLACE/ARCHIVE grouping and is left as-is per this repo's "don't invent facts" rule.
 
 The eight entries must not appear as eight equivalent cards. `SELECTED` is an editorial exhibition sequence.
 
@@ -167,22 +156,15 @@ Core framing:
 
 V1 structure:
 - **OPEN NOW** — The Dinner Project when active;
-- **PAST** — only selected historical participatory works that can be presented cleanly without requiring the complete INDEX.
+- **PAST** — only selected historical participatory works that can be presented cleanly on their own, without a dense chronological index behind them (see "INDEX — retired 2026-09-27").
 
 Forms and practical participation instructions belong inside the relevant active project, never as a generic marketing funnel.
 
-## INDEX — V2
+## INDEX — retired 2026-09-27
 
-The INDEX concept remains validated for V2.
+Historical record only. INDEX was validated for a future V2 as a dense, typographic, chronological reserve of the full documented practice (fields: year/date, title, work/corpus type, discipline/medium, context/venue, status; discreet filters; no spreadsheet/admin-dashboard appearance).
 
-Future form:
-- dense, typographic, chronological reserve;
-- full documented practice, currently at least 2014–2026;
-- possible fields: year/date, title, work/corpus type, discipline/medium, context/venue, status;
-- discreet filters where useful;
-- no spreadsheet / admin-dashboard appearance.
-
-Implementation of INDEX should begin only after V1 is live or stable enough that the archive dataset can be built without delaying launch.
+Retired along with ACTIONS in the 2026-09-27 architecture decision (see "Retired concepts" above) rather than carried forward as a deferred V2 item. If a chronological reserve is wanted later, it should be proposed as a fresh decision against the current FORM/VOICE/READ/PLACE/ARCHIVE/ABOUT architecture, not resumed from this spec.
 
 ## Public naming — DECIDED 2026-09-11
 
@@ -206,43 +188,25 @@ SIRET: `[TO ADD]`
 President — Shoot Me SAS  
 SIREN/SIRET: `[TO ADD]`
 
-## Current phase — UPDATED 2026-09-26
+## Current phase — UPDATED 2026-09-27
 
 The project has moved from initial archive/portfolio architecture toward a clearer presentation of the artistic practice.
 
-### Homepage focus — DECIDED 2026-09-26
+### Homepage — DECIDED 2026-09-27, superseding "Homepage focus" (09-26)
 
-The homepage is intentionally narrower than the full site. It is a **present-tense front window**, not a summary of the archive.
+The 2026-09-26 idea of a homepage deliberately **narrower** than the full site (hiding URL Fighters, Princeville, Works in Space & Matter, Sound and Editions "below the landing page") is dropped. There is no longer a separate narrower-homepage-vs-deeper-pages split for these five: they were coded as full sections (`UrlFightersSection`, `PrincevilleSection`, `WorksSpaceMatterSection`, `SoundSection`, `EditionsPrintSection`) but sat unused, unreachable from any nav — that gap is what this decision closes.
 
-Current order, from the most concrete / immediately legible to the most prospective:
-1. **COLLECTIONS** — the clothes, silhouettes and material language.
-2. **WE DRESS YOU TONIGHT** — activation of clothing through dressing and photography in the studio.
-3. **THE DINNER PROJECT** — a wider social situation combining clothing, encounter, food, image, film and sound.
-4. **L3XL3** — the larger opera / world in progress; deliberately last on the homepage for now because it is the least concrete and most prospective of the four.
+The homepage is now the full `FORM · VOICE · READ · PLACE · ARCHIVE` sequence, in that order, each a same-page anchor group; `ABOUT` stays a separate route. No content is held back to a deeper page beneath these five groups — depth means richer treatment inside each group (already true of `UrlFightersSection` / `PrincevilleSection` / `WorksSpaceMatterSection`'s fuller layouts versus the old `WorksSection` preview grid), not a second navigation layer beyond it.
 
-Historical and parallel corpora such as URL Fighters, Princeville, Works in Space & Matter, Sound and Editions remain part of the site but should not be unfolded on the landing page.
-
-### Homepage versus deeper navigation — DECIDED 2026-09-26
-
-Do **not** make ACTIONS, WORKS or INDEX into repetitions of the homepage.
-
-The homepage answers: **what is Victor making / activating now?**
-
-The deeper areas answer different questions:
-- **ACTIONS** — the broader family of actions, protocols, encounters and symbolic/ambiguous situations, including current and historical material.
-- **WORKS** — the broader material practice: autonomous clothing, image, sculpture, painting, objects, sound, editions and other works. A homepage project may be referenced here only when it adds deeper material, not by replaying the same homepage block.
-- **INDEX** — the dense chronological reserve of the documented practice. It is a finding / orientation layer, not a second portfolio page.
-- **ABOUT** — factual trajectory, biography, texts, publications, credits and contact.
-- **L3XL3** — remains accessible directly in navigation as its own developing world, even while its homepage appearance is placed last.
-
-Duplication rule: if a project is already visible on the homepage, a deeper page should provide **additional documentation, context, chronology, media or relationships**. Never reproduce the same hero + same copy as a second landing section.
+- **FORM** — Collections, We Dress You Tonight, The Dinner Project (most concrete / immediately legible: clothes, their activation, the wider social situation built from them).
+- **VOICE** — L3XL3 (opera in progress), Sound (discography). Grouped together as the practice's sung/staged/sounded work; L3XL3 keeps major visual presence within this group without acting as the explanation for FORM, PLACE or ARCHIVE.
+- **READ** — Editions & Print.
+- **PLACE** — URL Fighters, Princeville — kept as continuing corpora, not closed archives.
+- **ARCHIVE** — Works in Space & Matter.
+- **ABOUT** — factual trajectory, biography, texts, publications, credits and contact; unchanged in content or role.
 
 Current priorities:
-1. Maintain navigation around `L3XL3 · ACTIONS · WORKS · INDEX · ABOUT`.
-2. Give L3XL3 major visual presence without making it the explanation for all works.
-3. Build ACTIONS as a central conceptual layer using verified documentary material.
-4. Re-map existing SELECTED content into L3XL3, ACTIONS, WORKS and INDEX.
-5. Keep ABOUT concise, factual and artist-focused.
-6. Preserve and progressively improve real media, metadata and credits.
-7. Keep URL Fighters visible as an important continuing corpus rather than treating it as a closed archive.
-8. Let future opera / film development emerge inside L3XL3 without making the site depend on those outcomes.
+1. Maintain navigation around `FORM · VOICE · READ · PLACE · ARCHIVE · ABOUT`.
+2. Keep ABOUT concise, factual and artist-focused.
+3. Preserve and progressively improve real media, metadata and credits.
+4. Let future opera / film development emerge inside VOICE (via L3XL3) without making the site depend on those outcomes.
