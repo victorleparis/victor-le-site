@@ -59,6 +59,36 @@ Les vêtements peuvent eux aussi entrer dans ce processus de circulation : être
 
 → Voir [`PROTOCOL_CIRCULATION.md`](PROTOCOL_CIRCULATION.md) — protocole de circulation des vêtements.
 
+### Le vêtement n’est pas une fin
+
+Je ne conçois pas le vêtement comme un objet terminé au moment où il est fabriqué.
+
+Sa vie commence lorsqu’il rencontre un corps.
+
+Il est porté, déplacé, photographié, transformé par une personne et par une situation. Puis il revient, repart, change de contexte et accumule des traces.
+
+**Le vêtement possède une trajectoire plutôt qu’un état final.**
+
+Cette circulation évite de réduire la création à la possession. L’objet n’a pas vocation à rester figé, protégé ou simplement conservé parce qu’il est « à moi ».
+
+Ce qui m’intéresse est sa vie :
+
+**CRÉER → CONFIER → PORTER → VIVRE → REVENIR → REPARTIR.**
+
+La continuité ne passe donc pas nécessairement par la conservation intacte.
+
+**Quelque chose peut durer sans rester fixe.**
+
+La responsabilité change elle aussi de nature : il ne s’agit pas seulement de protéger l’objet, mais de rendre possible sa circulation, sa transformation et son histoire.
+
+Chaque personne qui porte une pièce ajoute quelque chose que je n’aurais pas pu produire seul : une attitude, un usage, une image, un accident, une mémoire.
+
+Le vêtement devient alors un lien entre **objet, corps, personne et monde**.
+
+Je ne cherche pas seulement à fabriquer des vêtements.
+
+**Je cherche à mettre des vêtements en vie.**
+
 ---
 
 ## PROTOCOLE — 4 TEMPS
