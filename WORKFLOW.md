@@ -71,5 +71,7 @@ Kept here so no single doc's "read first" list has to be the only place this is 
 | `CREATION_CARD.md` | Per-creation archive card template used by `ARCHIVE_SYSTEM.md` |
 | `README.md` | Repository entry point; must list the same read order as `AGENTS.md` |
 | `biography/VICTOR_LE_MASTER_BIOGRAPHY.md` | Private/interpretive biographical source material — **never** publish from this directly; `CONTENT.md` is the source of truth for what's public |
+| `l3xl3-film/L3XL3_FILM_SEQUENCE_01_USINE.md` | L3XL3 film working document: detailed shot-by-shot opening factory sequence |
+| `l3xl3-film/L3XL3_USINE_REFERENCES_VISUELLES.md` | L3XL3 film working visual-direction reference for the bandeau factory |
 
 The last five (`PROTOCOL_CIRCULATION.md`, `CIRCULATION_CARD.md`, `ARCHIVE_SYSTEM.md`, `CREATION_CARD.md`, `biography/`) are studio-practice documents, not website specs — they matter for factual grounding (e.g. confirming a garment's real trajectory before writing copy about it) but don't drive site architecture or design.
