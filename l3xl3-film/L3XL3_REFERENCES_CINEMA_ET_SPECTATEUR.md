@@ -82,9 +82,30 @@ tout en donnant au spectateur un désir narratif élémentaire.
 
 **La forme peut être radicale. L’attente du spectateur doit rester simple.**
 
+
+### Brazil — Terry Gilliam (1985)
+
+Référence pour le **système administratif absurde mais parfaitement organisé**, l’esthétique très construite et la coexistence du grotesque et du beau. Le monde impose des règles aberrantes que les personnages traitent pourtant comme normales.
+
+Pour L3XL3, cette référence nourrit particulièrement **l’usine et le système de protection des URL** : procédures, normes, sélection, statuts et rituels peuvent être extrêmement organisés sans que le film explique ou juge leur absurdité.
+
+### L’Armée des 12 singes — Terry Gilliam (1995)
+
+Référence davantage liée à la **circulation**, aux passages entre espaces et réalités et à la sensation qu’une logique supérieure existe sans qu’on puisse complètement la comprendre.
+
+Elle est aussi importante pour une autre raison : malgré un univers complexe et instable, le récit conserve un **moteur émotionnel humain fort**. Pour L3XL3, c’est une piste essentielle pour articuler le voyage du bandeau et l’étrangeté du système avec l’attachement progressif au chef d’orchestre et à la pianiste.
+
+### Famille esthétique qui se dessine
+
+Avec **Brazil**, **L’Armée des 12 singes** et **Beau Is Afraid**, une famille esthétique de L3XL3 apparaît :
+
+> **un monde extrêmement organisé dont la logique devient progressivement folle, mais qui est filmé comme s’il était parfaitement réel.**
+
 ## Autres références cinéma déjà associées à L3XL3
 
 - **Albert souffre** — déplacement, économie de moyens, étrangeté, musique.
 - **Le Trieur** — répétition industrielle, anomalie minuscule, obsession.
 - **Rubber** — absurdité traitée avec sérieux, objet / monde décalé.
+- **Brazil** — système absurde parfaitement organisé, esthétique construite, grotesque et beauté.
+- **L’Armée des 12 singes** — circulation, réalités instables, logique mystérieuse et moteur émotionnel humain.
 - **Beau Is Afraid** — esthétique, rythme, humour, escalade de l’étrange ; référence à ne pas suivre dans une logique de désorientation totale du spectateur.
