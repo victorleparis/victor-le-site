@@ -75,5 +75,6 @@ Kept here so no single doc's "read first" list has to be the only place this is 
 | `l3xl3-film/L3XL3_FILM_SEQUENCE_01_USINE.md` | L3XL3 film working document: detailed shot-by-shot opening factory sequence |
 | `l3xl3-film/L3XL3_USINE_REFERENCES_VISUELLES.md` | L3XL3 film working visual-direction reference for the bandeau factory |
 | `l3xl3-film/L3XL3_REFERENCES_CINEMA_ET_SPECTATEUR.md` | L3XL3 film references and spectator-engagement principle, including Beau Is Afraid |
+| `l3xl3-film/L3XL3_PERSONNAGE_PIANISTE_RITUEL_DU_TEMPS.md` | L3XL3 pianist character development: timed daily ritual, piano practice, old-band collecting and encounter with the conductor |
 
 The last five (`PROTOCOL_CIRCULATION.md`, `CIRCULATION_CARD.md`, `ARCHIVE_SYSTEM.md`, `CREATION_CARD.md`, `biography/`) are studio-practice documents, not website specs — they matter for factual grounding (e.g. confirming a garment's real trajectory before writing copy about it) but don't drive site architecture or design.
