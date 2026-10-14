@@ -94,3 +94,19 @@ Elle participe également à la règle générale de relation au spectateur :
 Ici, la situation est immédiatement reconnaissable : quelqu'un essaie simplement d'arriver cinq minutes en avance et finit toujours par arriver juste à l'heure.
 
 Cette réalité quotidienne rend ensuite acceptable l'étrangeté beaucoup plus grande du système des bandeaux.
+
+## Référence musicale — Annie Cordy (14 octobre 2026)
+
+**Titre proposé :** Annie Cordy — *Le dimanche matin* (du film *Le Chanteur de Mexico*). Référence repérée sur FIP.
+
+**Placement envisagé :** introduction de la pianiste, du réveil jusqu'à son arrivée au piano.
+
+La légèreté de cette chanson populaire et son caractère presque désuet contrastent avec la précision obsessionnelle de la routine. Les gestes quotidiens et les accélérations du trajet peuvent former une chorégraphie montée sur la chanson.
+
+Elle prévoit une arrivée à 08:55, mais arrive à 09:00. Lorsqu'elle s'assoit au piano, la chanson enregistrée s'interrompt et laisse place aux premières notes qu'elle joue elle-même : passage de la musique populaire à la musique classique diégétique.
+
+**À vérifier avant validation définitive :** écoute intégrale, paroles, rythme exact, durée utile, droits de synchronisation et de master.
+
+**Question de mise en scène ouverte :** écoute-t-elle réellement la chanson chaque matin, ou s'agit-il d'une musique entendue uniquement par le spectateur ? Ne pas trancher pour l'instant.
+
+**Statut :** référence musicale prioritaire, non verrouillée.
