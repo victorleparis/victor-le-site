@@ -109,3 +109,21 @@ Avec **Brazil**, **L’Armée des 12 singes** et **Beau Is Afraid**, une famille
 - **Brazil** — système absurde parfaitement organisé, esthétique construite, grotesque et beauté.
 - **L’Armée des 12 singes** — circulation, réalités instables, logique mystérieuse et moteur émotionnel humain.
 - **Beau Is Afraid** — esthétique, rythme, humour, escalade de l’étrange ; référence à ne pas suivre dans une logique de désorientation totale du spectateur.
+
+## Retarder les gros plans de visages — référence Visconti / Cassavetes (15 octobre 2026)
+
+**Observation de Victor :** en regardant *Ossessione* (*Les Amants diaboliques*, Luchino Visconti, 1943), il remarque la force de très gros plans de visages qui apparaissent tardivement, vers 1 h 30 selon son repérage. Ce minutage est une observation de visionnage, à vérifier plan par plan, et non une affirmation que le film ne comporte aucun gros plan auparavant.
+
+**Autre référence de langage :** John Cassavetes, pour la présence et l'intensité émotionnelle des visages en gros plan. Il s'agit d'un rapprochement esthétique, pas d'une attribution de cette technique à Cassavetes ou d'une identité de mise en scène avec Visconti.
+
+**Principe envisagé pour L3XL3 :**
+
+> **Retarder le visage pour que son apparition devienne un événement.**
+
+Dans la première partie, privilégier les corps en action, les comportements, les gestes, les déplacements et les rituels. Les gros plans d'objets, de mains, de cheveux ou de machines restent possibles dès l'ouverture. Éviter surtout les **très gros plans émotionnels frontaux des visages**, plutôt qu'imposer une interdiction absolue de tout gros plan.
+
+La pianiste est d'abord perçue à travers son quotidien chronométré ; le chef à travers ses soins corporels, son entraînement et sa direction d'orchestre. Leurs intériorités sont révélées progressivement par les actes.
+
+**Moment possible de rupture :** lorsqu'ils reconnaissent mutuellement leur secret des anciens bandeaux pendant la répétition, passer pour la première fois à de très gros plans prolongés de leurs visages. La mise en scène change d'échelle en même temps que le récit passe du système à la rencontre humaine.
+
+**Statut :** proposition forte de grammaire visuelle, à éprouver au découpage et aux essais caméra ; ne pas figer arbitrairement une minute exacte.
