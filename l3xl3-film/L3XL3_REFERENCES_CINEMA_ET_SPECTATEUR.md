@@ -127,3 +127,19 @@ La pianiste est d'abord perçue à travers son quotidien chronométré ; le chef
 **Moment possible de rupture :** lorsqu'ils reconnaissent mutuellement leur secret des anciens bandeaux pendant la répétition, passer pour la première fois à de très gros plans prolongés de leurs visages. La mise en scène change d'échelle en même temps que le récit passe du système à la rencontre humaine.
 
 **Statut :** proposition forte de grammaire visuelle, à éprouver au découpage et aux essais caméra ; ne pas figer arbitrairement une minute exacte.
+
+## David Lynch — le visage comme énigme (15 octobre 2026)
+
+**Références :** *Mulholland Drive* (2001) et *Twin Peaks: The Return* (2017).
+
+Le gros plan n'a pas nécessairement pour fonction de révéler une émotion lisible. Par la durée, l'immobilité, la lumière et le son, un visage ordinaire peut devenir mystérieux. Le spectateur hésite sur ce que le personnage sait, ressent ou dissimule.
+
+**Application possible à L3XL3 :** lorsque la pianiste et le chef reconnaissent leurs collections secrètes de bandeaux, laisser durer un très gros plan sans réaction démonstrative. Les sons de la répétition peuvent se modifier subtilement, puis la baguette se lève et l'orchestre reprend sans explication. Piste de mise en scène, non découpage définitif.
+
+**Trois principes complémentaires :**
+
+- **Visconti :** attendre le visage — en faire un événement.
+- **Cassavetes :** rester sur le visage — observer une émotion qui évolue.
+- **Lynch :** ne pas nécessairement expliquer ce que le visage révèle — maintenir l'énigme.
+
+Ne pas confondre ces références avec des règles absolues appliquées par chaque cinéaste à tous ses films.
