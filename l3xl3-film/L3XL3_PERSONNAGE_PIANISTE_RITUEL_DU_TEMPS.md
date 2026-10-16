@@ -110,3 +110,35 @@ Elle prévoit une arrivée à 08:55, mais arrive à 09:00. Lorsqu'elle s'assoit 
 **Question de mise en scène ouverte :** écoute-t-elle réellement la chanson chaque matin, ou s'agit-il d'une musique entendue uniquement par le spectateur ? Ne pas trancher pour l'instant.
 
 **Statut :** référence musicale prioritaire, non verrouillée.
+
+## Référence visuelle et scène du café — 16 octobre 2026
+
+**Source :** cinq photographies de référence fournies par Victor, montrant une femme assise dans un café. Il s'agit d'une référence pour le personnage fictif, pas d'une identification ni d'un casting confirmé. Images originales à conserver séparément dans les archives visuelles ; ce document n'intègre pas les fichiers binaires.
+
+### Silhouette, vêtements et signes distinctifs
+
+- Cheveux châtain auburn aux reflets roux, attachés dans un chignon souple et imparfait avec pince visible ; mèches et frange libres autour du visage.
+- Créoles dorées de taille moyenne, ongles longs vernis bordeaux foncé, bracelet fin.
+- Robe noire longue à manches longues, col montant, buste ajusté et jupe plus ample.
+- Imperméable beige clair, souple, à boutons foncés, déposé sur le dossier de la chaise.
+- Baskets basses taupe / gris-brun avec semelles gomme caramel, chaussettes noires courtes.
+- Téléphone noir, sac noir au sol. Verre de jus d'orange à proximité.
+- Contraste essentiel : robe élégante et baskets pratiques, adaptées à sa marche rapide et à son quotidien chronométré.
+
+Ces éléments forment une **référence de costume et de gestuelle**, non une obligation de reproduire à l'identique une personne réelle.
+
+### Scène possible — le café
+
+La pianiste est assise de profil à une table, légèrement penchée vers l'avant. Elle éprouve soudain le besoin de se moucher.
+
+Elle porte une main devant son nez avec une élégance inhabituelle ; le spectateur ne comprend pas immédiatement ce qu'elle fait.
+
+Elle se lève pour chercher une serviette, revient à sa place, se mouche discrètement, replie la serviette, puis reprend son activité.
+
+Le geste n'est ni commenté ni caricaturé. Son soin délicat appliqué à une nécessité ordinaire révèle l'un de ses **tendres tics / rituels personnels**.
+
+### Mise en scène
+
+Privilégier un plan de profil ou un plan moyen, le bruit du café et la continuité des autres clientes. Ne pas imposer de très gros plan émotionnel : cohérence avec le principe de retarder la révélation des visages.
+
+**Statut :** scène et silhouette proposées pour la pianiste ; à confirmer au casting, aux essais costume et au découpage.
