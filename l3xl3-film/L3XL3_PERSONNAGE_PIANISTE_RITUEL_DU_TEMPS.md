@@ -142,3 +142,11 @@ Le geste n'est ni commenté ni caricaturé. Son soin délicat appliqué à une n
 Privilégier un plan de profil ou un plan moyen, le bruit du café et la continuité des autres clientes. Ne pas imposer de très gros plan émotionnel : cohérence avec le principe de retarder la révélation des visages.
 
 **Statut :** scène et silhouette proposées pour la pianiste ; à confirmer au casting, aux essais costume et au découpage.
+
+### Silhouette en mouvement — précision complémentaire (16 octobre 2026)
+
+Lorsqu'elle se lève de sa chaise au café pour chercher une serviette, sa robe noire laisse percevoir une silhouette aux **fessiers assez musclés**. Ce trait physique peut évoquer une vie active et ses trajets quotidiens à marche rapide, sans prétendre déduire son activité physique réelle des photographies de référence.
+
+Ne pas isoler ce détail par un plan insistant : le laisser apparaître naturellement dans un plan de profil ou un plan moyen lors du mouvement pour se lever.
+
+**Contraste avec le chef :** lui entretient volontairement son corps par ses rituels de soins et de musculation ; elle peut avoir un corps entraîné par ses habitudes de déplacement et son emploi du temps réglé. Hypothèse de caractérisation, pas explication physiologique certaine.
