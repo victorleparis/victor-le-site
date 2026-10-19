@@ -53,3 +53,17 @@ Le basculement recherché est :
 **objet fermé → mécanisme → lit → bandeaux → corps → Cocoït Gourmet**
 
 Une opération fonctionnelle devient progressivement un rituel, sans moment explicite où le film annonce ce changement.
+
+## Référence musicale — « Relax » (19 octobre 2026)
+
+**Frankie Goes to Hollywood — *Relax* (1983).**
+
+Référence musicale retenue pour **Cocoït Gourmet**, avec une **préférence de placement dans le Cocoït Gourmet final** du chef d'orchestre et de la pianiste, et non nécessairement dans le rituel d'ouverture décrit dans ce document.
+
+La chanson fait jouer une tension entre **contrôle, désir, retenue et abandon**, avec une double lecture sexuelle de « come » (venir / jouir). Sa pulsation dansante et presque mécanique peut accompagner des gestes extrêmement précis qui conduisent à un acte dont les conséquences échappent aux personnages.
+
+**Piste de mise en scène :** opposer la rigueur des protocoles corporels et des bandeaux accumulés à l'exubérance musicale ; ne pas décider encore si la chanson intervient dès la préparation, pendant le rituel ou en rupture après celui-ci.
+
+**Statut :** référence musicale ajoutée, placement exact et version du morceau à déterminer. **Droits de synchronisation et d'enregistrement à obtenir** avant utilisation définitive.
+
+Ce choix musical concerne les **deux Cocoït Gourmet dans leur symétrie narrative**, sans modifier le découpage actuel de la Séquence 00.
