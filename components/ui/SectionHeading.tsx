@@ -1,14 +1,15 @@
 import styles from "./SectionHeading.module.css";
 
 const projectNumbers: Record<string, string> = {
-  "COLLECTIONS": "02",
-  "THE DINNER PROJECT": "03",
-  "L3XL3": "04",
-  "SOUND": "05",
-  "EDITIONS & PRINT": "06",
-  "URL FIGHTERS": "07",
-  "PRINCEVILLE": "08",
-  "WORKS IN SPACE & MATTER": "09",
+  "LIFE FRAGMENTS": "02",
+  "COLLECTIONS": "03",
+  "THE DINNER PROJECT": "04",
+  "L3XL3": "05",
+  "SOUND": "06",
+  "EDITIONS & PRINT": "07",
+  "URL FIGHTERS": "08",
+  "PRINCEVILLE": "09",
+  "WORKS IN SPACE & MATTER": "10",
 };
 
 export function SectionHeading({
