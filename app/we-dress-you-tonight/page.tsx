@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import styles from "./page.module.css";
 
 const email = "v@shootme.com";
@@ -21,7 +22,7 @@ Je souhaite recevoir une confirmation de participation.
 L'adresse sera communiquée individuellement après confirmation.`;
   return (
     <section className={styles.section}>
-      <a className={styles.back} href="/#we-dress-you-tonight">← WE DRESS YOU TONIGHT</a>
+      <Link className={styles.back} href="/#we-dress-you-tonight">← WE DRESS YOU TONIGHT</Link>
       <p className={styles.kicker}>INVITATION / PERFORMANCE GUESTS</p>
       <h1>WE DRESS<br/>YOU TONIGHT</h1>
       <p className={styles.lead}>Entrez. Ready to updress. Exécutez un geste. Accident.</p>
@@ -30,7 +31,7 @@ L'adresse sera communiquée individuellement après confirmation.`;
         <span>ADRESSE COMMUNIQUÉE APRÈS CONFIRMATION</span>
       </div>
       <h2>DEMANDE DE PARTICIPATION</h2>
-      <p className={styles.note}>Complétez ces informations pour préparer votre demande. Le bouton ouvrira votre messagerie avec le message prérempli : aucun renseignement n'est transmis avant votre envoi.</p>
+      <p className={styles.note}>Complétez ces informations pour préparer votre demande. Le bouton ouvrira votre messagerie avec le message prérempli : aucun renseignement n&apos;est transmis avant votre envoi.</p>
       <form onSubmit={(event) => {
         event.preventDefault();
         window.location.href = `mailto:${email}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
@@ -41,7 +42,7 @@ L'adresse sera communiquée individuellement après confirmation.`;
         <label>Un mot (facultatif)<textarea rows={3} value={note} onChange={(e) => setNote(e.target.value)} /></label>
         <button type="submit">OUVRIR LA DEMANDE PAR EMAIL ↗</button>
       </form>
-      <p className={styles.note}>Participation sur confirmation uniquement. L'adresse exacte sera envoyée en réponse à votre demande acceptée.</p>
+      <p className={styles.note}>Participation sur confirmation uniquement. L&apos;adresse exacte sera envoyée en réponse à votre demande acceptée.</p>
     </section>
   );
 }
