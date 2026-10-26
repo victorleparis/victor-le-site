@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { CollectionsSection } from "@/components/selected/CollectionsSection";
 import { DinnerProjectSection } from "@/components/selected/DinnerProjectSection";
 import { L3xl3Section } from "@/components/selected/L3xl3Section";
@@ -30,7 +31,7 @@ export default function HomePage() {
               <span className="mono">STUDIO — PARIS</span>
             </div>
           </div>
-          <a className="we-dress__register" href="/we-dress-you-tonight">REQUEST AN INVITATION ↗</a>
+          <Link className="we-dress__register" href="/we-dress-you-tonight">REQUEST AN INVITATION ↗</Link>
         </section>
 
         <CollectionsSection />
