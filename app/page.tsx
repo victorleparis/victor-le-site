@@ -30,6 +30,7 @@ export default function HomePage() {
               <span className="mono">STUDIO — PARIS</span>
             </div>
           </div>
+          <a className="we-dress__register" href="/we-dress-you-tonight">REQUEST AN INVITATION ↗</a>
         </section>
 
         <CollectionsSection />

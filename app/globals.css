@@ -330,3 +330,5 @@ section[id] {
 /* Project navigation: reserve a persistent left rail on desktop. */
 @media(min-width:901px){body>div main,body main{margin-left:248px}body>div footer,body footer{margin-left:248px}}
 @media(max-width:900px){section[id]{scroll-margin-top:74px}}
+
+.we-dress__register{display:inline-block;margin-top:24px;padding:13px 18px;background:var(--color-ink);color:var(--color-paper);font-family:var(--font-mono);font-size:12px;letter-spacing:.04em}.we-dress__register:hover{opacity:.8}
