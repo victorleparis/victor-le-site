@@ -34,6 +34,7 @@ export default function HomePage() {
           <Link className="we-dress__register" href="/we-dress-you-tonight">REQUEST AN INVITATION ↗</Link>
         </section>
 
+        <LifeFragmentsSection />
         <CollectionsSection />
         <DinnerProjectSection />
       </div>
@@ -54,7 +55,6 @@ export default function HomePage() {
 
       <div>
         <WorksSpaceMatterSection />
-        <LifeFragmentsSection />
       </div>
     </>
   );
