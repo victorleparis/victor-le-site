@@ -59,10 +59,6 @@ export function Nav() {
             </Link>
           );
         })}
-        <div className={styles.navUtility}>
-          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">INSTAGRAM</a>
-          <a href="mailto:">CONTACT</a>
-        </div>
       </nav>
     </>
   );
