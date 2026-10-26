@@ -11,11 +11,13 @@ export default function WeDressRegistration() {
   const [replyTo, setReplyTo] = useState("");
   const [instagram, setInstagram] = useState("");
   const [note, setNote] = useState("");
+  const [referredBy, setReferredBy] = useState("");
   const subject = "WE DRESS YOU TONIGHT — demande de participation — 30 octobre 2026";
   const body = `WE DRESS YOU TONIGHT — 30 OCTOBRE 2026
 Nom : ${name}
 Email : ${replyTo}
 Instagram : ${instagram}
+Recommandé par : ${referredBy}
 Message : ${note}
 
 Je souhaite recevoir une confirmation de participation.
@@ -39,6 +41,7 @@ L'adresse sera communiquée individuellement après confirmation.`;
         <label>Nom / Name<input required value={name} onChange={(e) => setName(e.target.value)} /></label>
         <label>Email<input type="email" required value={replyTo} onChange={(e) => setReplyTo(e.target.value)} /></label>
         <label>Instagram<input value={instagram} onChange={(e) => setInstagram(e.target.value)} /></label>
+        <label>Recommandé par<input value={referredBy} onChange={(e) => setReferredBy(e.target.value)} /></label>
         <label>Un mot<textarea rows={3} value={note} onChange={(e) => setNote(e.target.value)} /></label>
         <button type="submit">OUVRIR LA DEMANDE PAR EMAIL ↗</button>
       </form>
