@@ -6,6 +6,7 @@ import { EditionsPrintSection } from "@/components/selected/EditionsPrintSection
 import { UrlFightersSection } from "@/components/selected/UrlFightersSection";
 import { PrincevilleSection } from "@/components/selected/PrincevilleSection";
 import { WorksSpaceMatterSection } from "@/components/selected/WorksSpaceMatterSection";
+import { LifeFragmentsSection } from "@/components/selected/LifeFragmentsSection";
 
 /**
  * Homepage — present-tense front window.
@@ -71,6 +72,7 @@ export default function HomePage() {
 
       <section id="archive">
         <WorksSpaceMatterSection />
+        <LifeFragmentsSection />
       </section>
     </>
   );
