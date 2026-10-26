@@ -18,6 +18,7 @@ export const siteConfig = {
   // Project-first navigation — approved 2026-10-26. Each label matches its section title.
   nav: [
     { label: "WE DRESS YOU TONIGHT", href: "/#we-dress-you-tonight" },
+    { label: "LIFE FRAGMENTS", href: "/#life-fragments" },
     { label: "COLLECTIONS", href: "/#collections" },
     { label: "THE DINNER PROJECT", href: "/#dinner-project" },
     { label: "L3XL3", href: "/#l3xl3" },
@@ -26,7 +27,6 @@ export const siteConfig = {
     { label: "URL FIGHTERS", href: "/#url-fighters" },
     { label: "PRINCEVILLE", href: "/#princeville" },
     { label: "WORKS IN SPACE & MATTER", href: "/#works-space-matter" },
-    { label: "LIFE FRAGMENTS", href: "/#life-fragments" },
     { label: "ABOUT", href: "/about" },
   ],
 
