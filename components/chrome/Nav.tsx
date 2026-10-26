@@ -42,7 +42,7 @@ export function Nav() {
         <span aria-hidden="true">{open ? "×" : "☰"}</span>
       </button>
       <nav id="projects-navigation" className={`${styles.nav} ${open ? styles.navOpen : ""}`} aria-label="Projects">
-        {siteConfig.nav.map((item) => {
+        {siteConfig.nav.map((item, index) => {
           const active = item.href === "/about" ? pathname === "/about" : pathname === "/" && hash === item.href.slice(1);
           return (
             <Link
@@ -55,7 +55,8 @@ export function Nav() {
                 setHash(item.href.includes("#") ? item.href.slice(item.href.indexOf("#")) : "");
               }}
             >
-              {item.label}
+              {item.href !== "/about" && <span className={styles.navNumber} aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>}
+              <span>{item.label}</span>
             </Link>
           );
         })}

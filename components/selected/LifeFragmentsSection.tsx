@@ -6,7 +6,7 @@ const archiveUrl = "https://life-fragments-victor-le-de-doisy.fuzzybox4.chatgpt.
 export function LifeFragmentsSection() {
   return (
     <section className={styles.section} id="life-fragments" aria-labelledby="life-fragments-title">
-      <div className={styles.meta}><span>PHOTOGRAPHIC DIARY</span><span>2026—</span></div>
+      <div className={styles.meta}><span>10 — PHOTOGRAPHIC DIARY</span><span>2026—</span></div>
       <h2 className={styles.title} id="life-fragments-title">LIFE<br />FRAGMENTS</h2>
       <p className={styles.intro}>A photographic diary of everyday life.<br />People, places, encounters and accidents.<br />An ongoing archive of moments, without hierarchy.</p>
       <figure className={styles.hero}>

@@ -17,7 +17,7 @@ export default function HomePage() {
       <div>
         <section id="we-dress-you-tonight" className="we-dress">
           <div className="we-dress__meta mono">
-            <span>02</span>
+            <span>01</span>
             <span>STUDIO / FASHION / IMAGE / ACTION</span>
             <span>2026—</span>
           </div>
