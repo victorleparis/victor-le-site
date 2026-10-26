@@ -32,6 +32,10 @@ L'adresse sera communiquée individuellement après confirmation.`;
         <span>30 OCTOBRE 2026</span><span>19H00 — 22H00</span><span>PARIS</span>
         <span>ADRESSE COMMUNIQUÉE APRÈS CONFIRMATION</span>
       </div>
+      <div className={styles.flyer}>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris" />
+      </div>
       <h2>DEMANDE DE PARTICIPATION</h2>
       <p className={styles.note}>Complétez ces informations pour préparer votre demande. Le bouton ouvrira votre messagerie avec le message prérempli : aucun renseignement n&apos;est transmis avant votre envoi.</p>
       <form onSubmit={(event) => {
