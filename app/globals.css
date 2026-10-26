@@ -332,3 +332,7 @@ section[id] {
 @media(max-width:900px){section[id]{scroll-margin-top:74px}}
 
 .we-dress__register{display:inline-block;margin-top:24px;padding:13px 18px;background:var(--color-ink);color:var(--color-paper);font-family:var(--font-mono);font-size:12px;letter-spacing:.04em}.we-dress__register:hover{opacity:.8}
+
+/* WE DRESS YOU TONIGHT — original invitation poster */
+.we-dress__flyer{max-width:660px;margin:32px auto 26px}
+.we-dress__flyer img{display:block;width:100%;height:auto}
