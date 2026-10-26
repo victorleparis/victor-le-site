@@ -1,4 +1,6 @@
 import Link from "next/link";
+import { existsSync } from "node:fs";
+import path from "node:path";
 import { CollectionsSection } from "@/components/selected/CollectionsSection";
 import { DinnerProjectSection } from "@/components/selected/DinnerProjectSection";
 import { L3xl3Section } from "@/components/selected/L3xl3Section";
@@ -11,6 +13,7 @@ import { LifeFragmentsSection } from "@/components/selected/LifeFragmentsSection
 
 /** Project-first homepage. The navigation links directly to the visible project headings. */
 export default function HomePage() {
+  const hasWeDressFlyer = existsSync(path.join(process.cwd(), "public", "media", "we-dress-you-tonight", "invitation-30-octobre-2026.jpg"));
   return (
     <>
       <h1 className="visually-hidden">Victor Le — Artist &amp; Designer</h1>
@@ -31,6 +34,12 @@ export default function HomePage() {
               <span className="mono">STUDIO — PARIS</span>
             </div>
           </div>
+          {hasWeDressFlyer && (
+            <div className="we-dress__flyer">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris" loading="lazy" />
+            </div>
+          )}
           <Link className="we-dress__register" href="/we-dress-you-tonight">REQUEST AN INVITATION ↗</Link>
         </section>
 
