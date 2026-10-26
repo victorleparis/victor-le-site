@@ -326,3 +326,7 @@ section[id] {
     font-size: clamp(3.8rem, 20vw, 7rem);
   }
 }
+
+/* Project navigation: reserve a persistent left rail on desktop. */
+@media(min-width:901px){body>div main,body main{margin-left:248px}body>div footer,body footer{margin-left:248px}}
+@media(max-width:900px){section[id]{scroll-margin-top:74px}}

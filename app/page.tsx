@@ -8,32 +8,13 @@ import { PrincevilleSection } from "@/components/selected/PrincevilleSection";
 import { WorksSpaceMatterSection } from "@/components/selected/WorksSpaceMatterSection";
 import { LifeFragmentsSection } from "@/components/selected/LifeFragmentsSection";
 
-/**
- * Homepage — present-tense front window.
- *
- * Public architecture — DECIDED 2026-09-27 (see PROJECT.md "Long-term
- * public architecture" and "Current phase"): FORM · VOICE · READ · PLACE ·
- * ARCHIVE, each a same-page anchor group matching content/site.config.ts's
- * nav; ABOUT stays a separate route (app/about/page.tsx).
- *
- * - FORM    — clothing as sculpture, silhouette and situation.
- * - VOICE   — the sung, staged and sounded.
- * - READ    — print and publishing.
- * - PLACE   — declared and claimed territory.
- * - ARCHIVE — the autonomous material corpus.
- *
- * This replaces the old WORKS anchor's lightweight preview grid
- * (components/selected/WorksSection.tsx, removed) with each of its three
- * corpora getting its own full section under PLACE or ARCHIVE, and wires
- * in SoundSection / EditionsPrintSection, which existed but weren't
- * reachable from any nav before this decision.
- */
+/** Project-first homepage. The navigation links directly to the visible project headings. */
 export default function HomePage() {
   return (
     <>
       <h1 className="visually-hidden">Victor Le — Artist &amp; Designer</h1>
 
-      <section id="form">
+      <div>
         <CollectionsSection />
 
         <section id="we-dress-you-tonight" className="we-dress">
@@ -54,26 +35,26 @@ export default function HomePage() {
         </section>
 
         <DinnerProjectSection />
-      </section>
+      </div>
 
-      <section id="voice">
+      <div>
         <L3xl3Section />
         <SoundSection />
-      </section>
+      </div>
 
-      <section id="read">
+      <div>
         <EditionsPrintSection />
-      </section>
+      </div>
 
-      <section id="place">
+      <div>
         <UrlFightersSection />
         <PrincevilleSection />
-      </section>
+      </div>
 
-      <section id="archive">
+      <div>
         <WorksSpaceMatterSection />
         <LifeFragmentsSection />
-      </section>
+      </div>
     </>
   );
 }

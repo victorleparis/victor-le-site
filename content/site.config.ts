@@ -15,19 +15,18 @@ export const siteConfig = {
   location: "Paris",
   disciplines: ["Visual Art", "Fashion", "Image", "Sound", "Performance"],
 
-  // Architecture DECIDED 2026-09-27 (see PROJECT.md "Long-term public
-  // architecture"): FORM · VOICE · READ · PLACE · ARCHIVE · ABOUT,
-  // replacing the interim L3XL3 · WORKS · ABOUT nav (itself a same-day
-  // reduction of the 2026-09-26 L3XL3 · ACTIONS · WORKS · INDEX · ABOUT,
-  // whose ACTIONS/INDEX anchors were dropped for having no matching
-  // homepage section). Each of the five homepage labels below is a
-  // same-page anchor group in app/page.tsx; ABOUT stays a separate route.
+  // Project-first navigation — approved 2026-10-26. Each label matches its section title.
   nav: [
-    { label: "FORM", href: "/#form" },
-    { label: "VOICE", href: "/#voice" },
-    { label: "READ", href: "/#read" },
-    { label: "PLACE", href: "/#place" },
-    { label: "ARCHIVE", href: "/#archive" },
+    { label: "COLLECTIONS", href: "/#collections" },
+    { label: "WE DRESS YOU TONIGHT", href: "/#we-dress-you-tonight" },
+    { label: "THE DINNER PROJECT", href: "/#dinner-project" },
+    { label: "L3XL3", href: "/#l3xl3" },
+    { label: "SOUND", href: "/#sound" },
+    { label: "EDITIONS & PRINT", href: "/#editions-print" },
+    { label: "URL FIGHTERS", href: "/#url-fighters" },
+    { label: "PRINCEVILLE", href: "/#princeville" },
+    { label: "WORKS IN SPACE & MATTER", href: "/#works-space-matter" },
+    { label: "LIFE FRAGMENTS", href: "/#life-fragments" },
     { label: "ABOUT", href: "/about" },
   ],
 
