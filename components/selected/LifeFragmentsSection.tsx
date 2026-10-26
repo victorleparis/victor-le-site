@@ -1,4 +1,5 @@
 import styles from "./LifeFragmentsSection.module.css";
+import { withBasePath } from "@/lib/base-path";
 
 const archiveUrl = "https://life-fragments-victor-le-de-doisy.fuzzybox4.chatgpt.site/";
 
@@ -10,7 +11,7 @@ export function LifeFragmentsSection() {
       <p className={styles.intro}>A photographic diary of everyday life.<br />People, places, encounters and accidents.<br />An ongoing archive of moments, without hierarchy.</p>
       <figure className={styles.hero}>
         {/* First verified image; the remaining curated photographs will be added after web-ready exports. */}
-        <img src="/victor-le-site/media/life-fragments/01-L1130546.jpg" alt="Life Fragments — photographic diary, day 178" loading="lazy" />
+        <img src={withBasePath("/media/life-fragments/01-L1130546.jpg")} alt="Life Fragments — photographic diary, day 178" loading="lazy" />
         <figcaption>日178 / L1130546</figcaption>
       </figure>
       <a className={styles.link} href={archiveUrl} target="_blank" rel="noopener noreferrer">EXPLORE THE COMPLETE ARCHIVE ↗</a>
