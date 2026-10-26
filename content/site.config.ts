@@ -17,8 +17,8 @@ export const siteConfig = {
 
   // Project-first navigation — approved 2026-10-26. Each label matches its section title.
   nav: [
-    { label: "COLLECTIONS", href: "/#collections" },
     { label: "WE DRESS YOU TONIGHT", href: "/#we-dress-you-tonight" },
+    { label: "COLLECTIONS", href: "/#collections" },
     { label: "THE DINNER PROJECT", href: "/#dinner-project" },
     { label: "L3XL3", href: "/#l3xl3" },
     { label: "SOUND", href: "/#sound" },

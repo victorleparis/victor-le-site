@@ -15,8 +15,6 @@ export default function HomePage() {
       <h1 className="visually-hidden">Victor Le — Artist &amp; Designer</h1>
 
       <div>
-        <CollectionsSection />
-
         <section id="we-dress-you-tonight" className="we-dress">
           <div className="we-dress__meta mono">
             <span>02</span>
@@ -34,6 +32,7 @@ export default function HomePage() {
           </div>
         </section>
 
+        <CollectionsSection />
         <DinnerProjectSection />
       </div>
 
