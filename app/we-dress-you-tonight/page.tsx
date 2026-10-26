@@ -15,7 +15,7 @@ export default function WeDressRegistration() {
   const body = `WE DRESS YOU TONIGHT — 30 OCTOBRE 2026
 Nom : ${name}
 Email : ${replyTo}
-Instagram (facultatif) : ${instagram}
+Instagram : ${instagram}
 Message : ${note}
 
 Je souhaite recevoir une confirmation de participation.
@@ -38,8 +38,8 @@ L'adresse sera communiquée individuellement après confirmation.`;
       }}>
         <label>Nom / Name<input required value={name} onChange={(e) => setName(e.target.value)} /></label>
         <label>Email<input type="email" required value={replyTo} onChange={(e) => setReplyTo(e.target.value)} /></label>
-        <label>Instagram (facultatif)<input value={instagram} onChange={(e) => setInstagram(e.target.value)} /></label>
-        <label>Un mot (facultatif)<textarea rows={3} value={note} onChange={(e) => setNote(e.target.value)} /></label>
+        <label>Instagram<input value={instagram} onChange={(e) => setInstagram(e.target.value)} /></label>
+        <label>Un mot<textarea rows={3} value={note} onChange={(e) => setNote(e.target.value)} /></label>
         <button type="submit">OUVRIR LA DEMANDE PAR EMAIL ↗</button>
       </form>
       <p className={styles.note}>Participation sur confirmation uniquement. L&apos;adresse exacte sera envoyée en réponse à votre demande acceptée.</p>
