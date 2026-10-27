@@ -37,7 +37,7 @@ export default function HomePage() {
           {hasWeDressFlyer && (
             <Link className="we-dress__flyer" style={{ display: "block" }} href="/we-dress-you-tonight" aria-label="Demander une invitation à WE DRESS YOU TONIGHT">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg?v=presence-inscription`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris Marais" loading="lazy" />
+              <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg?v=original-photo`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris Marais" loading="lazy" />
             </Link>
           )}
           <Link className="we-dress__register" href="/we-dress-you-tonight">REQUEST AN INVITATION ↗</Link>
