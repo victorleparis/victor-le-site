@@ -35,10 +35,10 @@ export default function HomePage() {
             </div>
           </div>
           {hasWeDressFlyer && (
-            <div className="we-dress__flyer">
+            <Link className="we-dress__flyer" style={{ display: "block" }} href="/we-dress-you-tonight" aria-label="Demander une invitation à WE DRESS YOU TONIGHT">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg?v=invitation-url`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris Marais - Le Studio" loading="lazy" />
-            </div>
+              <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg?v=artist-invitation`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris Marais - Le Studio" loading="lazy" />
+            </Link>
           )}
           <Link className="we-dress__register" href="/we-dress-you-tonight">REQUEST AN INVITATION ↗</Link>
         </section>
