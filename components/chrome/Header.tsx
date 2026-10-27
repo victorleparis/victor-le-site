@@ -23,6 +23,7 @@ export function Header() {
             <FloatingV />
           </span>
           <span className={styles.role}>{nameSecondLine}</span>
+          <a className={styles.instagram} href="https://www.instagram.com/victorlededoisy/" target="_blank" rel="noopener noreferrer" aria-label="Instagram de Victor Le de Doisy">@victorlededoisy ↗</a>
           <span className={`mono ${styles.disciplines}`}>{siteConfig.disciplines.join(" · ")}</span>
         </div>
         <div className={styles.meta}>
