@@ -35,7 +35,7 @@ BRING A BOTTLE — Apportez une bouteille.`;
       </div>
       <div className={styles.flyer}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
-        <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg?v=marais-studio`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris Marais - Le Studio" />
+        <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg?v=invitation-url`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris Marais - Le Studio" />
       </div>
       <p className={styles.kicker}>BRING A BOTTLE — Apportez une bouteille.</p>
       <h2>DEMANDE DE PARTICIPATION</h2>
