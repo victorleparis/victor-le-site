@@ -21,7 +21,6 @@ export const siteConfig = {
     { label: "LIFE FRAGMENTS", href: "/#life-fragments" },
     { label: "COLLECTIONS", href: "/#collections" },
     { label: "THE DINNER PROJECT", href: "/#dinner-project" },
-    { label: "L3XL3", href: "/#l3xl3" },
     { label: "SOUND", href: "/#sound" },
     { label: "EDITIONS & PRINT", href: "/#editions-print" },
     { label: "URL FIGHTERS", href: "/#url-fighters" },
