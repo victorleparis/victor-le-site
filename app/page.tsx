@@ -3,7 +3,6 @@ import { existsSync } from "node:fs";
 import path from "node:path";
 import { CollectionsSection } from "@/components/selected/CollectionsSection";
 import { DinnerProjectSection } from "@/components/selected/DinnerProjectSection";
-import { L3xl3Section } from "@/components/selected/L3xl3Section";
 import { SoundSection } from "@/components/selected/SoundSection";
 import { EditionsPrintSection } from "@/components/selected/EditionsPrintSection";
 import { UrlFightersSection } from "@/components/selected/UrlFightersSection";
@@ -49,7 +48,6 @@ export default function HomePage() {
       </div>
 
       <div>
-        <L3xl3Section />
         <SoundSection />
       </div>
 
