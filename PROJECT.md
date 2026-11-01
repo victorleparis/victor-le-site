@@ -212,3 +212,7 @@ Current priorities:
 2. Keep ABOUT concise, factual and artist-focused.
 3. Preserve and progressively improve real media, metadata and credits.
 4. Let future opera / film development emerge inside VOICE (via L3XL3) without making the site depend on those outcomes.
+
+## Opera temporarily withdrawn — DECIDED 2026-11-01
+
+At Victor’s request, L3XL3 / the opera is temporarily removed from the public homepage and navigation to simplify the site. Keep its source component, content, media and working documents for possible later reactivation. Historical architecture references above do not authorize restoring it. Sound remains visible.
