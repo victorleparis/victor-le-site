@@ -9,7 +9,7 @@ const projectNumbers: Record<string, string> = {
   "EDITIONS & PRINT": "07",
   "URL FIGHTERS": "08",
   "PRINCEVILLE": "09",
-  "WORKS IN SPACE & MATTER": "10",
+  "SCULPTURES, DRAWINGS & PAINTINGS": "10",
 };
 
 export function SectionHeading({

@@ -216,3 +216,8 @@ Current priorities:
 ## Opera temporarily withdrawn — DECIDED 2026-11-01
 
 At Victor’s request, L3XL3 / the opera is temporarily removed from the public homepage and navigation to simplify the site. Keep its source component, content, media and working documents for possible later reactivation. Historical architecture references above do not authorize restoring it. Sound remains visible.
+
+
+## Art selection update — DECIDED 2026-11-02
+
+The former Works in Space & Matter section is renamed **SCULPTURES, DRAWINGS & PAINTINGS**, retaining `#works-space-matter` for existing links. Victor approved a 16-work selection (8 drawings, 5 paintings, 3 sculptures), a large opening drawing, complete images, and click-to-enlarge viewing. Keep the existing site architecture and all unrelated sections. Missing factual metadata remains unprinted and TO VERIFY.

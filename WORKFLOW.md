@@ -79,3 +79,7 @@ Kept here so no single doc's "read first" list has to be the only place this is 
 | `l3xl3-film/L3XL3_PERSONNAGE_CHEF_CORPS_RITUEL.md` | L3XL3 conductor character development: body, beauty and hair rituals, ageing, old-band collecting and mirror with the pianist |
 
 The last five (`PROTOCOL_CIRCULATION.md`, `CIRCULATION_CARD.md`, `ARCHIVE_SYSTEM.md`, `CREATION_CARD.md`, `biography/`) are studio-practice documents, not website specs — they matter for factual grounding (e.g. confirming a garment's real trajectory before writing copy about it) but don't drive site architecture or design.
+
+## GitHub Pages image viewers — 2026-11-02
+
+Resolve `withBasePath` on the server and pass complete image URLs to client galleries. `GITHUB_PAGES` is a build/server variable, not a browser environment variable; client-only image changes otherwise lose the repository prefix. Check an opened lightbox in the static export, not just the server-rendered thumbnail. Mobile QA also corrected footer link wrapping and the Life Fragments heading width.

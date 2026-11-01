@@ -634,3 +634,8 @@ For each work / asset collect:
 - finished / ongoing / archival status;
 - major / secondary / contextual status;
 - candidate for SELECTED, INDEX or PARTICIPATE.
+
+
+## Art selection update — DECIDED 2026-11-02
+
+Public section name: **SCULPTURES, DRAWINGS & PAINTINGS**. The approved selection is recorded with exact source references in MEDIA_STATUS.md. Filename numbers are not artwork titles or dates. Use descriptive image alt text and medium/sequence captions until verified titles, years, materials, dimensions and credits are supplied.

@@ -513,3 +513,8 @@ After several projects: **This could only belong to Victor Le.**
 **VISITOR = CAUSES THE DISORDER**
 
 The website starts as an archive and gradually becomes Victor's studio.
+
+
+## Art selection update — DECIDED 2026-11-02
+
+The former oversized 05 and escaping-image treatments in this section are retired at Victor’s request for simplification. Use a calm editorial sequence with one large opening drawing, pairs and a small trio, interleaving drawings, paintings and sculpture. Preserve image aspect ratios without cropping. Native modal image viewing supports keyboard navigation, Escape, focus restoration and scroll locking. No new visual accident is introduced.

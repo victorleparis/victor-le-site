@@ -4,9 +4,7 @@ export { princeville, princevilleVideoUrl, princevilleText } from "./princeville
 export { collections, collectionsIntro, collectionsNames, collectionsBoards } from "./collections";
 export {
   worksSpaceMatter,
-  worksSpaceMatterHero,
-  worksSpaceMatterStrong,
-  worksSpaceMatterSecondary,
+  worksSpaceMatterSelection,
 } from "./works-space-matter";
 export { l3xl3 } from "./l3xl3";
 export { sound, soundReleases, soundSpotifyUrl } from "./sound";

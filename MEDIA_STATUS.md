@@ -281,3 +281,28 @@ There is enough media to build the website now.
 Do not continue archive-hunting as a prerequisite for implementation.
 
 Missing / better media should be treated as progressive replacement work after the V1 skeleton is functioning.
+
+## SCULPTURES, DRAWINGS & PAINTINGS — approved 2026-11-02
+
+Supersedes the former V3 public selection. 16 images: 8 drawings, 5 paintings and 3 sculptures. Original archive files remain untouched; web copies preserve whole images and colours. No dates, titles, physical materials/dimensions or credits have been inferred.
+
+| Web asset | Source folder | Source filename | Drive source |
+| --- | --- | --- | --- |
+| drawing-08.webp | dessins | 8.jpg | https://drive.google.com/file/d/1T3vqpBDYEHkgD3OzFdckELvPO1a8CrWm/view?usp=drivesdk |
+| drawing-11.webp | dessins | 11.jpg | https://drive.google.com/file/d/1766bE0YM2Si-PlvsIoebFh7Ep68JZ5uw/view?usp=drivesdk |
+| drawing-30.webp | dessins | 30.jpg | https://drive.google.com/file/d/1j3ur6h2aifEGfMRjbravZ9P5RvdFwtlf/view?usp=drivesdk |
+| painting-a1.webp | painting1 | A1.jpg | https://drive.google.com/file/d/1JJLUprJmT87jVrpGO56E27s732NOV7cf/view?usp=drivesdk |
+| sculpture-t7.webp | painting3 | T7.jpg | https://drive.google.com/file/d/1E7tRNEMhyc2I6CgSck61HZIjZhhU0tzj/view?usp=drivesdk |
+| drawing-26.webp | dessins | 26.jpg | https://drive.google.com/file/d/1AAbhZQZKwbT3tjL26uBGnc5_JGENktjn/view?usp=drivesdk |
+| drawing-21.webp | dessins | 21.jpg | https://drive.google.com/file/d/1vrQJxDiWQhn_PTsJuSqTccR8mgjACoai/view?usp=drivesdk |
+| drawing-07.webp | dessins | 7.jpg | https://drive.google.com/file/d/1nTfSIilFlKiTEdu8dG3bYs1zQTK4hSyI/view?usp=drivesdk |
+| painting-a3.webp | painting1 | A3.jpg | https://drive.google.com/file/d/1emFStlx61r-EzaPNYBEF0BXi2U0X6-9_/view?usp=drivesdk |
+| painting-a2.webp | painting3 | A2.jpg | https://drive.google.com/file/d/1coGlQLfnGWXwrTHWv5rHScQDUJ2QtcJ3/view?usp=drivesdk |
+| drawing-17.webp | dessins | 17.jpg | https://drive.google.com/file/d/1WekwgiifquHXHJDlYWaOb32gFxHnZ5n6/view?usp=drivesdk |
+| drawing-img2040.webp | dessins | IMG_2040.JPG | https://drive.google.com/file/d/1UwZi9XFk5Qx1EOf6bZ3plG3Oi_KXz4b2/view?usp=drivesdk |
+| sculpture-t6.webp | painting3 | T6.JPG | https://drive.google.com/file/d/163esaoi-bKuwn7fd10lEN9JqXAF8xO8s/view?usp=drivesdk |
+| painting-n23.webp | painting3 | N23.jpg | https://drive.google.com/file/d/1ik6bXAFCVuZYi1vfrtcX8zs-44qVG5w-/view?usp=drivesdk |
+| painting-dsc01899.webp | originaux | DSC01899.JPG | https://drive.google.com/file/d/1DpReCQQcc7J3_bNemSVu2-D5MUbiDI3V/view?usp=drivesdk |
+| sculpture-t8b.webp | painting3 | T8B.JPG | https://drive.google.com/file/d/18-Vyl83CMh9Uv-azzuP9qhxmUHijye9B/view?usp=drivesdk |
+
+The remaining former V3 media is retained on disk but is not automatically appended. Further metadata is TO VERIFY. Public captions identify the medium and image position only.

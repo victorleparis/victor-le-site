@@ -25,7 +25,7 @@ export const siteConfig = {
     { label: "EDITIONS & PRINT", href: "/#editions-print" },
     { label: "URL FIGHTERS", href: "/#url-fighters" },
     { label: "PRINCEVILLE", href: "/#princeville" },
-    { label: "WORKS IN SPACE & MATTER", href: "/#works-space-matter" },
+    { label: "SCULPTURES, DRAWINGS & PAINTINGS", href: "/#works-space-matter" },
     { label: "ABOUT", href: "/about" },
   ],
 
