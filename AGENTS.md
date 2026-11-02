@@ -117,3 +117,11 @@ Victor uses **Vercel** to host web interfaces. This is a shared infrastructure r
 - For any other repository, read its own `AGENTS.md`, `WORKFLOW.md` and deployment configuration first; do not assume that it uses Vercel or shares Rambuteau's access settings.
 - Do not publish private repositories, film scripts, images or drafts to a public site without explicit approval.
 - A GitHub `AGENTS.md` file is repository-scoped; this note does not automatically apply to other repositories.
+
+## Cross-project infrastructure — Cloudflare
+
+- Victor also uses **Cloudflare**, notably **Cloudflare R2** for object/media storage in the `victorleparis/famous` project.
+- Cloudflare R2 is distinct from Vercel: **Vercel** hosts the Rambuteau sequencer; **Cloudflare R2** is used for media storage where configured. Do not assume every project uses both.
+- Before changing Cloudflare settings, buckets, public access, media paths, or upload flows, read the relevant repository's `AGENTS.md`, `MEDIA.md`, and other project-specific configuration.
+- Never expose R2 access keys, API tokens, private objects, or private download links in GitHub or public pages. Preserve source media unless explicitly authorized otherwise.
+- Verify actual bucket names, endpoints, domains, and access policies in the relevant project before use; none are implied by this note.
