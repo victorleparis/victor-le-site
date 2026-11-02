@@ -105,3 +105,15 @@ Before implementing a major structural or visual change:
 ## Repository-wide rule for future AI work
 
 This repository is designed to be usable by multiple AI systems and human collaborators. Any agent should rely on the repository documentation rather than undocumented chat history.
+
+## Cross-project infrastructure — Vercel (2026-11)
+
+Victor uses **Vercel** to host web interfaces. This is a shared infrastructure reference, **not** an instruction to migrate or redeploy every project to Vercel.
+
+- Vercel account / workspace: `victorleparis` (account used by Victor: `v@shootme.com`).
+- Example private project: `rambuteau-sequenceur`, sourced from private GitHub repository `victorleparis/Rambuteau`, root directory `sequenceur/`.
+- The Rambuteau project requires **Vercel Authentication on all deployments** (production and preview). Never disable or weaken it without Victor's explicit approval.
+- Rambuteau's authoritative project-specific deployment and confidentiality rules live in [Rambuteau/AGENTS.md](https://github.com/victorleparis/Rambuteau/blob/main/AGENTS.md).
+- For any other repository, read its own `AGENTS.md`, `WORKFLOW.md` and deployment configuration first; do not assume that it uses Vercel or shares Rambuteau's access settings.
+- Do not publish private repositories, film scripts, images or drafts to a public site without explicit approval.
+- A GitHub `AGENTS.md` file is repository-scoped; this note does not automatically apply to other repositories.
