@@ -111,15 +111,6 @@ export const worksSpaceMatterSelection = [
     "src": "/media/works-space-matter/selection/drawing-17.webp"
   },
   {
-    "id": "drawing-img2040",
-    "category": "Drawing",
-    "layout": "landscape",
-    "alt": "Figure with an enlarged open hand",
-    "width": 1800,
-    "height": 1350,
-    "src": "/media/works-space-matter/selection/drawing-img2040.webp"
-  },
-  {
     "id": "sculpture-t6",
     "category": "Sculpture",
     "layout": "wide",
@@ -138,13 +129,76 @@ export const worksSpaceMatterSelection = [
     "src": "/media/works-space-matter/selection/painting-n23.webp"
   },
   {
-    "id": "painting-dsc01899",
+    "id": "painting-h7",
+    "category": "Painting",
+    "layout": "portrait",
+    "alt": "Portrait in red against a blue background",
+    "width": 1344,
+    "height": 1800,
+    "src": "/media/works-space-matter/selection/painting-h7.webp"
+  },
+  {
+    "id": "painting-n2s",
+    "category": "Painting",
+    "layout": "landscape",
+    "alt": "Red and white forms against a grey ground",
+    "width": 879,
+    "height": 493,
+    "src": "/media/works-space-matter/selection/painting-n2s.webp"
+  },
+  {
+    "id": "painting-zf43",
+    "category": "Painting",
+    "layout": "portrait",
+    "alt": "Blue hand-like form in a pink composition",
+    "width": 1300,
+    "height": 1800,
+    "src": "/media/works-space-matter/selection/painting-zf43.webp"
+  },
+  {
+    "id": "sculpture-u1",
+    "category": "Sculpture",
+    "layout": "portrait",
+    "alt": "Small relief figure on a white panel",
+    "width": 1181,
+    "height": 1772,
+    "src": "/media/works-space-matter/selection/sculpture-u1.webp"
+  },
+  {
+    "id": "sculpture-u2",
+    "category": "Sculpture",
+    "layout": "portrait",
+    "alt": "Figure with dark hair and red shorts on a white panel",
+    "width": 1350,
+    "height": 1800,
+    "src": "/media/works-space-matter/selection/sculpture-u2.webp"
+  },
+  {
+    "id": "painting-o20",
     "category": "Painting",
     "layout": "square",
-    "alt": "Pink and orange composition with face-like forms",
+    "alt": "Figure against yellow and orange brushstrokes",
     "width": 1800,
-    "height": 1350,
-    "src": "/media/works-space-matter/selection/painting-dsc01899.webp"
+    "height": 1800,
+    "src": "/media/works-space-matter/selection/painting-o20.webp"
+  },
+  {
+    "id": "painting-20230411",
+    "category": "Painting",
+    "layout": "portrait",
+    "alt": "Pink face-like form against a yellow ground",
+    "width": 1428,
+    "height": 1800,
+    "src": "/media/works-space-matter/selection/painting-20230411.webp"
+  },
+  {
+    "id": "sculpture-20230416",
+    "category": "Sculpture",
+    "layout": "portrait",
+    "alt": "White outdoor sculptural assembly beside a tree",
+    "width": 811,
+    "height": 1800,
+    "src": "/media/works-space-matter/selection/sculpture-20230416.webp"
   },
   {
     "id": "sculpture-t8b",

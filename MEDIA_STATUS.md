@@ -306,3 +306,19 @@ Supersedes the former V3 public selection. 16 images: 8 drawings, 5 paintings an
 | sculpture-t8b.webp | painting3 | T8B.JPG | https://drive.google.com/file/d/18-Vyl83CMh9Uv-azzuP9qhxmUHijye9B/view?usp=drivesdk |
 
 The remaining former V3 media is retained on disk but is not automatically appended. Further metadata is TO VERIFY. Public captions identify the medium and image position only.
+
+
+## Selection revision — Victor’s explicit request, 2026-11-02
+
+Removed the former display positions **12** (`drawing-img2040`, source `IMG_2040.JPG`) and **15** (`painting-dsc01899`, source `DSC01899.JPG`) from the public selection; source files remain preserved. Added the eight files below in Victor’s requested order, before the existing closing sculpture. Public positions recalculate automatically. Current total: **22 images — 7 drawings, 9 paintings, 6 sculptures**. Images remain whole, with orientation respected and web copies limited to 1,800 px; no artwork dates/titles/dimensions have been inferred.
+
+| Web asset | Source filename | Drive source |
+| --- | --- | --- |
+| painting-h7.webp | H7.JPG | https://drive.google.com/file/d/1dVa0O74k9CuJ3F17YdG7-HYQEagB-5gK/view |
+| painting-n2s.webp | N2S.JPG | https://drive.google.com/file/d/1lnD2C5aqLdZjSdbpaZtSAX869ZO47ZyU/view |
+| painting-zf43.webp | z F43.jpg | https://drive.google.com/file/d/1u9dYdZX1tO06cgXuxuEo3zkRBT6JPrA9/view |
+| sculpture-u1.webp | u1.jpg | https://drive.google.com/file/d/1a4788eqa3-NU2jyshXvilF1U9ClpKsCu/view |
+| sculpture-u2.webp | u2.jpg | https://drive.google.com/file/d/1YTMHjCX-CAtdXgNNymbGIN2-d9WL3u-n/view |
+| painting-o20.webp | O20.jpg | https://drive.google.com/file/d/12-mpBulY7FPIa6evmg_QBTOKo9lwStVt/view |
+| painting-20230411.webp | 20230411_110059.jpg | https://drive.google.com/file/d/1avrNhem54RW-3G5PiRKYJfh8h0YH7hAP/view |
+| sculpture-20230416.webp | 20230416_131040 (1).jpg | https://drive.google.com/file/d/1CzF3va0CP2hWjtjMX1YIzrA34M3jDf1e/view |

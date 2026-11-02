@@ -221,3 +221,5 @@ At Victor’s request, L3XL3 / the opera is temporarily removed from the public 
 ## Art selection update — DECIDED 2026-11-02
 
 The former Works in Space & Matter section is renamed **SCULPTURES, DRAWINGS & PAINTINGS**, retaining `#works-space-matter` for existing links. Victor approved a 16-work selection (8 drawings, 5 paintings, 3 sculptures), a large opening drawing, complete images, and click-to-enlarge viewing. Keep the existing site architecture and all unrelated sections. Missing factual metadata remains unprinted and TO VERIFY.
+
+Later on 2026-11-02, Victor explicitly removed former positions 12 and 15 and added eight named Drive files. The current selection is 22 images (7 drawings, 9 paintings, 6 sculptures); source references and removals are recorded in `MEDIA_STATUS.md`. Retain the existing presentation and opening/closing works.
