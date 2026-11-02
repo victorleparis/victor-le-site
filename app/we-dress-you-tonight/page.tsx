@@ -1,4 +1,34 @@
-'use client';
-import {useState} from 'react';
-import styles from './page.module.css';
-export default function Page(){const [sent,S]=useState(false),[busy,B]=useState(false),[error,E]=useState(''),[address,Address]=useState('');return <section className={styles.section}><a className={styles.back} href="https://victorleparis.github.io/victor-le-site/">← WE DRESS YOU TONIGHT</a><span className={styles.eyebrow}>INVITATION / PERFORMANCE GUESTS</span><h1>WE DRESS<br/>YOU TONIGHT</h1><div className={styles.details}><span>30 OCTOBRE 2026</span><span>19 H — 22 H</span><span>PARIS MARAIS</span></div><p className={styles.guests}>PERFORMANCE GUESTS<br/><strong>SARA SIMONA · LAVENAIR</strong></p><p className={styles.bottle}>BRING A BOTTLE</p>{sent?<section role="status" className={styles.success}><span>✓</span><h2>Ta présence est enregistrée.</h2><p>30 octobre 2026 · 19 h – 22 h</p><p style={{whiteSpace:"pre-line",fontWeight:600}}>{address}</p><p><a href="https://maps.app.goo.gl/hAFwf3zT71auooYr9?g_st=ic" target="_blank" rel="noopener noreferrer">Voir l’itinéraire sur Google Maps ↗</a></p><p>BRING A BOTTLE — Apporte une bouteille.</p><a href="https://victorlededoisy.com">Retour au site ↗</a></section>:<><h2>CONFIRMATION</h2><p>Inscris-toi pour confirmer ta présence. L’adresse s’affichera juste après ton inscription.</p><form onSubmit={async e=>{e.preventDefault();B(true);E('');const data=Object.fromEntries(new FormData(e.currentTarget));try{const r=await fetch('https://wdyt-invitation.fuzzybox4.chatgpt.site/api/apply',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data)});const d=await r.json();if(!r.ok)throw Error(d.error||'Enregistrement impossible');if(typeof d.address!=='string'||!d.address.trim())throw Error('Adresse indisponible. Réessaie ou écris à v@shootme.com.');Address(d.address);S(true)}catch(e){E(String(e))}finally{B(false)}}}>{[['name','Nom / Name'],['email','Email'],['instagram','Instagram'],['referredBy','Recommandé par']].map(([k,l])=><label key={k}>{l}<input name={k} type={k==='email'?'email':'text'} required={k==='name'||k==='email'} maxLength={k==='email'?254:150}/></label>)}<label>Un mot<textarea name="message" rows={4} maxLength={5000}/></label><label className={styles.trap} aria-hidden="true">Website<input name="website" tabIndex={-1} autoComplete="off"/></label>{error&&<p role="alert" className={styles.error}>{error}</p>}<button disabled={busy}>{busy?'ENREGISTREMENT…':'CONFIRMER MA PRÉSENCE ↗'}</button></form><p className={styles.fine}>L’inscription confirme ta présence. Les coordonnées et le message sont utilisés pour l’organisation de cette édition. Pour modifier ou supprimer ton inscription : <a href="mailto:v@shootme.com">v@shootme.com</a>.</p></>}</section>}
+import Link from "next/link";
+import { withBasePath } from "@/lib/base-path";
+import { wdytPhotos } from "@/content/wdyt-2026";
+import { WdytGallery } from "@/components/selected/WdytGallery";
+import styles from "./page.module.css";
+export const metadata = { title: "We Dress You Tonight — 30.10.2026 | Victor Le de Doisy", description: "Film et photographies de WE DRESS YOU TONIGHT, au studio à Paris le 30 octobre 2026." };
+export default function Page() {
+  return <article className={styles.archive}>
+    <Link className={styles.back} href="/#we-dress-you-tonight">← VICTOR LE DE DOISY</Link>
+    <p className={styles.eyebrow}>STUDIO / FASHION / IMAGE / ACTION</p>
+    <h1>WE DRESS<br />YOU TONIGHT</h1>
+    <div className={styles.details}><span>30 OCTOBRE 2026</span><span>STUDIO — PARIS</span></div>
+    <div className={styles.filmRow}>
+      <video className={styles.film} controls playsInline preload="metadata" poster={withBasePath("/media/we-dress-you-tonight/film-poster.jpg")} aria-label="Film WE DRESS YOU TONIGHT — 30 octobre 2026">
+        <source src={withBasePath("/media/we-dress-you-tonight/wdyt-30-octobre-2026.mp4")} type="video/mp4" />
+        <a href={withBasePath("/media/we-dress-you-tonight/wdyt-30-octobre-2026.mp4")}>Voir le film</a>
+      </video>
+      <div className={styles.credits}>
+        <p className={styles.statement}>You arrive.<br />I dress you.<br />I photograph you.</p>
+        <dl>
+          <dt>DIRECTION ARTISTIQUE</dt><dd>Victor Le de Doisy</dd>
+          <dt>ORGANISATION</dt><dd>Laura Dartois</dd>
+          <dt>STYLISME</dt><dd>Sarra Diane</dd>
+          <dt>PERFORMANCES</dt><dd>Sara Simona · Lavenair</dd>
+          <dt>IMAGES VIDÉO</dt><dd>Filomena</dd>
+          <dt>PHOTOGRAPHIES</dt><dd>Romain</dd>
+          <dt>MUSIQUE</dt><dd>DRIVOO — URL Fighters</dd>
+        </dl>
+      </div>
+    </div>
+    <div className={styles.galleryHeading}><h2>PHOTOGRAPHS</h2><span>ROMAIN · {wdytPhotos.length} IMAGES</span></div>
+    <WdytGallery photos={wdytPhotos.map(photo => ({ ...photo, src: withBasePath(photo.src) }))} />
+  </article>;
+}

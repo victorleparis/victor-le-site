@@ -1,6 +1,5 @@
 import Link from "next/link";
-import { existsSync } from "node:fs";
-import path from "node:path";
+import { withBasePath } from "@/lib/base-path";
 import { CollectionsSection } from "@/components/selected/CollectionsSection";
 import { DinnerProjectSection } from "@/components/selected/DinnerProjectSection";
 import { SoundSection } from "@/components/selected/SoundSection";
@@ -12,7 +11,6 @@ import { LifeFragmentsSection } from "@/components/selected/LifeFragmentsSection
 
 /** Project-first homepage. The navigation links directly to the visible project headings. */
 export default function HomePage() {
-  const hasWeDressFlyer = existsSync(path.join(process.cwd(), "public", "media", "we-dress-you-tonight", "invitation-30-octobre-2026.jpg"));
   return (
     <>
       <h1 className="visually-hidden">Victor Le — Artist &amp; Designer</h1>
@@ -33,13 +31,11 @@ export default function HomePage() {
               <span className="mono">STUDIO — PARIS</span>
             </div>
           </div>
-          {hasWeDressFlyer && (
-            <Link className="we-dress__flyer" style={{ display: "block" }} href="/we-dress-you-tonight" aria-label="Demander une invitation à WE DRESS YOU TONIGHT">
-              {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img src={`${process.env.GITHUB_PAGES === "true" ? "/victor-le-site" : ""}/media/we-dress-you-tonight/invitation-30-octobre-2026.jpg?v=complete-photo-20261027`} alt="Invitation WE DRESS YOU TONIGHT — 30 octobre 2026, 19 h à 22 h, Paris Marais" loading="lazy" />
-            </Link>
-          )}
-          <Link className="we-dress__register" href="/we-dress-you-tonight">REQUEST AN INVITATION ↗</Link>
+          <Link className="we-dress__flyer" style={{ display: "block", maxWidth: "100%" }} href="/we-dress-you-tonight" aria-label="Voir le film et les photographies de WE DRESS YOU TONIGHT">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src={withBasePath("/media/we-dress-you-tonight/30-octobre-2026/dscf1408.webp")} alt="Closing collectif de WE DRESS YOU TONIGHT sous le tissu rouge — photographie de Romain, 30 octobre 2026" loading="lazy" width={1400} height={933} />
+          </Link>
+          <Link className="we-dress__register" href="/we-dress-you-tonight">30.10.2026 — FILM & PHOTOGRAPHS ↗</Link>
         </section>
 
         <LifeFragmentsSection />
