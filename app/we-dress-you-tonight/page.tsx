@@ -10,25 +10,26 @@ export default function Page() {
     <p className={styles.eyebrow}>STUDIO / FASHION / IMAGE / ACTION</p>
     <h1>WE DRESS<br />YOU TONIGHT</h1>
     <div className={styles.details}><span>30 OCTOBRE 2026</span><span>STUDIO — PARIS</span></div>
+    <a className={styles.fragmentLink} href="https://life-fragments-victor-le-de-doisy.victorlebpro.chatgpt.site/?day=2026-10-30">LIFE FRAGMENTS — 日188 · 30.10.2026 ↗</a>
     <div className={styles.filmRow}>
       <video className={styles.film} controls playsInline preload="metadata" poster={withBasePath("/media/we-dress-you-tonight/film-poster.jpg")} aria-label="Film WE DRESS YOU TONIGHT — 30 octobre 2026">
         <source src={withBasePath("/media/we-dress-you-tonight/wdyt-30-octobre-2026.mp4")} type="video/mp4" />
         <a href={withBasePath("/media/we-dress-you-tonight/wdyt-30-octobre-2026.mp4")}>Voir le film</a>
       </video>
       <div className={styles.credits}>
-        <p className={styles.statement}>You arrive.<br />I dress you.<br />I photograph you.</p>
+        <p className={styles.statement}>You arrive.<br />We dress you.<br />We photograph you.</p>
         <dl>
           <dt>DIRECTION ARTISTIQUE</dt><dd>Victor Le de Doisy</dd>
           <dt>ORGANISATION</dt><dd>Laura Dartois</dd>
           <dt>STYLISME</dt><dd>Sarra Diane</dd>
           <dt>PERFORMANCES</dt><dd>Sara Simona · Lavenair</dd>
           <dt>IMAGES VIDÉO</dt><dd>Filomena</dd>
-          <dt>PHOTOGRAPHIES</dt><dd>Romain</dd>
+          <dt>PHOTOGRAPHIES</dt><dd>Romain Vialla</dd>
           <dt>MUSIQUE</dt><dd>DRIVOO — URL Fighters</dd>
         </dl>
       </div>
     </div>
-    <div className={styles.galleryHeading}><h2>PHOTOGRAPHS</h2><span>ROMAIN · {wdytPhotos.length} IMAGES</span></div>
+    <div className={styles.galleryHeading}><h2>PHOTOGRAPHS</h2><span>ROMAIN VIALLA · {wdytPhotos.length} IMAGES</span></div>
     <WdytGallery photos={wdytPhotos.map(photo => ({ ...photo, src: withBasePath(photo.src) }))} />
   </article>;
 }

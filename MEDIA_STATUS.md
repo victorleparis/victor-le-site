@@ -328,9 +328,11 @@ Removed the former display positions **12** (`drawing-img2040`, source `IMG_2040
 - Romain's archive contains 453 photographs. First web selection: 32 images chosen visually from 58 evenly distributed archive samples; this is not a review of every original.
 - Source Drive folder: `1TZZRlD5DiNRMsu9ixeX4oEb3oXJ4tvOk` (Photos Romain, inside WDYT1).
 - Web derivatives preserve the full photographic frame, at up to 1400 px, in `public/media/we-dress-you-tonight/30-octobre-2026/`; originals remain on Drive.
-- `content/wdyt-2026.ts` records the public selection and source filenames. Credit: Romain; surname not supplied.
+- `content/wdyt-2026.ts` records the public selection and source filenames. Credit: Romain Vialla, confirmed in his 31 October photo-delivery email. Instagram supplied by the photographer: @romain.vialla.
 - Current source export: `WDYT.mp4`, Drive file `15bQbs7BrLVCa3kYRY0BATIz1W3dI_kUi`, in MONTAGE_VIDEO / PROJECT. Verified duration 30.733 seconds, 1080 × 1920, H.264/AAC. Contrary to the earlier chat recap, it already includes the opening title, enlarged closing and end credits.
 - Web encoding: `public/media/we-dress-you-tonight/wdyt-30-octobre-2026.mp4`, 720 × 1280 web derivative (7.8 MB), full frame and same montage, silent until explicitly played.
 - Confirmed credits: artistic direction Victor Le de Doisy; organisation Laura Dartois; styling Sarra Diane; performances Sara Simona / Lavenair; video Filomena; music DRIVOO — URL Fighters.
 - Homepage links to the film/photo archive instead of inviting people to the past edition. `/we-dress-you-tonight` is now the archive; external registration backend and private attendee records remain untouched.
 - Instagram account verified via Metricool: `victorlededoisy`. No Instagram publication or schedule created in this update.
+
+WDYT wording corrected at Victor’s request: “You arrive. We dress you. We photograph you.” The edition page links directly to Life Fragments 日188, 30 October 2026 (`?day=2026-10-30`).

@@ -13,3 +13,5 @@
 .galleryHeading h2, .galleryHeading span { font: 11px var(--font-mono); }
 .galleryHeading span { color: var(--color-ink-faint); }
 @media(max-width: 640px) { .filmRow { grid-template-columns: minmax(0, 1fr); gap: 2rem; } .film { max-height: none; } .credits dl { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .5rem 1rem; } .credits dt { margin: 0; } .credits dd { margin: 0 0 1rem; } }
+
+.fragmentLink { display: inline-block; margin-top: 1.5rem; font: 11px/1.6 var(--font-mono); text-decoration: underline; text-underline-offset: 4px; overflow-wrap: anywhere; }

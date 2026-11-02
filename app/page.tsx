@@ -26,14 +26,14 @@ export default function HomePage() {
             <h2>WE DRESS<br />YOU TONIGHT</h2>
             <div className="we-dress__statement">
               <p>You arrive.</p>
-              <p>I dress you.</p>
-              <p>I photograph you.</p>
+              <p>We dress you.</p>
+              <p>We photograph you.</p>
               <span className="mono">STUDIO — PARIS</span>
             </div>
           </div>
           <Link className="we-dress__flyer" style={{ display: "block", maxWidth: "100%" }} href="/we-dress-you-tonight" aria-label="Voir le film et les photographies de WE DRESS YOU TONIGHT">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img src={withBasePath("/media/we-dress-you-tonight/30-octobre-2026/dscf1408.webp")} alt="Closing collectif de WE DRESS YOU TONIGHT sous le tissu rouge — photographie de Romain, 30 octobre 2026" loading="lazy" width={1400} height={933} />
+            <img src={withBasePath("/media/we-dress-you-tonight/30-octobre-2026/dscf1408.webp")} alt="Closing collectif de WE DRESS YOU TONIGHT sous le tissu rouge — photographie de Romain Vialla, 30 octobre 2026" loading="lazy" width={1400} height={933} />
           </Link>
           <Link className="we-dress__register" href="/we-dress-you-tonight">30.10.2026 — FILM & PHOTOGRAPHS ↗</Link>
         </section>
