@@ -10,7 +10,7 @@ export function ProjectMosaic() {
     { title: "WE DRESS YOU TONIGHT", href: "/we-dress-you-tonight", image: withBasePath("/media/we-dress-you-tonight/30-octobre-2026/dscf1408.webp"), alt: "WE DRESS YOU TONIGHT — photograph by Romain Vialla", className: styles.large },
     { title: "FAMOUS", href: "#editions-print", image: first("editions"), alt: "FAMOUS — editions and print", className: styles.medium },
     { title: "LIFE FRAGMENTS", href: "#life-fragments", image: withBasePath("/media/life-fragments/01-L1130546.jpg"), alt: "Life Fragments — photographic diary", className: styles.medium },
-    { title: "FILMS", href: "#sound", image: first("sound"), alt: "Films and moving image", className: styles.wide },
+    { title: "FILMS", href: "#films", image: first("url-fighters"), alt: "Films and moving image", className: styles.wide },
     { title: "URL FIGHTERS", href: "#url-fighters", image: first("url-fighters"), alt: "URL Fighters — performance archive", className: styles.medium },
     { title: "FASHION", href: "#collections", image: first("collections"), alt: "Fashion and sculptural clothing", className: styles.medium },
     { title: "OBJECTS & PAINTINGS", href: "#works-space-matter", image: first("works-space-matter"), alt: "Sculptures and paintings", className: styles.wide },
