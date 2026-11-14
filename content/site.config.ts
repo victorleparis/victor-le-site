@@ -20,7 +20,7 @@ export const siteConfig = {
     { label: "WE DRESS YOU TONIGHT", href: "/#we-dress-you-tonight" },
     { label: "FAMOUS", href: "/#editions-print" },
     { label: "LIFE FRAGMENTS", href: "/#life-fragments" },
-    { label: "FILMS", href: "/#sound" },
+    { label: "FILMS", href: "/#films" },
     { label: "URL FIGHTERS", href: "/#url-fighters" },
     { label: "FASHION", href: "/#collections" },
     { label: "OBJECTS & PAINTINGS", href: "/#works-space-matter" },
