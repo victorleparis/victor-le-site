@@ -3,7 +3,7 @@ import { withBasePath } from "@/lib/base-path";
 import { listCorpusMedia } from "@/lib/media";
 import styles from "./ProjectMosaic.module.css";
 
-type Tile = { title: string; href: string; image?: string; alt: string; className: string };
+type Tile = { title: string; href: string; image?: string; alt: string; className?: string };
 export function ProjectMosaic() {
   const first = (corpus: string) => listCorpusMedia(corpus)[0]?.url;
   const tiles: Tile[] = [
@@ -17,7 +17,7 @@ export function ProjectMosaic() {
     { title: "ARCHIVE", href: "#princeville", image: first("princeville"), alt: "Artistic archive", className: styles.medium },
   ];
   return <section className={styles.mosaic} aria-label="Explore selected projects">
-    {tiles.map(tile => <Link key={tile.title} href={tile.href} className={`${styles.tile} ${tile.className}`}>
+    {tiles.map(tile => <Link key={tile.title} href={tile.href} className={`${styles.tile ?? ""} ${tile.className ?? ""}`}>
       {tile.image ? <img src={tile.image} alt={tile.alt} loading={tile.title === "WE DRESS YOU TONIGHT" ? "eager" : "lazy"} /> : <span className={styles.noImage} aria-hidden="true" />}
       <span className={styles.title}>{tile.title}</span>
     </Link>)}
