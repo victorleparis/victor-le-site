@@ -15,5 +15,5 @@ export const urlFightersFraming =
 
 export const urlFightersArchiveLink = {
   label: "URL FIGHTERS NOW",
-  href: "https://urlfighters.com" as string | null,
+  href: "https://victorlebpro.wixsite.com/princeville" as string | null,
 };
