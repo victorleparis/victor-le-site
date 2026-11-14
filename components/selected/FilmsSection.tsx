@@ -14,8 +14,7 @@ export function FilmsSection() {
       <h2 style={{fontSize:"clamp(52px,10vw,150px)",lineHeight:".9",letterSpacing:"-.07em",margin:"0 0 42px"}}>FILMS</h2>
       <p className="mono" style={{fontSize:12,letterSpacing:".1em",marginBottom:30}}>DIRECTED BY VICTOR LE</p>
       <div style={{borderTop:"1px solid currentColor",paddingTop:20,marginBottom:40}}>
-        <h3 style={{fontSize:"clamp(25px,4vw,48px)",margin:"0 0 8px"}}>URL FIGHTERS — DIVEBOARD.COM</h3>
-        <p className="mono" style={{fontSize:12,letterSpacing:".08em"}}>2015 · VIDEOCLIP</p>
+        <h3 style={{fontSize:"clamp(25px,4vw,48px)",margin:"0 0 8px"}}>VIDEOCLIP</h3>
       </div>
       <div style={{display:"grid",gap:"clamp(32px,5vw,64px)",gridTemplateColumns:"repeat(auto-fit,minmax(min(100%,420px),1fr))"}}>
         {films.map((film) => (
