@@ -11,21 +11,20 @@ export const siteConfig = {
   publicName: "Victor Le",
   fullName: "Victor Le de Doisy",
 
-  role: "ARTIST & DESIGNER",
+  role: "ARTIST",
   location: "Paris",
   disciplines: ["Visual Art", "Fashion", "Image", "Sound", "Performance"],
 
   // Project-first navigation — approved 2026-10-26. Each label matches its section title.
   nav: [
     { label: "WE DRESS YOU TONIGHT", href: "/#we-dress-you-tonight" },
+    { label: "FAMOUS", href: "/#editions-print" },
     { label: "LIFE FRAGMENTS", href: "/#life-fragments" },
-    { label: "COLLECTIONS", href: "/#collections" },
-    { label: "THE DINNER PROJECT", href: "/#dinner-project" },
-    { label: "SOUND", href: "/#sound" },
-    { label: "EDITIONS & PRINT", href: "/#editions-print" },
+    { label: "FILMS", href: "/#sound" },
     { label: "URL FIGHTERS", href: "/#url-fighters" },
-    { label: "PRINCEVILLE", href: "/#princeville" },
-    { label: "SCULPTURES, DRAWINGS & PAINTINGS", href: "/#works-space-matter" },
+    { label: "FASHION", href: "/#collections" },
+    { label: "OBJECTS & PAINTINGS", href: "/#works-space-matter" },
+    { label: "ARCHIVE", href: "/#princeville" },
     { label: "ABOUT", href: "/about" },
   ],
 
