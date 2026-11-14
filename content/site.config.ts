@@ -24,6 +24,7 @@ export const siteConfig = {
     { label: "URL FIGHTERS", href: "/#url-fighters" },
     { label: "FASHION", href: "/#collections" },
     { label: "OBJECTS & PAINTINGS", href: "/#works-space-matter" },
+    { label: "SOUND", href: "/#sound" },
     { label: "ARCHIVE", href: "/#princeville" },
     { label: "ABOUT", href: "/about" },
   ],
