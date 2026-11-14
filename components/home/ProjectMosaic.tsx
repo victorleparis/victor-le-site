@@ -14,6 +14,7 @@ export function ProjectMosaic() {
     { title: "URL FIGHTERS", href: "#url-fighters", image: first("url-fighters"), alt: "URL Fighters — performance archive", className: styles.medium },
     { title: "FASHION", href: "#collections", image: first("collections"), alt: "Fashion and sculptural clothing", className: styles.medium },
     { title: "OBJECTS & PAINTINGS", href: "#works-space-matter", image: first("works-space-matter"), alt: "Sculptures and paintings", className: styles.wide },
+    { title: "SOUND", href: "#sound", image: first("sound"), alt: "Music and sound works", className: styles.medium },
     { title: "ARCHIVE", href: "#princeville", image: first("princeville"), alt: "Artistic archive", className: styles.medium },
   ];
   return <section className={styles.mosaic} aria-label="Explore selected projects">
