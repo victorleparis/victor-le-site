@@ -13,7 +13,6 @@ export function FilmsSection() {
         </div>
         <div style={{borderTop:"1px solid currentColor",paddingTop:16}}>
           <h3 style={{fontSize:"clamp(24px,3vw,42px)",marginBottom:12}}>IN DEVELOPMENT</h3>
-          <p>RAMBUTEAU</p>
           <p className="mono" style={{fontSize:11,opacity:.7,marginTop:12}}>FILM PROJECT — IN DEVELOPMENT</p>
         </div>
       </div>
