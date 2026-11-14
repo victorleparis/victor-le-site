@@ -2,7 +2,6 @@ import Link from "next/link";
 import { ProjectMosaic } from "@/components/home/ProjectMosaic";
 import { withBasePath } from "@/lib/base-path";
 import { CollectionsSection } from "@/components/selected/CollectionsSection";
-import { DinnerProjectSection } from "@/components/selected/DinnerProjectSection";
 import { FilmsSection } from "@/components/selected/FilmsSection";
 import { SoundSection } from "@/components/selected/SoundSection";
 import { EditionsPrintSection } from "@/components/selected/EditionsPrintSection";
@@ -43,7 +42,6 @@ export default function HomePage() {
 
         <LifeFragmentsSection />
         <CollectionsSection />
-        <DinnerProjectSection />
       </div>
 
       <div>
