@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { ProjectMosaic } from "@/components/home/ProjectMosaic";
 import { withBasePath } from "@/lib/base-path";
 import { CollectionsSection } from "@/components/selected/CollectionsSection";
 import { DinnerProjectSection } from "@/components/selected/DinnerProjectSection";
@@ -13,7 +14,8 @@ import { LifeFragmentsSection } from "@/components/selected/LifeFragmentsSection
 export default function HomePage() {
   return (
     <>
-      <h1 className="visually-hidden">Victor Le — Artist &amp; Designer</h1>
+      <h1 className="visually-hidden">Victor Le — Artist</h1>
+      <ProjectMosaic />
 
       <div>
         <section id="we-dress-you-tonight" className="we-dress">
