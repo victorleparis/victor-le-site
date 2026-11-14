@@ -336,3 +336,25 @@ section[id] {
 /* WE DRESS YOU TONIGHT — original invitation poster */
 .we-dress__flyer{max-width:660px;margin:32px auto 26px}
 .we-dress__flyer img{display:block;width:100%;height:auto}
+
+/* Approved 2026-11-14 homepage: full-bleed dark gallery, horizontal identity/navigation.
+   Interior project pages retain their existing editorial layout. */
+body:has(main [aria-label="Explore selected projects"]) {background:#0b0b0b;color:#fff}
+@media(min-width:901px){
+body:has(main [aria-label="Explore selected projects"]) main,
+body:has(main [aria-label="Explore selected projects"]) footer{margin-left:0}
+body:has(main [aria-label="Explore selected projects"]) header{position:relative;inset:auto;width:100%;height:66px;min-height:66px;display:flex;flex-direction:row;align-items:center;justify-content:space-between;background:#0b0b0b;color:white;border:0;padding:0 24px}
+body:has(main [aria-label="Explore selected projects"]) header>div:first-child{padding:0}
+body:has(main [aria-label="Explore selected projects"]) header nav{display:flex;flex-direction:row;align-items:center;gap:clamp(8px,1.35vw,24px);padding:0;overflow:visible;min-height:0;flex:0 1 auto}
+body:has(main [aria-label="Explore selected projects"]) header nav a{font-size:clamp(9px,.78vw,13px);white-space:nowrap;padding:0}
+body:has(main [aria-label="Explore selected projects"]) header nav a span:first-child:not(:last-child){display:none}
+body:has(main [aria-label="Explore selected projects"]) header nav a:last-child{display:none}
+body:has(main [aria-label="Explore selected projects"]) header .mono{display:none}
+body:has(main [aria-label="Explore selected projects"]) header a[href*="instagram"]{display:none}
+body:has(main [aria-label="Explore selected projects"]) header>div:first-child>div:first-child{gap:0}
+body:has(main [aria-label="Explore selected projects"]) header>div:first-child>div:first-child>span:last-of-type{display:none}
+}
+@media(max-width:900px){
+body:has(main [aria-label="Explore selected projects"]) header{background:#0b0b0b;color:white;border-bottom:1px solid #292929}
+body:has(main [aria-label="Explore selected projects"]) header nav{background:#0b0b0b;color:white}
+}
