@@ -17,9 +17,13 @@ export const siteConfig = {
 
   // Project-first navigation — approved 2026-10-26. Each label matches its section title.
   nav: [
-    { label: "WORKS", href: "/#life-fragments" },
-    { label: "ABOUT", href: "/about" },
-    { label: "CONTACT", href: "/about#contact" },
+    { label: "LIFE FRAGMENTS", href: "/#life-fragments" },
+    { label: "WE DRESS YOU TONIGHT", href: "/#we-dress-you-tonight" },
+    { label: "FAMOUS", href: "/#editions-print" },
+    { label: "FILMS", href: "/#films" },
+    { label: "URL FIGHTERS", href: "/#url-fighters" },
+    { label: "SOUND", href: "/#sound" },
+    { label: "ARCHIVE", href: "/#collections" },
   ],
 
   // DECIDED 2026-09-11 — see PROJECT.md. "LEXILE" dropped.
