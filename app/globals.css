@@ -358,3 +358,7 @@ body:has(main [aria-label="Explore selected projects"]) header>div:first-child>d
 body:has(main [aria-label="Explore selected projects"]) header{background:#0b0b0b;color:white;border-bottom:1px solid #292929}
 body:has(main [aria-label="Explore selected projects"]) header nav{background:#0b0b0b;color:white}
 }
+
+/* Hyperpop preview: keep all three approved header links visible. */
+@media(min-width:901px){body:has(main [aria-label="Explore selected projects"]) header nav a:last-child{display:block}}
+#contact{scroll-margin-top:100px}
