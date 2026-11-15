@@ -19,11 +19,6 @@ export default function HomePage() {
 
       <div>
         <section id="we-dress-you-tonight" className="we-dress">
-          <div className="we-dress__meta mono">
-            <span>01</span>
-            <span>STUDIO / FASHION / IMAGE / ACTION</span>
-            <span>2026—</span>
-          </div>
           <div className="we-dress__body">
             <h2>WE DRESS<br />YOU TONIGHT</h2>
             <div className="we-dress__statement">
