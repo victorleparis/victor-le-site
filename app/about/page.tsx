@@ -133,7 +133,7 @@ export default function AboutPage() {
       </div>
 
       <div className={styles.block}>
-        <h2 className={styles.blockTitle}>CONTACT</h2>
+        <h2 id="contact" className={styles.blockTitle}>CONTACT</h2>
         <div className={styles.contactGroup}>
           <span>{contact.artistic.name}</span>
           <span className={styles.contactRole}>{contact.artistic.role}</span>
