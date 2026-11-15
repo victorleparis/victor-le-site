@@ -3,23 +3,22 @@ import { withBasePath } from "@/lib/base-path";
 import { listCorpusMedia } from "@/lib/media";
 import styles from "./ProjectMosaic.module.css";
 
-type Tile = { title: string; href: string; image?: string; alt: string; className?: string };
+type Tile = { title: string; href: string; image?: string; alt: string; tone: string };
 export function ProjectMosaic() {
   const first = (corpus: string) => listCorpusMedia(corpus)[0]?.url;
   const tiles: Tile[] = [
-    { title: "WE DRESS YOU TONIGHT", href: "/we-dress-you-tonight", image: withBasePath("/media/we-dress-you-tonight/30-octobre-2026/dscf1408.webp"), alt: "WE DRESS YOU TONIGHT — photograph by Romain Vialla", className: styles.large },
-    { title: "FAMOUS", href: "#editions-print", image: first("editions"), alt: "FAMOUS — editions and print", className: styles.medium },
-    { title: "LIFE FRAGMENTS", href: "#life-fragments", image: withBasePath("/media/life-fragments/01-L1130546.jpg"), alt: "Life Fragments — photographic diary", className: styles.medium },
-    { title: "FILMS", href: "#films", image: "https://i.ytimg.com/vi/k4GwVMFh1Wo/hqdefault.jpg", alt: "Films and moving image", className: styles.wide },
-    { title: "URL FIGHTERS", href: "#url-fighters", image: first("url-fighters"), alt: "URL Fighters — performance archive", className: styles.medium },
-    { title: "FASHION", href: "#collections", image: first("collections"), alt: "Fashion and sculptural clothing", className: styles.medium },
-    { title: "OBJECTS & PAINTINGS", href: "#works-space-matter", image: first("works-space-matter"), alt: "Sculptures and paintings", className: styles.wide },
-    { title: "SOUND", href: "#sound", image: first("sound"), alt: "Music and sound works", className: styles.medium },
-    { title: "ARCHIVE", href: "#princeville", image: first("princeville"), alt: "Artistic archive", className: styles.medium },
+    { title: "LIFE FRAGMENTS", href: "#life-fragments", image: withBasePath("/media/life-fragments/01-L1130546.jpg"), alt: "Photographic diary", tone: "fragments" },
+    { title: "WE DRESS YOU TONIGHT", href: "/we-dress-you-tonight", image: withBasePath("/media/we-dress-you-tonight/30-octobre-2026/dscf1408.webp"), alt: "Performance photographed by Romain Vialla", tone: "wdyt" },
+    { title: "FAMOUS", href: "#editions-print", image: first("editions"), alt: "Editorial works and editions", tone: "famous" },
+    { title: "FILMS", href: "#films", image: "https://i.ytimg.com/vi/k4GwVMFh1Wo/hqdefault.jpg", alt: "Films and moving image", tone: "films" },
+    { title: "URL FIGHTERS", href: "#url-fighters", image: first("url-fighters"), alt: "Participatory performance archive", tone: "url" },
+    { title: "SOUND", href: "#sound", image: first("sound"), alt: "Music and sound works", tone: "sound" },
+    { title: "ARCHIVE", href: "#archive-entry", image: first("works-space-matter"), alt: "Fashion, objects, painting and earlier work", tone: "archive" },
   ];
   return <section className={styles.mosaic} aria-label="Explore selected projects">
-    {tiles.map(tile => <Link key={tile.title} href={tile.href} className={`${styles.tile ?? ""} ${tile.className ?? ""}`}>
-      {tile.image ? <img src={tile.image} alt={tile.alt} loading={tile.title === "WE DRESS YOU TONIGHT" ? "eager" : "lazy"} /> : <span className={styles.noImage} aria-hidden="true" />}
+    <div className={styles.intro}><span className={styles.eyebrow}>SELECTED WORKS / PARIS</span><p>VICTOR LE<br/>DE DOISY</p><span className={styles.annotation}>AN ARTIST'S WORLD ↘</span></div>
+    {tiles.map(tile => <Link key={tile.title} href={tile.href} id={tile.tone === "archive" ? "archive-entry" : undefined} className={`${styles.tile} ${styles[tile.tone]}`}>
+      {tile.image ? <img src={tile.image} alt={tile.alt} loading={tile.tone === "wdyt" ? "eager" : "lazy"} /> : <span className={styles.noImage} aria-hidden="true" />}
       <span className={styles.title}>{tile.title}</span>
     </Link>)}
   </section>;
