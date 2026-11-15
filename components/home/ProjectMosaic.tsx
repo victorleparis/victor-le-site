@@ -16,7 +16,7 @@ export function ProjectMosaic() {
     { title: "ARCHIVE", href: "#archive-entry", image: first("works-space-matter"), alt: "Fashion, objects, painting and earlier work", tone: "archive" },
   ];
   return <section className={styles.mosaic} aria-label="Explore selected projects">
-    <div className={styles.intro}><span className={styles.eyebrow}>SELECTED WORKS / PARIS</span><p>VICTOR LE<br/>DE DOISY</p><span className={styles.annotation}>AN ARTIST'S WORLD ↘</span></div>
+    <div className={styles.intro}><span className={styles.eyebrow}>SELECTED WORKS / PARIS</span><p>VICTOR LE<br/>DE DOISY</p><span className={styles.annotation}>AN ARTIST&apos;S WORLD ↘</span></div>
     {tiles.map(tile => <Link key={tile.title} href={tile.href} id={tile.tone === "archive" ? "archive-entry" : undefined} className={`${styles.tile} ${styles[tile.tone]}`}>
       {tile.image ? <img src={tile.image} alt={tile.alt} loading={tile.tone === "wdyt" ? "eager" : "lazy"} /> : <span className={styles.noImage} aria-hidden="true" />}
       <span className={styles.title}>{tile.title}</span>
